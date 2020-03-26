@@ -1,7 +1,7 @@
-Contents
-========
+目录
+====
 
-Heltec LoRa Gateways
+Heltec LoRa网关
 
 .. toctree::
     :maxdepth: 2
