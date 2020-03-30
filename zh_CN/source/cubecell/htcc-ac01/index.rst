@@ -1,17 +1,17 @@
 HTCC-AC01 Capsule Sensor
 ========================
 
-CubeCell Capsule sensor HTCC-AC01 relevant documents.
+CubeCell Capsule sensor HTCC-AC01相关文档。
 
 .. toctree::
     :maxdepth: 2
     
-    Quick Start <capsule_quick_start>
-    Assemble a Battery <assemble_a_battery>
-    Connect Capsule Sensor to Debugger <connect_capsule_to_debugger>
-    Hardware Update Logs <hardware_update_log>
+    快速入门 <capsule_quick_start>
+    组装电池 <assemble_a_battery>
+    将胶囊传感器连接到调试板 <connect_capsule_to_debugger>
+    硬件更新日志 <hardware_update_log>
     
-Relevant Offical Resources
---------------------------
+相关官方资源
+------------
 
-- Pin out and schematic diagram, please refer to `HTCC-AC01 Capsule Sensor Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/hardware_update_log.html>`_.
+- 引脚图和原理图，请参考哦`HTCC-AC01 Capsule Sensor Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/hardware_update_log.html>`_.

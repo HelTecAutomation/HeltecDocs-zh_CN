@@ -1,42 +1,37 @@
-Contents
-========
+目录
+====
 
-We believe `the CubeCell Series <https://heltec.org/cubecell>`__ is the best
-choice for LoRaWAN node applications. The following are some of the key
-features:
+我们认为“CubeCell系列” <https://heltec.org/cubecell>`_ 是最好的LoRaWAN节点应用的选择。以下是一些关键特征：
 
--  Fully compatible with the Arduino development environment;
--  Based on an ultra low power design, attains 3.5uA in deep sleep mode, even with
-   the RTC clock running;
--  Low-cost despite its current state of the art technology;
--  Integrated encryption algorithm protects your investment by rendering cloned firmware inoperative;
--  Based on proven technology - the new ASR650x, is a combination of the PSoC4000 and SX1262 into  a single chip, reducing the overall size to something smaller than the competition;
-   
--  Solar panel support;
--  LoRaWAN protocol support;
--  AT command support;
--  In the LoRaWAN relevant examples, have a reasonable timeline
-   planning.
+-  与Arduino开发环境完全兼容；
+-  基于超低功耗设计，即使在RTC时钟运行的情况下，在深度睡眠模式下也能达到3.5uA；
+-  尽管具有当前最先进的技术，但价格低廉；
+-  通过使用集成加密算法来使克隆的固件不起作用以保护您的投资；
+-  基于成熟的技术 -- 新的ASR650x，是将PSoC4000和SX1262组合成一个芯片，将整体尺寸进一步缩小；
+-  支持太阳能电池板；
+-  LoRaWAN协议支持；
+-  支持AT命令;
+-  在LoRaWAN相关的例程中，有一个合理的时间表规划。
 
 .. tip::
 
-   for example, an application need send data to server every 10 minutes, then in a cycle, only ~1 second is in the state of sending, other 9 minutes and 59 seconds are in deep sleep low power Consuming status.
+   例如，一个应用程序需要每10分钟向服务器发送一次数据，然后在一个周期内，只有大约1秒处于发送状态，其他9分59秒处于深度睡眠低功耗状态。
 
 
 .. toctree::
     :maxdepth: 2
     
-    Quick Start <quick_start>
+    快速入门 <quick_start>
     LoRaWAN <lorawan/index>
-    AT Command List <https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
+    AT命令列表 <https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
     HTCC-AM01 Module <htcc-am01/index>
     HTCC-AB01 Dev-Board <htcc-ab01/index>
     HTCC-AC01 Capsule Sensor <htcc-ac01/index>
-    Frequently Asked Questions <frequently_asked_questions>
+    常见问题 <frequently_asked_questions>
 
-Relevant Offical Resources
---------------------------
+相关官方资源
+------------
 
 - `ASR650x - Arduino repository <https://github.com/HelTecAutomation/ASR650x-Arduino>`_;
-- `CubeCell introduction page <https://heltec.org/cubecell/>`_.
+- `CubeCell 简介页面 <https://heltec.org/cubecell/>`_.
 
