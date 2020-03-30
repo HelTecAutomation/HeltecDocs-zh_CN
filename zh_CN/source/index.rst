@@ -1,7 +1,7 @@
 Heltec Automation文档页
 =======================
 
-这些是(`Heltec Automation <https://heltec.org>`_)产品的文档。
+这些是 `Heltec Automation <https://heltec.org>`_ 产品的文档。
    
 ==================  ==================  ==================
 |CubeCell|_         |ESP32+LoRa|_       |STM32+LoRa|_

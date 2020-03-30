@@ -16,7 +16,7 @@ CubeCell基于ASR650x系列，本页面展示了如何安装和配置CubeCell Ar
 
 **安装CubeCell框架有两种方法，请选择其中一种**
 
-- [通过Arduino board manager](#通过arduino board manager)
+- [通过Arduino board manager](#通过arduino-board-manager)
 - [通过Git](#通过git)
 
 &nbsp;
@@ -54,6 +54,7 @@ Heltec ASR650x 系列 (ASR6501&ASR6502)的框架源码:
 ### 通过Git
 
 - [For Windows](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/windows.md)
+- [https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/windows.md](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/windows.md)
 - [For MacOS](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/mac.md)
 - [For Linux(Ubuntu/Debian)](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/debian_ubuntu.md)
 
