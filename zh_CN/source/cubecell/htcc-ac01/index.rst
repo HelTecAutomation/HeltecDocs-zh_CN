@@ -1,17 +1,17 @@
 HTCC-AC01 Capsule Sensor
 ========================
 
-CubeCell Capsule sensor HTCC-AC01Ïà¹ØÎÄµµ¡£
+CubeCell Capsule sensor HTCC-AC01ç›¸å…³æ–‡æ¡£ã€‚
 
 .. toctree::
     :maxdepth: 2
     
-    ¿ìËÙÈëÃÅ <capsule_quick_start>
-    ×é×°µç³Ø <assemble_a_battery>
-    ½«½ºÄÒ´«¸ĞÆ÷Á¬½Óµ½µ÷ÊÔ°å <connect_capsule_to_debugger>
-    Ó²¼ş¸üĞÂÈÕÖ¾ <hardware_update_log>
+    å¿«é€Ÿå…¥é—¨ <capsule_quick_start>
+    ç»„è£…ç”µæ±  <assemble_a_battery>
+    å°†èƒ¶å›Šä¼ æ„Ÿå™¨è¿æ¥åˆ°è°ƒè¯•æ¿ <connect_capsule_to_debugger>
+    ç¡¬ä»¶æ›´æ–°æ—¥å¿— <hardware_update_log>
     
-Ïà¹Ø¹Ù·½×ÊÔ´
+ç›¸å…³å®˜æ–¹èµ„æº
 ------------
 
-- Òı½ÅÍ¼ºÍÔ­ÀíÍ¼£¬Çë²Î¿¼Å¶`HTCC-AC01 Capsule Sensor Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/hardware_update_log.html>`_.
+- å¼•è„šå›¾å’ŒåŸç†å›¾ï¼Œè¯·å‚è€ƒå“¦`HTCC-AC01 Capsule Sensor Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/hardware_update_log.html>`_.

@@ -1,16 +1,16 @@
 HTCC-AB01 Dev-Board
 ===================
 
-CubeCell Dev-Board HTCC-AB01Ïà¹ØÎÄµµ.
+CubeCell Dev-Board HTCC-AB01ç›¸å…³æ–‡æ¡£.
 
 .. toctree::
     :maxdepth: 2
     
-    ×é×°Ì«ÑôÄÜµç³Ø°å <solar_panel>
-    Ó²¼ş¸üĞÂÈÕÖ¾ <hardware_update_log>
+    ç»„è£…å¤ªé˜³èƒ½ç”µæ± æ¿ <solar_panel>
+    ç¡¬ä»¶æ›´æ–°æ—¥å¿— <hardware_update_log>
        
-Ïà¹Ø¹Ù·½×ÊÔ´
+ç›¸å…³å®˜æ–¹èµ„æº
 ------------
 
-- `AutoCADÍ¼ <http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg>`_;
-- Òı½ÅÍ¼ºÍÔ­ÀíÍ¼£¬Çë²Î¿¼`HTCC-AB01 Dev-Board Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ab01/hardware_update_log.html>`_.
+- `AutoCADå›¾ <http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg>`_;
+- å¼•è„šå›¾å’ŒåŸç†å›¾ï¼Œè¯·å‚è€ƒ`HTCC-AB01 Dev-Board Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ab01/hardware_update_log.html>`_.
