@@ -17,9 +17,9 @@ CubeCell模块（HTCC-AM01）内部只有ASR6501和射频相关电路。要对�
 
 这有两个推荐的电路图：
 
-- **[Arduino兼容推荐设计](https://docs.heltec.cn/download/cubecell/HTCC-AM01_Reference_Design(Arduino).pdf)**
+- **[Arduino兼容推荐设计](http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(Arduino).pdf)**
   - 该电路具有自动引导电路，可以自动进入bootloader模式。
-- **[由主设备控制的从模块](https://docs.heltec.cn/download/cubecell/HTCC-AM01_Reference_Design(AT).pdf)**
+- **[由主设备控制的从模块](http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(AT).pdf)**
   - 此电路需要手动进入bootloader模式 ([怎样进入bootloader](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/frequently_asked_questions.html#bootloader)).
 
 ### 2. 准备
