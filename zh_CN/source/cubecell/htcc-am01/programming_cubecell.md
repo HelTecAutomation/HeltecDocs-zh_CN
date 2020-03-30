@@ -9,22 +9,22 @@
 
 本文档适用于“兼容Arduino&AT命令”版本。
 
-CubeCell模块（HTCC-AM01）内部只有ASR6501和射频相关电路。要对其进行编程，需要连接到外部UART-USB bridge。CH340G、CP2102等。
+CubeCell模块（HTCC-AM01）内部只有ASR6501和射频相关电路。要对其进行编程，需要连接外部UART-USB bridge。CH340G、CP2102等。
 
 &nbsp;
 
 ### 1. 推荐电路
 
-这有两个推荐的示意图：
+这有两个推荐的电路图：
 
 - **[Arduino兼容推荐设计](https://docs.heltec.cn/download/cubecell/HTCC-AM01_Reference_Design(Arduino).pdf)**
   - 该电路具有自动引导电路，可以自动进入bootloader模式。
 - **[由主设备控制的从模块](https://docs.heltec.cn/download/cubecell/HTCC-AM01_Reference_Design(AT).pdf)**
-  - 此电路需要手动进入bootloader模式 ([怎样进入bootloader](https://docs.heltec.cn/#/en/faq/cubecell_series_common_problem_summary?id=how-to-access-bootloader-mode)).
+  - 此电路需要手动进入bootloader模式 ([怎样进入bootloader](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/frequently_asked_questions.html#bootloader)).
 
 ### 2. 准备
 
-- 正确安装CubeCell开发框架（[参考资料](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html))
+- 正确安装CubeCell开发框架（[参考资料](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/quick_start.html))
 - 将重新设计的电路板连接到计算机，确保使用高质量的Micro-USB数据线；
 - 成功进入bootloader 模式，以下日志将通过串行端口打印：
 
