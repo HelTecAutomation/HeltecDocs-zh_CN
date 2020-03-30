@@ -1,7 +1,7 @@
 目录
 ====
 
-我们认为“CubeCell系列” <https://heltec.org/cubecell>`_ 是最好的LoRaWAN节点应用的选择。以下是一些关键特征：
+我们认为`“CubeCell系列” <https://heltec.org/cubecell>`_ 是最好的LoRaWAN节点应用的选择。以下是一些关键特征：
 
 -  与Arduino开发环境完全兼容；
 -  基于超低功耗设计，即使在RTC时钟运行的情况下，在深度睡眠模式下也能达到3.5uA；
@@ -24,7 +24,7 @@
     快速入门 <quick_start>
     LoRaWAN <lorawan/index>
     AT命令列表 <https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
-    HTCC-AM01 Module <htcc-am01/index>
+    HTCC-AM01 Module <htcc-am01/index>  
     HTCC-AB01 Dev-Board <htcc-ab01/index>
     HTCC-AC01 Capsule Sensor <htcc-ac01/index>
     常见问题 <frequently_asked_questions>
