@@ -101,7 +101,7 @@ Heltec Automation文档页
    :hidden:
    :caption: General Docs
 
-   gengeral/index
+   general/index
    怎样安装Git和Arduino <general/how_to_install_git_and_arduino>
    建立串行连接 <general/establish_serial_connection>
    LoRaWAN子频带使用示例 <general/sub_band_usage>
