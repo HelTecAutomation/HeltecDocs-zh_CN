@@ -13,4 +13,4 @@ CubeCell Dev-Board HTCC-AB01相关文档.
 ------------
 
 - `AutoCAD图 <http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg>`_;
-- 引脚图和原理图，请参考 `HTCC-AB01 Dev-Board Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ab01/hardware_update_log.html>`_ 。
+- 引脚图和原理图请参考 `HTCC-AB01 Dev-Board Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ab01/hardware_update_log.html>`_。

@@ -15,4 +15,4 @@ CubeCell Module HTCC-AM01相关文档。
 - `3D图 <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/CubeCellModule(PSoC%2BLoRa).STEP>`_;
 - `Sch_Pcb文件   <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/sch_pcb_package.zip>`_;
 - `HTCC-AM01 参考设计(Arduino) <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(Arduino).pdf>`_;
-- `HTCC-AM01 参考设计(AT) <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(AT).pdf>`_.
+- `HTCC-AM01 参考设计(AT) <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(AT).pdf>`_。

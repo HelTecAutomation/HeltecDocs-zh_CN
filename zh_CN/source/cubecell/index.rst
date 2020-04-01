@@ -33,5 +33,5 @@
 ------------
 
 - `ASR650x - Arduino repository <https://github.com/HelTecAutomation/ASR650x-Arduino>`_;
-- `CubeCell 简介页面 <https://heltec.org/cubecell/>`_.
+- `CubeCell 简介页面 <https://heltec.org/cubecell/>`_。
 

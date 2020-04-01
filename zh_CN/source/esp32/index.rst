@@ -10,7 +10,7 @@ ESP32是一个强大的SoC，带有240MHz Tensilica LX6 dual-core & 1 ULP core, 
 -  具有较大FLASH内存;
 -  电源管理系统与锂电池支持;
 -  兼容Arduino;
--  我们提供 `ESP32 LoRaWAN节点Arduino库 <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_ 。
+-  我们提供 `ESP32 LoRaWAN节点Arduino库 <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_。
 
 .. tip::
 
