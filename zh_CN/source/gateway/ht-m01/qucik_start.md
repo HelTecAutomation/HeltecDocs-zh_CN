@@ -16,7 +16,7 @@ HT-M01 LoRa 网关支持USB和SPI模式。SPI模式只能在Linux系统(树莓�
 
 在所有操作之前，请确保您有一个可以工作的树莓派，并且可以连接到WiFi。在这份文档中，我们使用[Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
 
-```Tip:: As we tested, Raspberry Pi 2, 3, 3B are also worked.
+```经过测试，树莓派2、3、3B也可以正常工作。
 
 ```
 

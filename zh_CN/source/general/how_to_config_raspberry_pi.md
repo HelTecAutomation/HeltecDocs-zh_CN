@@ -45,7 +45,7 @@
 在它的末尾添加WIFI的配置信息：
 
 `network={`
-  `ssid="你的WIFI名称"`
+  `psk`
   `psk="你的WIFI密码"`
 `}`
 

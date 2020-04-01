@@ -39,6 +39,7 @@ Heltec Automation文档页
    gateway/index
    gateway/ht-m01/index
    gateway/ht-m02/index
+   常见问题 <gateway/frequently_asked_questions>
    
 .. toctree::
    :hidden:

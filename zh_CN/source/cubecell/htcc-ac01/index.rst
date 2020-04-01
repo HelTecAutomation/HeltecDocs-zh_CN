@@ -9,6 +9,7 @@ CubeCell Capsule sensor HTCC-AC01相关文档。
     快速入门 <capsule_quick_start>
     组装电池 <assemble_a_battery>
     将胶囊传感器连接到调试板 <connect_capsule_to_debugger>
+    传感器引脚图 <sensor_pinout_diagram>
     硬件更新日志 <hardware_update_log>
     
 相关官方资源

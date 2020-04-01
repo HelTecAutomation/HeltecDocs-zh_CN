@@ -8,3 +8,4 @@ Heltec LoRa网关
     
     HT-M01 <ht-m01/index>
     HT-M02 <ht-m02/index>
+    常见问题 <frequently_asked_questions>
