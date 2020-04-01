@@ -1,14 +1,14 @@
 WiFi Kit 8
 ==========
 
-WiFi Kit 8 relevant documents.
+WiFi Kit 8相关文档
 
 .. toctree::
     :maxdepth: 2
     
-    Hardware Update Logs <hardware_update_log>
+    硬件更新日志 <hardware_update_log>
 
-Relevant Offical Resources
---------------------------
+相关官方资源
+------------
 
-- Pin out and schematic diagram, please refer to `WiFi Kit 8 Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/esp8266+arduino/wifi_kit_8/hardware_update_log.html>`_.
+- 引脚图和原理图请参考 `WiFi Kit 8硬件更新日志 <https://heltec-automation-docs.readthedocs.io/en/latest/esp8266+arduino/wifi_kit_8/hardware_update_log.html>`_。

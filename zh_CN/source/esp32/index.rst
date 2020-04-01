@@ -3,7 +3,7 @@
 
 此文档适用于 `Heltec "ESP32 + LoRa"节点系列 <https://heltec.org/proudct_center/lora/lora-node/>`_。
 
-ESP32是一个强大的SoC，带有240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM。"ESP32 + LoRa"具有以下优点：
+ESP32带有240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM。"ESP32 + LoRa"具有以下优点：
 
 -  具有多个无线通信技术，包括Wi-Fi, BlueTooh/BLE, LoRa;
 -  强大的计算能力;

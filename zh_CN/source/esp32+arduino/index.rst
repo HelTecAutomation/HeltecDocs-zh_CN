@@ -3,14 +3,14 @@
 
 此文档适用于 `Heltec "ESP32 + Arduino"节点系列 <https://heltec.org/proudct_center/esp-arduino/>`_。
 
-ESP32是一个强大的SoC，带有240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM。"ESP32 + Arduino"具有以下优点：
+ESP32带有240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM。"ESP32 + Arduino"具有以下优点：
 
 -  具有多个无线通信技术，包括Wi-Fi, BlueTooh/BLE;
 -  强大的计算能力;
 -  具有较大FLASH内存;
 -  电源管理系统与锂电池支持;
 -  兼容Arduino;
--  我们提供 `ESP32 Arduino库 <https://github.com/HelTecAutomation/Heltec_ESP32>`_;
+-  我们提供 `ESP32 Arduino库 <https://github.com/HelTecAutomation/Heltec_ESP32>`_。
 
 .. toctree::
     :maxdepth: 2
