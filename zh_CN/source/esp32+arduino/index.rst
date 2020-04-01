@@ -1,26 +1,26 @@
 目录
 ====
 
-This document branch is for `Heltec ESP32 + Arduino Node series <https://heltec.org/proudct_center/esp-arduino/>`_,
+此文档适用于 `Heltec "ESP32 + Arduino"节点系列 <https://heltec.org/proudct_center/esp-arduino/>`_。
 
-ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM. The benefit of "ESP32 + LoRa" combination:
+ESP32是一个强大的SoC，带有240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM。"ESP32 + Arduino"具有以下优点：
 
--  Multi wireless communication technical on board, include Wi-Fi, BlueTooh/BLE;
--  Powerful computing skills;
--  Large FLASH size;
--  Power mananagement system and Li-Po support;
--  Arduino-compitable;
--  We also provide `LoRaWAN-Node protocol Arduino library <https://github.com/HelTecAutomation/Heltec_ESP32>`_;
+-  具有多个无线通信技术，包括Wi-Fi, BlueTooh/BLE;
+-  强大的计算能力;
+-  具有较大FLASH内存;
+-  电源管理系统与锂电池支持;
+-  兼容Arduino;
+-  我们提供 `ESP32 Arduino库 <https://github.com/HelTecAutomation/Heltec_ESP32>`_;
 
 .. toctree::
     :maxdepth: 2
     
-    Quick Start <quick_start>
+    快速入门 <quick_start>
     Wifi Kit 32 <wifi_kit_32/index.rst>
-    Frequently Asked Questions <frequently_asked_questions>
+    常见问题 <frequently_asked_questions>
     
-Relevant Offical Resources
---------------------------
+相关官方资源
+------------
 
-- `Heltec ESP32 development framework source code <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;
-- `Heltec ESP32 series Arduino library <https://github.com/HelTecAutomation/Heltec_ESP32>`_.
+- `Heltec ESP32开发框架源代码 <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;
+- `Heltec ESP32系列Arduino库 <https://github.com/HelTecAutomation/Heltec_ESP32>`_。

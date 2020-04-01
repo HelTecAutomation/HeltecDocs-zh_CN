@@ -1,7 +1,7 @@
 目录
 ====
 
-此文档适用于`Heltec "ESP32 + LoRa"节点系列 <https://heltec.org/proudct_center/lora/lora-node/>`_。
+此文档适用于 `Heltec "ESP32 + LoRa"节点系列 <https://heltec.org/proudct_center/lora/lora-node/>`_。
 
 ESP32是一个强大的SoC，带有240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM。"ESP32 + LoRa"具有以下优点：
 
@@ -10,7 +10,7 @@ ESP32是一个强大的SoC，带有240MHz Tensilica LX6 dual-core & 1 ULP core, 
 -  具有较大FLASH内存;
 -  电源管理系统与锂电池支持;
 -  兼容Arduino;
--  我们提供`LoRaWAN-Node protocol Arduino library <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_ 。
+-  我们提供 `ESP32 LoRaWAN节点Arduino库 <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_ 。
 
 .. tip::
 
