@@ -1,5 +1,5 @@
-Contents
-========
+目录
+====
 
 This document branch is for `Heltec ESP32 + Arduino Node series <https://heltec.org/proudct_center/esp-arduino/>`_,
 

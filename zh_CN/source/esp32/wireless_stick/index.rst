@@ -1,16 +1,16 @@
 Wireless Stick
 ==============
 
-Wireless Stick relevant documents.
+Wireless Stick相关文档。
 
 .. toctree::
     :maxdepth: 2
     
-    Hardware Update Logs <hardware_update_log>
+    硬件更新日志 <hardware_update_log>
     
-Relevant Offical Resources
---------------------------
+相关官方资源
+------------
 
-- `AutoCAD drawing <http://resource.heltec.cn/download/Wireless_Stick/WirelessStick(AutoCAD2004).dwg>`_;
-- `3D drawing <http://resource.heltec.cn/download/Wireless_Stick/WirelessStick_3D_drawing(SolidWorks2014).zip>`_;
-- Pin out and schematic diagram, please refer to `Wireless Stick Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wireless_stick/hardware_update_log.html>`_.
+- `AutoCAD图 <http://resource.heltec.cn/download/Wireless_Stick/WirelessStick(AutoCAD2004).dwg>`_;
+- `3D图 <http://resource.heltec.cn/download/Wireless_Stick/WirelessStick_3D_drawing(SolidWorks2014).zip>`_;
+- 引脚图和原理图请参考`Wireless Stick硬件更新日志 <https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wireless_stick/hardware_update_log.html>`_。
