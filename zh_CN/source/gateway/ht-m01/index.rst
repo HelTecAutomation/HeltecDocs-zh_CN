@@ -1,19 +1,19 @@
 HT-M01
 ======
 
-HT-M01 is a Pico cell gateway. When we designing it, we wanted to provide users with an SX1301 gateway that can quickly verify communication solutions and support the standard LoRaWAN protocol. HT-M01 has a small size, can operating by Windows® or Linux. Windows® will have a GUI tool, which is friendly for none Linux experience users.
-- SX1301 baseband chip;
-- LoRaWAN protocol 1.0.2 Class A, Class C support;
-- SPI and USB support, can working in Windows® and Linux;
-- Heat dissipation design, transfers the huge heat of the SX1301 to the aluminum casing to ensure the stability of the system.
+HT-M01是一个小型网关。我们在设计它时，我们希望为用户提供一个SX1301网关，它可以快速验证通信解决方案并支持标准的LoRaWAN协议。HT-M01体积小，可以在Windows®或Linux上操作。Windows®将有一个GUI工具，对没有Linux经验的用户来说非常友好。
+- SX1301基带芯片；
+- 支持LoRaWAN协议1.0.2 Class A, Class C;
+- 支持SPI和USB，可以工作在Windows®和Linux环境下;
+- 散热设计，将SX1301的巨大热量传递到铝制外壳上，保证系统的稳定性。
 
 .. note::
 
-   HT-M01 can't work alone, it must work with other operating systems, such as a Raspberry Pi with Linux, or a Windows® computer (Windows® 7 or higher).
+   HT-M01不能单独工作，它必须与其他操作系统一起工作，例如带有Linux的树莓派或Windows®计算机（Windows®7或更高版本）。
 
 .. toctree::
     :maxdepth: 2
     
-    Quick Start <qucik_start>
-    Coneect to LoRa server <connect_to_server>
-    Add More Region Support on PicoGW UI <add_region_on_picogw_ui>
+    快速入门 <qucik_start>
+    连接到LoRa服务器 <connect_to_server>
+    在PicoGW UI上添加更多区域支持 <add_region_on_picogw_ui>

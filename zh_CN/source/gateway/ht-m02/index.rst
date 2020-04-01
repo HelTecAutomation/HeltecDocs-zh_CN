@@ -1,20 +1,20 @@
 HT-M02
 ======
 
-In practice, the working environment of the equipment may not be as good as expected, on the contrary, it may be very bad… For example, in the industrial environment, the site may have tremendous vibration, noise, dust, high temperature, and other issues. In the city environment, sunshine and rain, low temperatures in winter and high temperatures in summer are always unavoidable… HT-M02 is ready to use LoRa gateway, has considered and solves all the above problems and design strictly with industrial standards
+实际上，设备的工作环境可能不如预期，相反，这可能非常糟糕……例如，在工业环境中，现场可能存在巨大的振动、噪声、粉尘、高温等问题。在城市环境中，阳光和雨水，冬天的低温和夏天的高温总是不可避免的……在设计HT-M02 LoRa网关时，已经考虑并解决了上述所有问题，并严格按照工业标准进行设计。
 
-- **integrated LoRa server inside;**
-- Ready to use Linux Operating System, 4.14 Kernel, Debian Stretch 9.8;
-- **1-GHz Sitara™ ARM® Cortex®-A8** 32‑Bit RISC Processor, **512MB DDR3**, **4G eMMC**.
-- IP65 waterproofing;
-- No fan or motor heat dissipation structure;
-- **PoE** power supply or 110 / 220V AC power supply optional(110 / 220V AC power supply version use 4G upload LoRa data).
+- **内部集成LoRa服务器;**
+- 准备使用Linux操作系统，4.14内核，Debian Stretch 9.8;
+- **1-GHz Sitara™ ARM® Cortex®-A8** 32-Bit RISC Processor, **512MB DDR3**, **4G eMMC**.
+- IP65防水;
+- 无风扇或电机散热结构;
+- 可选**PoE**电源或110/220V交流电源(110/220V交流电源版本使用4G上传LoRa数据)。
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 2 
     
-    PoE Version Quick Start <quick_start_poe>
-    4G(LTE) Version Quick Start <quick_start_4g>
-    Internal LoRa Server User Manual <internal_server>
-    System Upgrade <system_upgrade>
+    PoE版本快速入门 <quick_start_poe>
+    4G(LTE)版本快速入门 <quick_start_4g>
+    内部LoRa服务器用户手册 <internal_server>
+    系统升级 <system_upgrade>
