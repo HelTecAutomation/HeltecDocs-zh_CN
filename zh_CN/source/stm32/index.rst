@@ -1,27 +1,27 @@
-Contents
-========
+目录
+====
 
-This document branch is for `Heltec STM32 + LoRa Node series <https://heltec.org/proudct_center/lora/lora-node/>`_.
+此文档适用于 `Heltec "STM32 + LoRa"节点系列 <https://heltec.org/proudct_center/lora/lora-node/>`_。
 
-STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of "STM32 + LoRa" combination:
+STM32带有Ultra-low-power 32-bit MCU。"STM32 + LoRa"具有以下优点：
 
--  Low power features;
--  Multiple bus interfaces: USART x 3, SPI x 2, I2C x 2;
--  Powerful computing skills;
--  Power mananagement system and different types of batteries support;
--  Multiple general GPIOs;
--  LoRaWAN 1.0.2 protocol support.
+-  低功耗特性;
+-  多个总线接口: USART x 3, SPI x 2, I2C x 2;
+-  强大的计算能力;
+-  电源管理系统和不同类型的电池支持;
+-  多个通用GPIO;
+-  支持LoRaWAN 1.0.2协议。
 
 .. tip::
 
-   This series boards also don't have an onboard USB-UART bridge. If plug it directly into a computer, it may prompt "Unrecognized USB device", which is normal.
+   此系列开发板没有板载USB-UART。如果直接插入计算机，它可能会提示“无法识别的USB设备”，这是正常的。
 
 
 .. toctree::
     :maxdepth: 2
 
-   Quick Start <quick_start>
+   快速入门 <quick_start>
    LoRaWAN <lorawan/index.rst>
    LoRa Node 151 <lora_node_151/index.rst> 
    Turtle Board <turtle_board/index.rst>
-   Frequently Asked Questions <frequently_asked_questions>
+   常见问题 <frequently_asked_questions>

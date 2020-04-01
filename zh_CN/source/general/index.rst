@@ -1,17 +1,17 @@
-Contents
-========
+目录
+====
 
-This document is used to solve some common problems.
+本文档用于解决一些常见问题。
 
 .. toctree::
     :maxdepth: 2
     
-   How to Install Git and Arduino <how_to_install_git_and_arduino>
-   Establish Serial Connection <establish_serial_connection>
-   LoRaWAN Example Sub-Band Usage <sub_band_usage>
-   Subscribe MQTT  Messages <subscribe_mqtt_messages>
-   Decode LoRaWAN payload <decode_payload>
-   How To Config Rasberry Pi <how_to_config_raspberry_pi>
-   View Limited Technical Data <view_limited_technical_data>
+   怎样安装Git和Arduino <how_to_install_git_and_arduino>
+   建立串行连接 <establish_serial_connection>
+   LoRaWAN子频带使用示例 <sub_band_usage>
+   订阅MQTT消息 <subscribe_mqtt_messages>
+   解码LoRaWAN有效载荷 <decode_payload>
+   怎样配置树莓派 <how_to_config_raspberry_pi>
+   获取受限的技术资源 <view_limited_technical_data>
 
 
