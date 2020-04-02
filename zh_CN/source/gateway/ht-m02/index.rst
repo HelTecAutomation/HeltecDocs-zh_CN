@@ -8,7 +8,7 @@ HT-M02
 -  **1-GHz Sitara™ ARM® Cortex®-A8** 32-Bit RISC Processor, **512MB DDR3**, **4G eMMC**.
 -  IP65防水;
 -  无风扇或电机散热结构;
--  可选**PoE**电源或110/220V交流电源(110/220V交流电源版本使用4G上传LoRa数据)。
+-  可选 **PoE电源** 或110/220V交流电源(110/220V交流电源版本使用4G上传LoRa数据)。
 
 
 .. toctree::
