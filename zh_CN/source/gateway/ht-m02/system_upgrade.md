@@ -4,7 +4,7 @@
 
 [HT-M02](https://heltec.org/project/ht-m02/)有两种升级系统的方法。
 
-- [通过Micro TF Card](#"通过micro-tf-card");
+- [通过Micro TF Card](#micro-tf-card);
 - 在线升级.
 
 ## 通过Micro TF card
