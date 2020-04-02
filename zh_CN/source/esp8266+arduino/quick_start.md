@@ -1,10 +1,10 @@
 # Heltec "ESP8266+Arduino"系列快速入门
 
-我们建议您确认是否已先安装了“USB驱动程序”、“Git”和“Arduino IDE”。如果没有，请查看这两篇文章[建立串行连接]()和[安装Git和Arduino IDE]()。
+我们建议您确认是否已先安装了“USB驱动程序”、“Git”和“Arduino IDE”。如果没有，请查看这两篇文章[建立串行连接](https://heltec-automation.readthedocs.io/zh_CN/latest/general/establish_serial_connection.html)和[安装Git和Arduino IDE](https://heltec-automation.readthedocs.io/zh_CN/latest/general/how_to_install_git_and_arduino.html)。
 
 - **安装开发框架有两种方法，请从中选择：**
-  - [通过Arduino Board Manager](#通过arduino board manager)
-  - [通过Git](#通过git)
+  - [通过Arduino Board Manager](#arduino-board-manager)
+  - [通过Git](#git)
 
 &nbsp;
 
@@ -42,7 +42,7 @@ Heltec ESP8266库的源代码:[https://github.com/HelTecAutomation/Heltec_ESP826
 
 &nbsp;
 
-## Via Git
+## 通过Git
 
 - [For Windows](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/windows.md)
 - [For MacOS](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/mac.md)

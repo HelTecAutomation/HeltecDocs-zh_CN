@@ -1,15 +1,15 @@
-# Wifi Kit 8  Hardware Update Logs
+# Wifi Kit 8硬件更新日志
 
 ## V1
 
 ![](img/hardware_update_log/01.png)
 
-- First release
-- 2017-6-1 public sale
+- 首次发布
+- 2017-6-1 公开销售
 
-- [Pinout diagram](http://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Diagram(new).pdf)
+- [V1引脚图](http://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Diagram(new).pdf)
 
-- [Schematic diagram]()
+- [V1原理图](http://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Schematic_diagram.PDF)
 
 
 

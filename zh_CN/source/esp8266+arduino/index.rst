@@ -3,7 +3,7 @@
 
 此文档适用于 `Heltec "ESP8266 + Arduino"节点系列 <https://heltec.org/proudct_center/esp-arduino/>`_。
 
-ESP8266带有160MHz Tensilica L06 32-bits。 "ESP8266 + Arduino"具有以下优点：
+ESP8266带有160MHz Tensilica L06 32-bits。"ESP8266 + Arduino"具有以下优点：
 
 -  强大的计算能力;
 -  具有较大FLASH内存;
