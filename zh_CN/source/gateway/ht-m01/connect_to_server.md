@@ -4,7 +4,7 @@
 
 本文旨在描述如何将[HT-M01 网关](https://heltec.org/project/ht-m01)连接到LoRa服务器，如[TTN](https://www.thethingsnetwork.org/), [ChripStack](https://www.chirpstack.io/)，从而促进LoRa设备的二次开发和快速部署。
 
-在所有操作之前，请确保HT-M01在树莓派(Linux)或Windows计算机上运行良好。如果没有，请参阅[HT-M01 Quick Start]()文档。
+在所有操作之前，请确保HT-M01在树莓派(Linux)或Windows计算机上运行良好。如果没有，请参阅[HT-M01快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/qucik_start.html)文档。
 
 ## 连接到TTN
 
@@ -86,13 +86,9 @@ sudo systemctl restart lrgateway
 
 ### ChirpStack网桥
 
-**One thing need attention!**  the ChripStack need a special service named `Gateway Bridge`, which converts LoRa® Packet Forwarder protocols into a ChirpStack Network Server [common data-format](https://github.com/brocaar/chirpstack-network-server/blob/master/api/gw/gw.proto) (JSON and Protobuf).
+**有件事需要注意！**ChripStack需要一个名为`Gateway Bridge`的特殊服务，它将LoRa® Packet Forwarder协议转换为ChirpStack网络服务器[通用数据格式](https://github.com/brocaar/chirpstack-network-server/blob/master/api/gw/gw.proto) (JSON和Protobuf)。
 
-ChripStack需要一个名为“Gateway Bridge”的特殊服务，它将LoRa® Packet Forwarder协议转换为ChirpStack网络服务器[通用数据格式](https://github.com/brocaar/chirpstack-network-server/blob/master/api/gw/gw.proto) (JSON和Protobuf)。
-
-the `Gateway Bridge` service can running on the Raspberry Pi or the ChirpStack server. We recommend install it on the Raspberry Pi.
-
-“Gateway Bridge”服务可以在树莓派或ChirpStack服务器上运行。我们建议安装在树莓派。
+`Gateway Bridge`服务可以在树莓派或ChirpStack服务器上运行。我们建议安装在树莓派。
 
 安装 ChirpStack Gateway Bridge: [https://www.chirpstack.io/gateway-bridge/install/debian/](https://www.chirpstack.io/gateway-bridge/install/debian/)
 

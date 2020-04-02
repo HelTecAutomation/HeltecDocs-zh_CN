@@ -1,3 +1,3 @@
-# HT-M02 Internal LoRa Server User Manual
+# HT-M02内部LoRa服务器用户手册
 
-Coming soon.
+即将上线。

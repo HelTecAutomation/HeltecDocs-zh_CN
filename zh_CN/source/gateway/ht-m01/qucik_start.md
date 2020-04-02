@@ -5,10 +5,10 @@
 HT-M01 LoRa 网关支持USB和SPI模式。SPI模式只能在Linux系统(树莓派)上运行，USB模式可以在Linux和Windows<sup>®</sup>上使用。一般来说，要使HT-M01运行，只需选择以下三种方法之一：
 
 - **Linux (树莓派)**
-  - [SPI 模式](#spi-mode)
-  - [USB 模式](#usb-mode)
+  - [SPI 模式](#"spi模式")
+  - [USB 模式](#usb模式)
 - **Windows<sup>®</sup>**
-  - [适用于Windows<sup>®</sup>的USB模式](#usb-mode-for-windows-®)
+  - [适用于Windows<sup>®</sup>的USB模式](#"适用于Windows<sup>®</sup>的USB模式")
 
 对于Linux用户，我们强烈建议使用
 
@@ -22,7 +22,7 @@ HT-M01 LoRa 网关支持USB和SPI模式。SPI模式只能在Linux系统(树莓�
 
 **[树莓派结构]()**
 
-### SPI mode
+### SPI模式
 
 拥有一个[PRI to HT-M01 转换器](https://heltec.org/product/m01-converter/) 会让你的操作更容易。
 
@@ -61,7 +61,7 @@ sudo cp -f /home/pi/lora/lorasdk/global_conf_EU868.json /home/pi/lora/packet_for
 #the "global_conf_EU868.json" may need change to your need.
 ```
 
-### USB mode
+### USB模式
 
 在进行以下操作之前，请使用高质量的Micro-USB数据线将HT-M01网关连接到树莓派，否则会造成很多问题！输入以下命令：
 
@@ -101,15 +101,15 @@ sudo cp -f /home/pi/lora/picolorasdk/global_conf_CN470.json /home/pi/lora/picoGW
 
 &nbsp;
 
-## Use HT-M01 with Windows<sup>®</sup>
+## 适用于Windows<sup>®</sup>的USB模式
 
-### USB mode
+### USB模式
 
 在将HT-M01连接到Windows<sup>®</sup>计算机之前，请安装[PicoGW UI](http://resource.heltec.cn/download/HT-M01/PicoGW_UI_Release_V1.0.3.4.zip) 。然后，在连接了HT-M01之后，您将在Windows<sup>®</sup>设备管理器中看到一个串行设备。
 
 ![](img/quick_start/04.png)
 
-打开PicoGW_UI并选择合适的区域，然后单击`Save my choice`。默认区域没有覆盖您的位置？请参阅[本文档]()。
+打开PicoGW_UI并选择合适的区域，然后单击`Save my choice`。默认区域没有覆盖您的位置？请参阅[本文档](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/add_region_on_picogw_ui.html)。
 
 ![](img/quick_start/05.png)
 

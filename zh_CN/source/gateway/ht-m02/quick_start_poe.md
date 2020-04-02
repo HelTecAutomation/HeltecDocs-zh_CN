@@ -2,8 +2,6 @@
 
 ## 摘要
 
-HT-M02 has integrated operating system and LoRa related programs, so it can be used directly in applications. HT-M02 has two versions: PoE and 4G(LTE). The purpose of this article is how to use the PoE version.
-
 HT-M02集成了操作系统和LoRa相关程序，可以直接用于实际应用中。HT-M02有两个版本：PoE和4G(LTE)。本文的内容是如何使用PoE版本。
 
 ``` Note:: 首次通电前，请确保天线已正确安装在适当的位置。标准天线本身不防水。如需长期在室外使用，建议用塑料薄膜适当遮挡天线部分。
@@ -63,7 +61,7 @@ HT-M02集成了操作系统和LoRa相关程序，可以直接用于实际应用�
 
 ![](img/quick_start_poe/05.png)
 
-### Serial
+### 串行连接
 
 由于采用防水设计，UART接口不会直接暴露在外部。如果需要连接串行端口，需要卸下HT-M02侧的保护板，还需要一个UART-USB bridge(CP2102、CP2104、CH340G等)。
 
