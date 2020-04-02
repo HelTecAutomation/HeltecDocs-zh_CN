@@ -15,7 +15,7 @@
 
   如何将网关和节点连接到TTN请参阅：
 
-  - **[怎样连接HT-M01到TTN (The-Things-Network)](en/user_manual/how_to_connect_ht-m01_to_ttn-the-things-network)**
+  - **[怎样连接HT-M01到TTN (The-Things-Network)](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/connect_to_server.html)**
   
   - **[怎样通过LoRaWAN协议(TTN)把CubeCell连接到LoRa网关](en/user_manual/how_to_connect_cubecell_to_ttn-the-things-network)**
   

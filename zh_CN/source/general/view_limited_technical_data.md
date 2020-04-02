@@ -1,4 +1,4 @@
-# 获取受限的技术资源
+# 获取受限的技术资源ziyua
 
 我们在[GitHub](https://GitHub.com/HelTecAutomation)或[Resource Page](http://Resource.heltec.cn/)中发布了所有相关资源。
 
@@ -31,16 +31,16 @@
 
 产品的芯片ID是相对于板载MCU的，每个MCU都有一个唯一的ID。
 
-- [ESP32 Core](#esp32系列)
-- [STM32 Core](#stm32系列)
+- [ESP32 Core](#esp32)
+- [STM32 Core](#stm32)
   - LoRa Node 030
   - [LoRa Node 151](#lora-node-151)
   - [Turtle Board](#turtle-board)
-- [CubeCell Series (ASR650x Core)](#cubecell系列)
+- [CubeCell Series (ASR650x Core)](#cubecell)
 
 ### ESP32系列
 
-确保你已经正确安装[Heltec ESP32开发环境框架](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/quick_start.html).
+确保你已经正确安装[Heltec ESP32开发环境框架](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/quick_start.html).
 
 从菜单中按以下路径: `File -- Examples -- ESP32 -- ChipID -- GetChipID`选择 [Get Chip ID example](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/esp32/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino)。
 
@@ -52,11 +52,11 @@
 
 ### STM32系列
 
-[Heltec STM32+LoRa系列快速入门](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/quick_start.html)可能对以下操作有帮助。
+[Heltec STM32+LoRa系列快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/quick_start.html)可能对以下操作有帮助。
 
 #### LoRa Node 151
 
-[怎样下载固件到LoRa Node 151](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html)
+[怎样下载固件到LoRa Node 151](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lora_node_151/download_firmware.html)
 
 [LoRa Node 151](https://heltec.org/project/lora-node-151/)使用STM32L151CCU6芯片,下载下面的固件到LoRa Node 151:
 
@@ -70,7 +70,7 @@
 
 #### Turtle Board
 
-[怎样下载固件到Turtle Board](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html)
+[怎样下载固件到Turtle Board](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/turtle_board/download_firmware.html)
 
 [Turtle Board](https://heltec.org/project/turtle-board/)使用STM32L432KC芯片,下载下面的固件到Turtle Board:
 
@@ -90,4 +90,5 @@ AT+ChipID=?
 
 或者通过这个示例代码:
 
-[https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino](
+[https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino)
+
