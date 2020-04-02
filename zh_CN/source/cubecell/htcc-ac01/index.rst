@@ -15,4 +15,4 @@ CubeCell Capsule sensor HTCC-AC01相关文档。
 相关官方资源
 ------------
 
-- 引脚图和原理图请参考 `HTCC-AC01 Capsule Sensor Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/hardware_update_log.html>`_。
+- 引脚图和原理图请参考 `HTCC-AC01 Capsule Sensor硬件更新日志 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ac01/hardware_update_log.html>`_。

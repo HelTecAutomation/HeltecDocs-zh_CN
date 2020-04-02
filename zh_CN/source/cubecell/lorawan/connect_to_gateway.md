@@ -25,10 +25,10 @@ LoRaWAN协议是所有LoRa应用的核心。我们认为，LoRaWAN最显著的�
 
 ## 准备
 
-- 正确安装`Arduino IDE`和 [CubeCell框架](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html).
+- 正确安装`Arduino IDE`和 [CubeCell框架](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/quick_start.html).
 - 至少有8个通道的标准LoRaWAN网关（基于SX1301/8基带芯片即可），并确保您的网关已连接到LoRa服务器。
-  - [How to connect HT-M01 to a LoRa server]()
-  - [How to connect HT-M02 to a LoRa server]()
+  - [怎样连接HT-M01到LoRa服务器](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/connect_to_server.html)
+  - [怎样连接HT-M02到LoRa服务器](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02/index.html)
 - 一个 [CubeCell Dev-Board](https://heltec.org/project/htcc-ab01/) 或 [CubeCell-Cupsule](https://heltec.org/project/htcc-ac01/) ，一根高质量的Micro-USB数据线.
 
 在这个例程中，我们在Windows<sup>®</sup> 10环境下使用 [HT-M01 Mini Gateway](https://heltec.org/project/ht-m01/) ， 测试频段: EU868,，其他工作频段相似。
@@ -39,7 +39,7 @@ LoRaWAN协议是所有LoRa应用的核心。我们认为，LoRaWAN最显著的�
 
 ![](img/connect_to_server/04.png)
 
-[在“工具”菜单中配置参数](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html#correctly-config-the-tools-menu)，下面是我对EU868的配置：
+[在“工具”菜单中配置参数](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/quick_start.html#id4)，下面是我对EU868的配置：
 
 ![](img/connect_to_server/03.png)
 
@@ -59,7 +59,7 @@ LoRaWAN协议是所有LoRa应用的核心。我们认为，LoRaWAN最显著的�
 
 ![](img/connect_to_server/02.png)
 
-正确配置CubeCell的LoRaWAN参数，请参考[这篇文档](config_parameter)。如果一切顺利，我们将能够看到设备的“DEVICE OVERVIEW”。
+正确配置CubeCell的LoRaWAN参数，请参考[这篇文档](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/lorawan/config_parameter.html)。如果一切顺利，我们将能够看到设备的“DEVICE OVERVIEW”。
 
 
 

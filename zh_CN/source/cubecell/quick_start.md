@@ -12,12 +12,12 @@ CubeCell基于ASR650x系列，本页面展示了如何安装和配置CubeCell Ar
 
 ```
 
-如果没有，请看这两篇文章 [建立串行连接](https://heltec-automation-docs.readthedocs.io/en/user_manual/establish_serial_connection) 和 [安装Git 和 Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/user_manual/how_to_install_git_and_arduino)。
+如果没有，请看这两篇文章 [建立串行连接](https://heltec-automation.readthedocs.io/zh_CN/latest/general/establish_serial_connection.html) 和 [安装Git 和 Arduino IDE](https://heltec-automation.readthedocs.io/zh_CN/latest/general/how_to_install_git_and_arduino.html)。
 
 **安装CubeCell框架有两种方法，请选择其中一种**
 
-- [通过Arduino board manager](#通过-arduino-board-manager)
-- [通过Git](#通过-git)
+- [通过Arduino board manager](#arduino-board-manager)
+- [通过Git](#git)
 
 &nbsp;
 
@@ -81,9 +81,9 @@ Heltec ASR650x 系列 (ASR6501&ASR6502)的框架源码:
   - `黄色 -- 第二接收窗口;`
   - `绿色 -- 入网成功.`
 - **LoRaWan Debug Level** -- 通过串行端口打印LoRaWAN相关信息
-  - None -- 默认；
-  - Freq -- 发送/接收频率；
-  - Freq && DIO -- 发送/接收频率和DIO引脚中断信息。
+  - `None -- 默认；`
+  - `Freq -- 发送/接收频率；`
+  - `Freq && DIO -- 发送/接收频率和DIO引脚中断信息。`
 - **COM Port** -- 设备在计算机中的串行端口。
 
 
