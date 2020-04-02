@@ -4,7 +4,7 @@
 
 ## 准备工作
 
-首先，确认[Heltec ESP开发框架]()和[Heltec ESP32 库]()已正确安装。如果没有，请查看本文[基于Heltec ESP32的开发板开发环境]()。
+首先，确认[Heltec ESP开发框架](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)和[Heltec ESP32 库](https://github.com/HelTecAutomation/Heltec_ESP32)已正确安装。如果没有，请查看本文[Heltec ESP32快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/quick_start.html)。
 
 - 准备两块ESP32+LoRa板；
 

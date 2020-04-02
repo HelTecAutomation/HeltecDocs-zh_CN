@@ -1,4 +1,4 @@
-# HTTC - AB01 Hardware Update Logs
+# HTTC - AB01硬件更新日志
 
 HTTC-AB01硬件更新日志
 

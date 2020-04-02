@@ -1,4 +1,4 @@
-# HTTC - AC01 Hardware Update Logs
+# HTTC - AC01硬件更新日志
 
 ## V1
 

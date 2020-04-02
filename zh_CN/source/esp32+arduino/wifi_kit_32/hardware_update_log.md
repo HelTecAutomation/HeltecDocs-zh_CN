@@ -1,14 +1,14 @@
-# Wifi Kit 32  Hardware Update Logs
+# Wifi Kit 32硬件更新日志
 
 ## V1
 
 ![](img/hardware_update_log/01.png)
 
-- First release
-- 2017-6-1 public sale
+- 首次发布
+- 2017-6-1 公开销售
 
-- [Pin out diagram for V1](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI%20Kit%2032_pinoutDiagram_V1.pdf)
-- [Schematic diagram for V1](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V1.PDF)
+- [V1引脚图](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI%20Kit%2032_pinoutDiagram_V1.pdf)
+- [V1原理图](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V1.PDF)
 
 &nbsp;
 
@@ -16,7 +16,7 @@
 
 ![](img/hardware_update_log/02.png)
 
-- 20 public sale
+- 2018-06-23 公开销售
 - 修复充电状态（橙色LED）闪烁问题；;
 - 4MB（32M位）FLASH 升级到8MB（64M位）FLASH ；
 - 更好的2.4GHz天线设计和阻抗匹配；;
@@ -28,17 +28,17 @@
 - Turn OFF: `digitalWrite(21, HIGH);`
 - 电路优化，系统更稳定；
 - 更好的电源管理系统设计。
-- [Pin out diagram for V2](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_pinoutDiagram_V2.pdf);
-- [Schematic diagram for V2](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V2.pdf);
+- [V2引脚图](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_pinoutDiagram_V2.pdf);
+- [V2原理图](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V2.pdf);
 
 &nbsp;
 
 ## V2.1
 
-- 2019-10 public sale?
+- 2019-10 公开销售
 - 修复电池电压读数无法与Wi-Fi一起工作，将电池电压读数引脚更改为GPI37（使用ADC1_1），请参阅以下示例：[ADC_Read_Voltage/Battery_power](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/ADC_Read_Voltage/Battery_power/Battery_power.ino)。
-- [Pin out diagram for V2.1]();
-- [Schematic diagram for V2.1]();
+- [V2.1引脚图]();
+- [V2.1原理图]();
 
 
 

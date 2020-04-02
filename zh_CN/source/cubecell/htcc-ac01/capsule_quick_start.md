@@ -100,7 +100,7 @@ static void PrepareTxFrame( uint8_t port )
 
 - 准备好LoRa网关
   - [怎样连接HT-M01到LoRa服务器](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/connect_to_server.html)
-  - [怎样连接HT-M01到LoRa服务器](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02/index.html)
+  - [怎样连接HT-M02到LoRa服务器](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02/index.html)
 
 - [如何配置LoRaWAN 参数](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/lorawan/config_parameter.html)
 
