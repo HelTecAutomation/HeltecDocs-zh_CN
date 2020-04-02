@@ -17,7 +17,7 @@
 
   - **[怎样连接HT-M01到TTN (The-Things-Network)](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/connect_to_server.html)**
   
-  - **[怎样通过LoRaWAN协议(TTN)把CubeCell连接到LoRa网关](en/user_manual/how_to_connect_cubecell_to_ttn-the-things-network)**
+  - **[怎样通过LoRaWAN协议(TTN)把CubeCell连接到LoRa网关](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/lorawan/connect_to_gateway.html)**
   
 - 本文中安装的Node-Red和MQTT-Broker软件的Linux版本是Ubuntu 16.04。（这里使用的MQTT代理是Mosquitto）。
 
