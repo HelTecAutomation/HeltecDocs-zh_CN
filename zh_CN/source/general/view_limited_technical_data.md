@@ -1,4 +1,4 @@
-# 获取受限的技术资源ziyua
+# 获取受限的技术资源
 
 我们在[GitHub](https://GitHub.com/HelTecAutomation)或[Resource Page](http://Resource.heltec.cn/)中发布了所有相关资源。
 
@@ -60,7 +60,7 @@
 
 [LoRa Node 151](https://heltec.org/project/lora-node-151/)使用STM32L151CCU6芯片,下载下面的固件到LoRa Node 151:
 
-[http://resource.heltec.cn/download/LoRa_Node_151/Read_Node151_ChipID.zip](http://resource.heltec.cn/download/LoRa_Node_151/Read_Node151_ChipID.zip)
+[http://resource.heltec.cn/download/LoRa_Node_151/L151_Read_ID.zip](http://resource.heltec.cn/download/LoRa_Node_151/L151_Read_ID.zip)
 
 然后芯片ID会通过虚拟串口(USB-CDC)打印出来。
 

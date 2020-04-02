@@ -2,7 +2,7 @@
 
 在本文档中，所有操作和测试必须使用标准的[[LoRaWAN 网关](https://heltec.org/proudct_center/lora/lora-gateway/)进行，并且至少有8个通道。
 
-开始前请仔细阅读本文档: **[“STM32 + LoRa” Node Preparation & Config Parameters](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/config_parameter.html#) .**
+开始前请仔细阅读本文档: **[“STM32 + LoRa”节点准备和配置参数](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lorawan/config_parameter.html) .**
 
 &nbsp;
 
@@ -16,7 +16,7 @@
 
 ![](img/connect_to_gateway/02.png)
 
-正确配置STM32 LoRa节点的LoRaWAN参数，请参考[这篇文档]()。如果一切顺利，我们将能够看到设备的“DEVICE OVERVIEW”。
+正确配置STM32 LoRa节点的LoRaWAN参数，请参考[这篇文档](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lorawan/config_parameter.html)。如果一切顺利，我们将能够看到设备的“DEVICE OVERVIEW”。
 
 ![](img/connect_to_gateway/03.png)
 

@@ -14,8 +14,8 @@
 
 请参考下列文档:
 
-- [LoRa Node 151下载固件](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html)；
--  [Turtle Board下载固件](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html)。
+- [LoRa Node 151下载固件](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lora_node_151/download_firmware.html)；
+-  [Turtle Board下载固件](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/turtle_board/download_firmware.html)。
 
 ## 串口无输出
 
@@ -26,5 +26,5 @@
 
 请参考下列文档:
 
-- [LoRa Node 151建立串行连接](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/establish_serial_connection.html)；
-- [Turtle Board建立串行连接](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/establish_serial_connection.html).
+- [LoRa Node 151建立串行连接](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lora_node_151/establish_serial_connection.html)；
+- [Turtle Board建立串行连接](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/turtle_board/establish_serial_connection.html).

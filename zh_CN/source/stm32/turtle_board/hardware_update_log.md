@@ -1,12 +1,11 @@
-# Turtle Board  Hardware Update Logs
+# Turtle Board硬件更新日志
 
 ## V1.1
 
 ![](img/hardware_update_log/01.png)
 
-- First release
-- 2017-6-1 public sale
+- 首次发布
+- 2017-6-1 公开销售
 
-- [Pinout diagram](https://docs.heltec.cn/download/Turtle_Board.pdf)
-
+- [V1.1引脚图](http://resource.heltec.cn/download/TurtleBoard/Turtle_Board_Pinout.pdf)
 

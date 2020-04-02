@@ -2,7 +2,7 @@
 
 ## 获取芯片ID
 
-
+请参考这篇文档:[获取芯片ID](https://heltec-automation.readthedocs.io/zh_CN/latest/general/view_limited_technical_data.html#id1)
 
 ## 获取LoRaWAN例程代码
 
