@@ -1,6 +1,7 @@
 目录
 ====
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/index.html)
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/index.html>`_
+
 我们认为 `“CubeCell系列” <https://heltec.org/cubecell>`_ 是最好的LoRaWAN节点应用的选择。以下是一些关键特征：
 
 -  与Arduino开发环境完全兼容；

@@ -1,5 +1,6 @@
 # 连接太阳能板到HTCC-AB01
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ab01/solar_panel.html)
+
 请参考 [HTCC-AB01的引脚图](http://resource.heltec.cn/download/CubeCell/DevBoard/HTCC-AB01_PinoutDiagram.pdf).
 
 “VS”脚是太阳能电池板的输入端，任何5.5~7V的太阳能板都可以连接到这个“VS”和“GND”。

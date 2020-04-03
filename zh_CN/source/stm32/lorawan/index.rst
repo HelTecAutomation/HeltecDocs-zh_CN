@@ -1,6 +1,7 @@
 LoRaWAN
 =======
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/index.html)
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/index.html>`_
+
 STM32LoRa节点系列LoRaWAN协议的使用和配置。
 
 .. toctree::

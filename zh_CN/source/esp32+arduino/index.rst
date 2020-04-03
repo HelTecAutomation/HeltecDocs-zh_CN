@@ -1,6 +1,7 @@
 目录
 ====
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32+arduino/index.html)
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/esp32+arduino/index.html>`_
+
 此文档适用于 `Heltec "ESP32 + Arduino"节点系列 <https://heltec.org/proudct_center/esp-arduino/>`_。
 
 ESP32带有240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM。"ESP32 + Arduino"具有以下优点：

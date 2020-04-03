@@ -1,6 +1,7 @@
 目录
 ====
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp8266+arduino/index.html)
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/esp8266+arduino/index.html>`_
+
 此文档适用于 `Heltec "ESP8266 + Arduino"节点系列 <https://heltec.org/proudct_center/esp-arduino/>`_。
 
 ESP8266带有160MHz Tensilica L06 32-bits。"ESP8266 + Arduino"具有以下优点：

@@ -1,6 +1,7 @@
 Wireless Stick
 ==============
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wireless_stick/index.html)
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wireless_stick/index.html>`_
+
 Wireless Stick相关文档。
 
 .. toctree::

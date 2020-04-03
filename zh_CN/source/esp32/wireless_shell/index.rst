@@ -1,6 +1,7 @@
 Wireless Shell
 ==============
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wireless_shell/index.html)
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wireless_shell/index.html>`_
+
 Wireless Shell相关文档。
 
 .. toctree::

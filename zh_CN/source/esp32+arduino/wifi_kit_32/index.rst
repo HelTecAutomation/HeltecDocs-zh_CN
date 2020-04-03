@@ -1,6 +1,7 @@
 WiFi kit 32
 ===========
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32+arduino/wifi_kit_32/index.html)
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/esp32+arduino/wifi_kit_32/index.html>`_
+
 WiFi Kit 32相关文档。
 
 .. toctree::

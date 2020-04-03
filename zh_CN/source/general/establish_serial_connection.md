@@ -1,5 +1,6 @@
 # 建立串行连接
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html)
+
 **[MacOS](#for-macOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#for-windows)**
 
 **本节提供如何在开发板和电脑之间建立串行连接的指导**

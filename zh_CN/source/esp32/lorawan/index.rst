@@ -1,6 +1,7 @@
 LoRaWAN
 =======
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/lorawan/index.html)
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/esp32/lorawan/index.html>`_
+
 本文旨在描述如何使用 `Heltec ESP32 LoRaWAN库 <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_。
 
 .. tip:: 这个库是从https://github.com/Lora-net/LoRaMac-node移植的。

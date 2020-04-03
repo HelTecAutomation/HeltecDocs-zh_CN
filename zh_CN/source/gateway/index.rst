@@ -1,6 +1,7 @@
 目录
 ====
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/index.html)
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/gateway/index.html>`_
+
 Heltec LoRa网关
 
 .. toctree::

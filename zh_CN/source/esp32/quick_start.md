@@ -1,5 +1,6 @@
 # Heltec "ESP32+LoRa"系列快速入门
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/quick_start.html)
+
 我们建议您确认是否已先安装了“USB驱动程序”、“Git”和“Arduino IDE”。如果没有，请查看这两篇文章[建立串行连接](https://heltec-automation.readthedocs.io/zh_CN/latest/general/establish_serial_connection.html)和[安装Git和Arduino IDE](https://heltec-automation.readthedocs.io/zh_CN/latest/general/how_to_install_git_and_arduino.html)。
 
 **安装开发框架有两种方法，请从中选择：**

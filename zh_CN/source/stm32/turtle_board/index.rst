@@ -1,6 +1,7 @@
 Turtle Board
 ============
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/index.html)
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/index.html>`_
+
 Turtle Board相关文档。
 
 .. toctree::

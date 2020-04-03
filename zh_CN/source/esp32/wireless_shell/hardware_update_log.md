@@ -1,5 +1,6 @@
 # Wireless Shell硬件更新日志
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wireless_shell/hardware_update_log.html)
+
 **Wireless Shell相当于没有外围电路的Wireless Stick Lite，使用时需要增加外围电路，如电源部分、串行口部分等**
 
 ## V1

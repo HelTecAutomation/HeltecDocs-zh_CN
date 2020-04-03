@@ -1,6 +1,5 @@
 # 无线电传输协议资源
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/radioshuttle_protocol_resource.html)
-&nbsp;
 
 ## 无线传输协议
 

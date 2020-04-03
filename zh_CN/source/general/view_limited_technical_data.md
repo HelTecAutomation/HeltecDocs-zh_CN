@@ -1,5 +1,6 @@
 # 获取受限的技术资源
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html)
+
 我们在[GitHub](https://GitHub.com/HelTecAutomation)或[Resource Page](http://Resource.heltec.cn/)中发布了所有相关资源。
 
 有些技术资料是Heltec生产的产品专用的，没有公开，这些相关的资源可以在查询网页通过输入芯片ID下载，同时芯片ID也可以用来识别真伪。
