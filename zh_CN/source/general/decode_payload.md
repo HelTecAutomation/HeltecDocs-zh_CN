@@ -1,5 +1,5 @@
 # 如何解码有效载荷数据
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/decode_payload.html)
 ## 为什么需要解码信息？
 
 假设您有一个非常高精度的传感器，例如，测量数据是27.313232421875，如果通过诸如“char data[]=”27.313232421875“这样的字符串发送此数据，则有以下缺点：

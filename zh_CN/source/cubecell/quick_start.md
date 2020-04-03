@@ -1,7 +1,5 @@
-
-
 # CubeCell系列快速入门
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html)
 ## 摘要
 
 CubeCell基于ASR650x系列，本页面展示了如何安装和配置CubeCell Arduino框架，以及如何上传和运行代码（示例）。

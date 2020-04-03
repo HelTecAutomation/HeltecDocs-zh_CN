@@ -1,5 +1,5 @@
 # 如何烧写树莓派的TF卡镜像、配置WiFi上网、SSH连接
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/how_to_config_raspberry_pi.html)
 ## 1. 准备相关工具
 
 - [SD Formatter](http://119.23.153.38/download/SD_Formatter.zip) *(非必须，若需要对已有树莓派镜像的TF卡进行格式化，才需要用到这个工具)*

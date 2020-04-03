@@ -1,6 +1,6 @@
 HTCC-AB01 Dev-Board
 ===================
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ab01/index.html)
 CubeCell Dev-Board HTCC-AB01相关文档.
 
 .. toctree::

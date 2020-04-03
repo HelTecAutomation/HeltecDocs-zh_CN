@@ -1,5 +1,5 @@
 # 下载固件
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html)
 ## 通过DFU模式
 
 STM32L432KC芯片已经包含了DFU Bootloader，这意味着只需要一根Micro-USB数据线，用户就可以将.elf/.bin文件下载到开发板中。

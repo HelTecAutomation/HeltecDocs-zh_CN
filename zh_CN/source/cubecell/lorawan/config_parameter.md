@@ -1,11 +1,8 @@
 # CubeCell配置LoRaWAN网络参数（Dev EUI、App Key等）
-
-&nbsp;
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/config_parameter.html)
 ## 摘要
 
 无论使用何种LoRa管理平台，都需要DevEui、AppKey等参数。并确保它与服务器上的相关设置一致。
-
 
 - -**以下参数对于OTAA模式至关重要：**
   - [DevEui](#deveui) -- Mote device IEEE EUI (big endian), 8 bytes;

@@ -1,5 +1,5 @@
 # 建立串行连接
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/establish_serial_connection.html)
 LoRa Node 151可以通过USB-CDC(USB-Virtual Serial Poart)或UART打印调试信息，但USB-UART芯片没有集成在开发板上。如果要通过UART输出调试信息，则需要一个外部USB-UART模块。
 
 ## 通过UART

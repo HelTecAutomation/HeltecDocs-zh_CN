@@ -1,5 +1,5 @@
 # LoRa Node 151硬件更新日志
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/hardware_update_log.html)
 ## V1
 
 ![](img/hardware_update_log/01.png)

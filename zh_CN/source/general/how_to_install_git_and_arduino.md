@@ -1,5 +1,5 @@
 # 怎样安装Git和Arduino IDE (Windows)
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/how_to_install_git_and_arduino.html)
 ## 1. 安装`Git`
 如果您安装了“Git”，请直接执行第2步 。否则，请下载[Git](https://Git-scm.com/download/win)并安装它。
 

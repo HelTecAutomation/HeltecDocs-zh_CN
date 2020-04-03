@@ -1,5 +1,5 @@
 # 将胶囊连接到调试板
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/connect_capsule_to_debugger.html)
 胶囊传感器本身被定位为一个小型、组装和部署的传感器。它没有编程、调试和其他接口。您需要使用[调试板](https://heltec.org/product/cubecell-capsule-Debug)来编程和调试程序。
 
 胶囊传感器本体和调试板都有一个圆形的白色标记点。连接时，白点的位置应匹配。

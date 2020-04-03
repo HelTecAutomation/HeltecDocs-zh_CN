@@ -1,6 +1,6 @@
 LoRaWAN
 =======
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/index.html)
 CubeCell系列LoRaWAN协议的使用和配置。
 
 .. toctree::

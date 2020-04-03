@@ -1,5 +1,5 @@
 # 在PicoGW UI上添加更多区域支持
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/add_region_on_picogw_ui.html)
 ## 摘要
 
 [PicoGW UI](http://resource.heltec.cn/download/HT-M01/PicoGW_UI_Release_V1.0.3.4.zip)由Semtech<sup>®</sup>提供，允许用户直接使用用户界面在Windows<sup>®</sup>上运行Pico Cell LoRa网关（[HT-M01](https://heltec.org/project/ht-m01)）。

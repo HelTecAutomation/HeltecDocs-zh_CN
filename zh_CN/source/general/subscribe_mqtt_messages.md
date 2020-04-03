@@ -1,5 +1,5 @@
 # 如何从LoRa服务器订阅MQTT消息
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/subscribe_mqtt_messages.html)
 ## 概述
 
 本文的目的是使用TTN提供的数据流应用Node-Red中的MQTT插件订阅来自TTN节点的数据消息。

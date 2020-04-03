@@ -1,5 +1,5 @@
 # Turtle Board硬件更新日志
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/hardware_update_log.html)
 ## V1.1
 
 ![](img/hardware_update_log/01.png)

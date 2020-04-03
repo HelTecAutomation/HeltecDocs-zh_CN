@@ -1,6 +1,6 @@
 Heltec Automation文档页
 =======================
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/index.html)
 这些是 `Heltec Automation <https://heltec.org>`_ 产品的文档。
    
 ==================  ==================  ==================

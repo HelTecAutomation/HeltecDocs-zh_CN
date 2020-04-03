@@ -1,5 +1,5 @@
 # "ESP32 + LoRa" 节点准备和配置参数
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/lorawan/config_parameter.html)
 ## 准备
 ----------
 - [安装Arduino IDE](https://heltec-automation.readthedocs.io/zh_CN/latest/general/how_to_install_git_and_arduino.html)；

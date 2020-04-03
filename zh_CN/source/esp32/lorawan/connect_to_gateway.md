@@ -1,5 +1,5 @@
 # 连接 "ESP32 + LoRa" 节点到LoRaWAN服务器
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/lorawan/connect_to_gateway.html)
 配置前请仔细阅读本文档: **["ESP32 + LoRa" 节点准备和配置参数](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/lorawan/config_parameter.html)**
 
 ![](img/connect_to_gateway/01.png)

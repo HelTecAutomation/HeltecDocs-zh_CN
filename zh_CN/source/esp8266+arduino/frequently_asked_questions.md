@@ -1,3 +1,3 @@
 # Heltec<sup>TM</sup> "ESP8266+Arduino"系列常见问题
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp8266+arduino/frequently_asked_questions.html)
 此页面包含用户最常提出的问题。如果这个页面的详细信息不能解决你的问题，你也可以在我们的论坛上留言： [community.heltec.cn](http://community.heltec.cn/)

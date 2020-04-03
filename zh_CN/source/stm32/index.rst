@@ -1,6 +1,6 @@
 目录
 ====
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/index.html)
 此文档适用于 `Heltec "STM32 + LoRa"节点系列 <https://heltec.org/proudct_center/lora/lora-node/>`_。
 
 STM32带有Ultra-low-power 32-bit MCU。"STM32 + LoRa"具有以下优点：

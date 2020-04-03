@@ -1,5 +1,5 @@
 # 获取LoRaWAN例程代码
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/get_lorawan_example_code.html)
 ## 获取芯片ID
 
 请参考这篇文档:[获取芯片ID](https://heltec-automation.readthedocs.io/zh_CN/latest/general/view_limited_technical_data.html#id1)

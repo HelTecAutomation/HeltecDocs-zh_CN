@@ -1,5 +1,5 @@
 # "STM32 + LoRa"准备和配置参数
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/config_parameter.html)
 [LoRa Node 151](https://heltec.org/project/lora-node-151/)基于[STM32L151CCU6](https://www.st.com/resource/en/datasheet/stm32l151cc.pdf)芯片, [Turtle Board](https://heltec.org/project/turtle-board/)基于[STM32L432KC](https://www.st.com/resource/en/datasheet/stm32l432KC.pdf)芯片, 我们公司正在逐步将IDE替换为[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)，这是STMicroelectronics官方刚刚为自己的MCU推出的开发工具。基于Eclipse，包括代码跟踪、代码编写、编译、下载、单步调试，并与CubdeMX集成。
 
 ## 摘要

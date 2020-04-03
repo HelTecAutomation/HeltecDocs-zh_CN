@@ -1,6 +1,6 @@
 目录
 ====
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/index.html)
 Heltec LoRa网关
 
 .. toctree::

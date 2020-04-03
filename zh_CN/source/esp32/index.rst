@@ -1,6 +1,6 @@
 目录
 ====
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/index.html)
 此文档适用于 `Heltec "ESP32 + LoRa"节点系列 <https://heltec.org/proudct_center/lora/lora-node/>`_。
 
 ESP32带有240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM。"ESP32 + LoRa"具有以下优点：

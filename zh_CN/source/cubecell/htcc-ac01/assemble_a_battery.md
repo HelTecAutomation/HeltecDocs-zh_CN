@@ -1,5 +1,5 @@
 # 组装电池到胶囊传感器
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/assemble_a_battery.html)
 胶囊传感器是全球性产品，但由于国际运输、储存等问题，**默认胶囊传感器内部没有集成电池**。
 
 &nbsp;

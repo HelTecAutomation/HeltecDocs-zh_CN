@@ -1,6 +1,6 @@
 目录
 ====
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/index.html)
 本文档用于解决一些常见问题。
 
 .. toctree::

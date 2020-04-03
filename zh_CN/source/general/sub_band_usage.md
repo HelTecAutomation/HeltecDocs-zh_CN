@@ -1,5 +1,5 @@
 # LoRaWAN子频带使用示例（AU915）
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/sub_band_usage.html)
 ## 说明
 
 在LoRaWAN 协议中，各国或地区都有详细的规定。这些规定包括上行和下行信道频率、带宽、占空比等。

@@ -1,6 +1,6 @@
 LoRa Node 151
 =============
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/index.html)
 LoRa Node 151相关文档。
 
 .. toctree::

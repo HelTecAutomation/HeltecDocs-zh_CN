@@ -1,6 +1,6 @@
 WiFi Kit 8
 ==========
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp8266+arduino/wifi_kit_8/index.html)
 WiFi Kit 8相关文档
 
 .. toctree::
