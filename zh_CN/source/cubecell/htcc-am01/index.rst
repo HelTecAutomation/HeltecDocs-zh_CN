@@ -8,6 +8,7 @@ CubeCell Module HTCC-AM01相关文档。
     :maxdepth: 2
     
     CubeCell模块编程 <programming_cubecell>
+    硬件更新日志 <hardware_update_log>
     
 相关官方资源
 ------------
