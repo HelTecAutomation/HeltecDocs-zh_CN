@@ -35,7 +35,7 @@ Heltec Automation文档页
 
 .. toctree::
    :hidden:
-   :caption:   
+   :caption: LANGUAGE
    
    English <https://heltec-automation-docs.readthedocs.io/en/latest/index.html>
 
