@@ -35,6 +35,12 @@ Heltec Automation文档页
 
 .. toctree::
    :hidden:
+   :caption:
+   
+   简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/index.html>
+
+.. toctree::
+   :hidden:
    :caption: LORA GATEWAY
    
    gateway/index
