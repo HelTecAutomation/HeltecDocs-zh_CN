@@ -9,6 +9,7 @@ LoRa Node 151相关文档。
     
    下载固件 <download_firmware>
    建立串行连接 <establish_serial_connection>
+   Pingpong测试 <pingpong_test>
    硬件更新日志 <hardware_update_log>
    
 相关官方资源
