@@ -63,7 +63,7 @@
 
 ![](img/system_upgrade/05.png)
 
-``` Tip:: Don&#39;t forget remove the Micro TF card, or the system will running from TF card automatically in the next powe ON, and the system will be upgrade again.
+``` Tip:: 不要忘记卸下TF卡，否则下次开机时系统将自动从TF卡运行，系统将再次升级。
 
 ```
 

@@ -19,3 +19,8 @@ HT-M01是一个小型网关。我们在设计它时，我们希望为用户提�
     快速入门 <qucik_start>
     连接到LoRa服务器 <connect_to_server>
     在PicoGW UI上添加更多区域支持 <add_region_on_picogw_ui>
+    
+相关官方资源
+------------
+
+- `HT-M01套餐二使用方法 <http://resource.heltec.cn/download/HT-M01/HT-M01-taobao-Pack-2-manual.pdf>`_;
