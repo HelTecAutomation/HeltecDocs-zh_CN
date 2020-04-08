@@ -7,4 +7,4 @@
 
 - [V1引脚图](http://resource.heltec.cn/download/CubeCell/Capsule/HTCC-AC01_PinoutDiagram.pdf)
 
-- V1原理图
+- [V1原理图](http://resource.heltec.cn/download/CubeCell/Capsule/Capsule_MCU.pdf)

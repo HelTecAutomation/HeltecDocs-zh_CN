@@ -1,8 +1,8 @@
-HTCC-AC01 Capsule Sensor
-========================
+HTCC-AC01胶囊传感器
+===================
 `English <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/index.html>`_
 
-CubeCell Capsule sensor HTCC-AC01相关文档。
+CubeCell胶囊传感器HTCC-AC01相关文档。
 
 .. toctree::
     :maxdepth: 2
@@ -16,4 +16,4 @@ CubeCell Capsule sensor HTCC-AC01相关文档。
 相关官方资源
 ------------
 
-- 引脚图和原理图请参考 `HTCC-AC01 Capsule Sensor硬件更新日志 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ac01/hardware_update_log.html>`_。
+- 引脚图和原理图请参考 `HTCC-AC01胶囊传感器硬件更新日志 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ac01/hardware_update_log.html>`_。

@@ -25,9 +25,9 @@
     快速入门 <quick_start>
     LoRaWAN <lorawan/index>
     AT命令列表 <https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
-    HTCC-AM01 Module <htcc-am01/index>  
-    HTCC-AB01 Dev-Board <htcc-ab01/index>
-    HTCC-AC01 Capsule Sensor <htcc-ac01/index>
+    HTCC-AM01模块 <htcc-am01/index>  
+    HTCC-AB01开发板 <htcc-ab01/index>
+    HTCC-AC01胶囊传感器 <htcc-ac01/index>
     常见问题 <frequently_asked_questions>
 
 相关官方资源

@@ -1,8 +1,8 @@
-HTCC-AB01 Dev-Board
-===================
+HTCC-AB01开发板
+===============
 `English <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ab01/index.html>`_
 
-CubeCell Dev-Board HTCC-AB01相关文档.
+CubeCell开发板HTCC-AB01相关文档.
 
 .. toctree::
     :maxdepth: 2
@@ -14,4 +14,4 @@ CubeCell Dev-Board HTCC-AB01相关文档.
 ------------
 
 - `AutoCAD图 <http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg>`_;
-- 引脚图和原理图请参考 `HTCC-AB01 Dev-Board硬件更新日志 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ab01/hardware_update_log.html>`_。
+- 引脚图和原理图请参考 `HTCC-AB01开发板硬件更新日志 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ab01/hardware_update_log.html>`_。
