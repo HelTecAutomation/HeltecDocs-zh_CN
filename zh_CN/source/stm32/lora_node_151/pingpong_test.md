@@ -1,5 +1,5 @@
 # LoRa Node 151 Pingpong测试
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html)
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/pingpong_test.html)
 
 ## 准备
 
