@@ -7,7 +7,7 @@
 STM32带有Ultra-low-power 32-bit MCU。"STM32 + LoRa"具有以下优点：
 
 -  低功耗特性;
--  多个总线接口: USART x 3, SPI x 2, I2C x 2;
+-  多个总线接口;
 -  强大的计算能力;
 -  电源管理系统和不同类型的电池支持;
 -  多个通用GPIO;

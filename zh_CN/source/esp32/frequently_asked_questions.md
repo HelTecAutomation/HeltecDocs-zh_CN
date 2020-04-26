@@ -46,3 +46,16 @@
 使用电池为开发板供电，并将电流表串联接入电路，下载以下示例代码：[示例代码](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/Low_Power/Low_Power.ino)
 
 这段视频是测试效果：[测试视频](https://v.youku.com/v_show/id_XNDI2NTE1NTQ3Ng==.html?spm=a2h3j.8428770.3416059.1)
+
+## 点对点通信
+
+在不存在硬件问题的前提下，LoRa节点可以进行点对点通信。点对点通信成功的关键在于确保以下5点相同：
+
+1.  相同的发送和接收频率: `LoRa.setFrequency(frequency);`
+2.  相同的带宽: `LoRa.setSignalBandwidth(signalBandwidth);`
+3.  相同的编码率: `LoRa.setCodingRate4(codingRateDenominator);`
+4.  相同的前导码长度: `LoRa.setPreambleLength(preambleLength);`
+5.  相同的同步字: `LoRa.setSyncWord(syncWord);`
+
+了解更多关于LoRa节点间通信的信息，请参考LoRa基本库APIs: [https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md)
+
