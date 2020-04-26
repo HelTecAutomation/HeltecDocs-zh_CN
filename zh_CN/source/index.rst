@@ -55,7 +55,7 @@ Heltec Automation文档页
    cubecell/index
    快速入门 <cubecell/quick_start>
    cubecell/lorawan/index
-   AT命令列表 <https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
+   AT命令列表 <http://resource.heltec.cn/download/CubeCell/CubeCell_Series_AT_Command_User_Manual_zh_CN_V0.2.pdf>
    cubecell/htcc-am01/index
    cubecell/htcc-ab01/index
    cubecell/htcc-ac01/index
