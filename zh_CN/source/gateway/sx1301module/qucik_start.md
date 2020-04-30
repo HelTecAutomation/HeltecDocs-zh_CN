@@ -68,6 +68,6 @@ sudo cp -f /home/pi/lora/lorasdk/global_conf_EU868.json /home/pi/lora/packet_for
 
 SX1301 module working with Raspberry Pi is most similar with [HT-M01](https://heltec.org/project/ht-m01/) gateway with Raspberry Pi in SPI mode. Steps to connect to a LoRa server, please refer to this document:
 
-与树莓派配合使用的SX1301模块与 [HT-M01](https://heltec.org/project/ht-m01/) 网关以及树莓派处于SPI模式的最相似。 连接到LoRa服务器的步骤请参考此文档：
+与树莓派配合使用的SX1301模块和与树莓派配合使用的 [HT-M01](https://heltec.org/project/ht-m01/) 网关的SPI模式最相似。 连接到LoRa服务器的步骤请参考此文档：
 
 [https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)
