@@ -1,13 +1,12 @@
-HTCC-AM01模块
+HTCC-AM02模块
 =============
 `English <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-am01/index.html>`_
 
-CubeCell模块HTCC-AM01相关文档。
+CubeCell模块HTCC-AM02相关文档。
 
 .. toctree::
     :maxdepth: 2
     
-    CubeCell模块编程 <programming_cubecell>
     硬件更新日志 <hardware_update_log>
     
 相关官方资源
