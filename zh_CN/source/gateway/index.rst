@@ -7,6 +7,7 @@ Heltec LoRa网关
 .. toctree::
     :maxdepth: 2
     
-    HT-M01 <ht-m01/index>
-    HT-M02 <ht-m02/index>
+    SX1301模块 <sx1301module/index>
+    HT-M01评估LoRa网关 <ht-m01/index>
+    HT-M02边缘LoRa网关 <ht-m02/index>
     常见问题 <frequently_asked_questions>

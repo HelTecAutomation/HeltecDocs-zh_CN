@@ -53,3 +53,5 @@
 
 ## V2.1
 
+![](img/hardware_update_log/03.png)
+

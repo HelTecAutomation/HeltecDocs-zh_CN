@@ -59,3 +59,14 @@
 
 了解更多关于LoRa节点间通信的信息，请参考LoRa基本库APIs: [https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md)
 
+## 外部设备电源控制
+
+`Vext`是外部设备的电源。从原理图上看，由GPIO21控制：
+
+`GPIO 21 --> 低电平 --> Vext(3.3V/250mA) 开启`
+
+`GPIO 21 --> 高电平 --> Vext(3.3V/250mA) 关闭`
+
+
+
+![](img/frequently_asked_questions/03.png)
