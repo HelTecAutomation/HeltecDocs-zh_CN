@@ -17,4 +17,4 @@ LoRa Node 151相关文档。
 
 - `AutoCAD图 <http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151.dwg>`_;
 - `基础硬件测试 <http://resource.heltec.cn/download/LoRa_Node_151/Pingpong_CDC.zip>`_;
-- 引脚图和原理图请参考 `LoRa Node 151硬件更新日志 <https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lora_node_151/hardware_update_log.html>`_。
+- `原理图 <https://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V1.pdf>`_。
