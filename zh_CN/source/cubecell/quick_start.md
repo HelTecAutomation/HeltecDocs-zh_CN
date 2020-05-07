@@ -47,9 +47,9 @@ Heltec ASR650x 系列 (ASR6501&ASR6502)的框架源码:
 
 ### 通过Git
 
-- [For Windows](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/windows.md)
-- [For MacOS](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/mac.md)
-- [For Linux(Ubuntu/Debian)](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/debian_ubuntu.md)
+- For Windows: `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/windows.md`
+- For MacOS: `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/mac.md`
+- For Linux(Ubuntu/Debian): `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/debian_ubuntu.md`
 
 &nbsp;
 
