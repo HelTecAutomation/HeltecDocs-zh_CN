@@ -21,7 +21,7 @@
 
 ![](img/quick_start/02.png)
 
-**输入最新的 ESP32 package URL:** [http://resource.heltec.cn/download/package_heltec_esp32_index.json](http://resource.heltec.cn/download/package_heltec_esp32_index.json)
+**输入最新的 ESP32 package URL:** [https://resource.heltec.cn/download/package_heltec_esp32_index.json](https://resource.heltec.cn/download/package_heltec_esp32_index.json)
 
 ![](img/quick_start/03.png)
 

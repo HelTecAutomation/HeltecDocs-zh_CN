@@ -29,11 +29,7 @@ CubeCell基于ASR650x系列，本页面展示了如何安装和配置CubeCell Ar
 
 输入以下json url到board manager URLs:：
 
-**推荐:** [https://docs.heltec.cn/download/package_CubeCell_index.json](https://docs.heltec.cn/download/package_CubeCell_index.json)
-
-or
-
-**中国大陆:** [http://119.23.153.38/download/package_CubeCell_index.json](http://119.23.153.38/download/package_CubeCell_index.json)
+ [https://docs.heltec.cn/download/package_CubeCell_index.json](https://docs.heltec.cn/download/package_CubeCell_index.json)
 
 ![](img/quick_start/03.png)
 

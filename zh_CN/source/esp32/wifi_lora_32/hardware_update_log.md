@@ -23,7 +23,7 @@
 
 - 使用40MHz HSE (V1 使用26MHz);
 
-- 基本低功耗设计（深度睡眠800uA）；
+- 基本低功耗设计（深度睡眠800uA；
 
 - 添加Vext电源输出引脚，用户可以使用该引脚驱动一些外部设备（传感器、电机等），当系统需要进入深度睡眠模式时，Vext可以关闭。
 
@@ -55,3 +55,10 @@
 
 ![](img/hardware_update_log/03.png)
 
+- 2019-6-15 公开销售
+- 将射频开关从PE4259换成UPG2179，并将射频部分换成官方推荐值;
+- 将电源检测引脚从13(ADC2:4)换到37(ADC1:1)。
+- [V2.1引脚图](https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.1.pdf)
+- V2.1原理图
+  - [433, 470~510 版本](https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WiFi_LoRa_32_V2.1(433%2C470-510).PDF)
+  - [868~915 版本](https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WIFI_LoRa_32_V2.1(868-915).PDF)
