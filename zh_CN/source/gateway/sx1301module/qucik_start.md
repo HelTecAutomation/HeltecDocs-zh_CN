@@ -1,4 +1,5 @@
 # SX1301 LoRa网关模块快速入门
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/sx1301module/qucik_start.html)
 ## 摘要
 
 SX1301 LoRa网关模块，可以与支持Linux操作系统的硬件（例如树莓派）配合使用，然后可以用作LoRa网关。
