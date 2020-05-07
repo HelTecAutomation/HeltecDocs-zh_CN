@@ -44,6 +44,6 @@ ASR6501嵌入了12位1Msps SAR ADC，但只有一个通道ADC输入引脚，该�
 
 ```
 
-``` Note:: ADC输入电压不能高于VDD。
+``` Note:: ADC输入电压不能高于2.4V。
 
 ```
