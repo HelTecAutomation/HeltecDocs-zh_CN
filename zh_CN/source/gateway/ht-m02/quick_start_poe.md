@@ -37,7 +37,7 @@ HT-M02集成了操作系统和LoRa相关程序，可以直接用于实际应用�
 
 - **Status** -- HT-M02运行状态;
 - **Gateway_ID** -- 当前HT-M02的唯一ID;
-- **Band** -- 区域频率, 严格遵守[LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf);
+- **Band** -- 区域频率, 严格遵守[LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
 - **Channels** -- 每个波段的监听频道，[LoRaWAN Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf) 定义了每个频道的详细上下行频率，这里的“CN470”，“channels 0-7”表示HT-M02将监听“470.3mhz，470.5mhz，470.7mhz，470.9mhz，471.1兆赫，471.3兆赫，471.5兆赫，471.7兆赫'8个频道。
 - **Server** --将使用哪个LoRa服务器
   - `Internal Server` -- HT-M02将数据转发至其内部的LoRa服务器；

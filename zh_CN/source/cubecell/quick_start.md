@@ -62,7 +62,7 @@ Heltec ASR650x 系列 (ASR6501&ASR6502)的框架源码:
 在“工具”菜单中，有以下选项：
 
 - **Board** -- 选择正确的硬件连接到电脑；
-- **LORAWAN_REGION** -- 严格遵守LORAWAN协议区域规定 [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)；
+- **LORAWAN_REGION** -- 严格遵守LORAWAN协议区域规定 [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
 - **LORAWAN_CLASS** -- 现在支持Class A 和 Class C；
 - **LORAWAN_NETMODE** -- OTAA or ABP；
 - **LORAWAN_ADR** -- ON or OFF     ADR (自适应数据速率);

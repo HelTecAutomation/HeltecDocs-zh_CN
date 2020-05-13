@@ -55,7 +55,7 @@ Arduino“工具“菜单中有一些选项：
 
 `Board, Upload Speed, CPU Frequency, Core Debug Level, PSRAM`是ESP32芯片的常规选项，仅保留默认值。特别注意“`LoRaWan Region`”和“ `LoRaWan Debug Level`”：
 
-- **LoRaWan Region** -- 严格遵守LoRaWAN 协议区域定义[LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf);
+- **LoRaWan Region** -- 严格遵守LoRaWAN 协议区域定义[LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
 - **LoRaWan Debug Level** -- 通过串行端口打印的消息。
   - None -- 默认;
   - Freq -- 上下行频率；

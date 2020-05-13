@@ -1,7 +1,7 @@
 # 连接CubeCell到LoRaWAN服务器
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/connect_to_gateway.html)
 
-在本文档中，所有操作和测试必须使用标准的[LoRaWAN网关](https://heltec.org/proudct_center/lora/lora-gateway/)进行，并且至少有8个通道！在CubeCell的LoRaWAN库，对于每个工作频段，我们都严格遵守[LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf).
+在本文档中，所有操作和测试必须使用标准的[LoRaWAN网关](https://heltec.org/proudct_center/lora/lora-gateway/)进行，并且至少有8个通道！在CubeCell的LoRaWAN库，对于每个工作频段，我们都严格遵守[LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf).
 
 ## 摘要
 
@@ -75,4 +75,4 @@ LoRaWAN协议是所有LoRa应用的核心。我们认为，LoRaWAN最显著的�
 请仔细检查以下两件事：
 
 1. LoRaWAN参数与服务器相同！
-2. 你的LoRa 网关的监听频率和CubeCell的发送频率相同。我们严格遵守[LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)。
+2. 你的LoRa 网关的监听频率和CubeCell的发送频率相同。我们严格遵守[LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf)。

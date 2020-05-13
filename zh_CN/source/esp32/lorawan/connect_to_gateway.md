@@ -36,4 +36,4 @@
 请仔细检查以下两件事：
 
 1. LoRaWAN参数与服务器相同！
-2. 你的LoRa网关的监听频率和ESP32节点的发送频率相同。我们严格遵守[LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)。
+2. 你的LoRa网关的监听频率和ESP32节点的发送频率相同。我们严格遵守[LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf)。
