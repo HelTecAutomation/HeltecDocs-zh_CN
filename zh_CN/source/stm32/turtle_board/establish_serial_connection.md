@@ -8,11 +8,11 @@ Turtle Board可以通过USB-CDC（USB-Virtual Serial Poart）或UART打印调试
 - 打开提供的例程
 - 将鼠标悬停在工程上点击右键打开 `Properties`.
 
-![](C:/Users/Administrator/Documents/Arduino/HeltecDocs/en/source/stm32/turtle_board/img/establish_serial_connection/03.png)
+![](img/establish_serial_connection/03.png)
 
 - 在宏定义中添加`USE_DEBUGGER`。编译并下载程序。
 
-![](C:/Users/Administrator/Documents/Arduino/HeltecDocs/en/source/stm32/turtle_board/img/establish_serial_connection/04.png)
+![](img/establish_serial_connection/04.png)
 
 - 正确连接开发板和USB-UART模块。
 
@@ -20,7 +20,7 @@ Turtle Board可以通过USB-CDC（USB-Virtual Serial Poart）或UART打印调试
 
 ```
 
-![](C:/Users/Administrator/Documents/Arduino/HeltecDocs/en/source/stm32/turtle_board/img/establish_serial_connection/02.png)
+![](img/establish_serial_connection/02.png)
 
 ```Tip:: 使用UART时，程序中使用的TX和RX引脚应与板上的TX和RX引脚相对应。在我们提供的例程中，我们使用TX-PA9和RX-PA10。因此，UART模块的TX应连接到开发板的TX（PA9），UART模块的RX应连接到开发板的RX（PA10）。
 
@@ -28,7 +28,7 @@ Turtle Board可以通过USB-CDC（USB-Virtual Serial Poart）或UART打印调试
 
 - 打开串行端口
 
-  ![](C:/Users/Administrator/Documents/Arduino/HeltecDocs/en/source/stm32/turtle_board/img/establish_serial_connection/05.png)
+  ![](img/establish_serial_connection/05.png)
 
 &nbsp;
 
@@ -37,11 +37,11 @@ Turtle Board可以通过USB-CDC（USB-Virtual Serial Poart）或UART打印调试
 - 打开提供的例程；
 - 将鼠标悬停在工程上点击右键打开 `Properties`；
 
-![](C:/Users/Administrator/Documents/Arduino/HeltecDocs/en/source/stm32/turtle_board/img/establish_serial_connection/03.png)
+![](img/establish_serial_connection/03.png)
 
 - 在宏定义中添加`USB_VCP`和`USE_DEBUGGER` ，编译并下载程序。
 
-![](C:/Users/Administrator/Documents/Arduino/HeltecDocs/en/source/stm32/turtle_board/img/establish_serial_connection/01.png)
+![](img/establish_serial_connection/01.png)
 
 - 通过Micro-USB数据线将LoRa节点连接到计算机并打开串行端口。
 
