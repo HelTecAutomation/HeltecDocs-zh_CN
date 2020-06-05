@@ -40,7 +40,7 @@
 在`global_conf.json`中确定参数:
 
 ```shell
-  nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json/global_conf.json
+  nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
 ```
 
 在`global_conf.json`的末尾，进行以下更改：
