@@ -22,7 +22,7 @@ LoRa Node 151可以通过USB-CDC(USB-Virtual Serial Poart)或UART打印调试信
 
 ![](img/establish_serial_connection/01.png)
 
-```Tip:: 使用UART时，程序中使用的TX和RX引脚应与开发板上的TX和RX引脚相对应。在我们提供的例程中，我们使用TX-PA9和RX-PA10。因此，UART模块的TX应连接到开发板的TX（PA9），UART模块的RX应连接到开发板的RX（PA10）。
+```Tip:: 使用UART时，程序中使用的TX和RX引脚应与开发板上的TX和RX引脚相对应。在我们提供的例程中，我们使用TX-PA9和RX-PA10。因此，UART模块的TX应连接到开发板的RX（PA10），UART模块的RX应连接到开发板的TX（PA9）。
 
 ```
 
