@@ -25,9 +25,9 @@
 
 ![](img/capsule_quick_start/01.png)
 
-**Heltec 传感器例程:** 传感器模块由Heltec制造； [传感器列表](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/SensorBasic/readme.md)
+**Heltec 传感器例程:** 传感器模块由Heltec制造 传感器列表: `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/SensorBasic/readme.md`
 
-**第三方传感器示例：**用于用户开发的第三方传感器模块。 [传感器列表](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Sensor_ThirdParty/readme.md)
+**第三方传感器示例：**用于用户开发的第三方传感器模块 传感器列表: `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Sensor_ThirdParty/readme.md`
 
 &nbsp;
 
