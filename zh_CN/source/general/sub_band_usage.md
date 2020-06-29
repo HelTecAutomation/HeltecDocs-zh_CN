@@ -4,7 +4,7 @@
 
 在LoRaWAN 协议中，各国或地区都有详细的规定。这些规定包括上行和下行信道频率、带宽、占空比等。
 
-**[LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+**[LoRaWAN 1.0.2 rvB 区域参数定义](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf)**
 
 以AU915为例：
 
