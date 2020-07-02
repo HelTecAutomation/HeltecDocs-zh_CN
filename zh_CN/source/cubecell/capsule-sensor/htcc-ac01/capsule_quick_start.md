@@ -6,14 +6,14 @@
 
 - 胶囊传感器本身被定位为一个小型、组装和部署的传感器。它没有编程、调试和其他接口。您需要使用[调试板](https://heltec.org/product/cubecell-capsule-Debug/)来编程和调试程序；
 - 由于储存和运输问题，电池默认不集成在胶囊内。在中国大陆的用户可以在订购时通知我们的客服，我们将提供集成电池服务。
-  - [如何在胶囊传感器内组装电池](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ac01/assemble_a_battery.html)
+  - [如何在胶囊传感器内组装电池](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.html)
 
 &nbsp;
 
 ## 准备
 - [正确安装CubeCell-Arduino开发框架](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/quick_start.html)
 - 高品质的Micro-USB数据线；
-- [将胶囊连接到调试板](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ac01/connect_capsule_to_debugger.html)；
+- [将胶囊连接到调试板](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/capsule-sensor/htcc-ac01/connect_capsule_to_debugger.html)；
 - 安装CP2102 USB-UART bridge驱动程序。
   - 在大多数情况下，Windows、Mac OS和Linux将自动识别CP2102 USB-UART bridge。如果无法正确识别，请参考[建立串行连接](https://heltec-automation.readthedocs.io/zh_CN/latest/general/establish_serial_connection.html)
 

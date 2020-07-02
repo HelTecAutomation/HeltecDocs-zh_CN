@@ -157,15 +157,15 @@ LoRaWAN参数需要重置CubeCell才能生效，CubeCell可以通过三种方法
 - 使用AT命令: `AT+RESET=1`
 - 向"RST"引脚提供≥10ms的低电平信号。
 
-查看更多的AT命令请参考**[CubeCell AT Command list](https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf)**.
+查看更多的AT命令请参考**[CubeCell AT Command list](https://resource.heltec.cn/download/CubeCell/AT_Command_list_zh-CN/CubeCell_Series_AT_Command_User_Manual_zh_CN_V0.2.pdf)**.
 
 
 
 ## 通过CubeCell Configurator
 
-特别感谢[Raystream](https://github.com/raystream)为CubeCell制作了一个配置程序，现在它只支持Windows<sup>®</sup>。
+特别感谢[WASN](https://github.com/wasn-eu)为CubeCell制作了一个配置程序，现在它只支持Windows<sup>®</sup>。
 
-[https://github.com/raystream/CubeCell_Getting_Started](https://github.com/raystream/CubeCell_Getting_Started)
+[https://github.com/wasn-eu/CubeCell_Getting_Started](https://github.com/wasn-eu/CubeCell_Getting_Started)
 
 ![](img/config_parameter/02.png)
 
