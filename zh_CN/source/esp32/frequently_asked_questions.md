@@ -8,7 +8,7 @@
 ## 无法下载固件
 
 - 使用更好的Micro-USB数据线，或更换USB底座;
-- 检查并确保CP210x驱动器已正确安装，用户可以参考以下文档：[https://docs.heltec.cn/#/en/user_manual/establish_serial_connection](https://docs.heltec.cn/#/en/user_manual/establish_serial_connection);
+- 检查并确保CP210x驱动器已正确安装，用户可以参考以下文档：[建立串行连接](https://heltec-automation.readthedocs.io/zh_CN/latest/general/establish_serial_connection.html);
 - 上传前按“PRG”按钮。
 
 &nbsp;
@@ -57,7 +57,7 @@
 4.  相同的前导码长度: `LoRa.setPreambleLength(preambleLength);`
 5.  相同的同步字: `LoRa.setSyncWord(syncWord);`
 
-了解更多关于LoRa节点间通信的信息，请参考LoRa基本库APIs: [https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md)
+了解更多关于LoRa节点间通信的信息，请参考LoRa基本库APIs: `https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md`
 
 ## 外部设备电源控制
 

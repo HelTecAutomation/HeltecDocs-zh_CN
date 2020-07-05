@@ -14,3 +14,4 @@ Wireless Shell相关文档。
 
 - `AutoCAD图 <http://resource.heltec.cn/download/Wireless_Shell/Wireless_Shell.dwg>`_;
 - `Sch_Pcb文件 <http://resource.heltec.cn/download/Wireless_Shell/wireless_shell_packages.zip>`_;
+- `Wireless Shell 参考硬件设计 <http://resource.heltec.cn/download/Wireless_Shell/wireless_shell_reference_hardware_design.pdf>`_.
