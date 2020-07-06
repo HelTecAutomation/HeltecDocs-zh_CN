@@ -1,5 +1,5 @@
-HT-M01
-======
+HT-M01评估LoRa网关
+==================
 `English <https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/index.html>`_
 
 HT-M01是一个小型网关。我们在设计它时，我们希望为用户提供一个SX1301网关，它可以快速验证通信解决方案并支持标准的LoRaWAN协议。HT-M01体积小，可以在Windows®或Linux上操作。Windows®将有一个GUI工具，对没有Linux经验的用户来说非常友好。
