@@ -81,8 +81,7 @@ cd /home/pi/lora/picolorasdk
 chmod +x install.sh
 ./install.sh
 #Run this script will create a service named "lrgateway". The purpose is to make the lora driver and data forwarding program run automatically at startup.
-sudo cp -f /home/pi/lora/picolorasdk/global_conf_CN470.json
-/home/pi/lora/picoGW_packet_forwarder/lora_pkt_fwd/global_conf.json
+sudo cp -f /home/pi/lora/picolorasdk/global_conf_CN470.json /home/pi/lora/picoGW_packet_forwarder/lora_pkt_fwd/global_conf.json
 #Put the configuration file on the specified path
 ```
 
