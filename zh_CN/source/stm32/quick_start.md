@@ -1,4 +1,4 @@
-# Heltec STM32+LoRa Series Quick Start
+# Heltec STM32+LoRa系列快速入门
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/quick_start.html)
 
 我们建议您先确认是否已安装“STM32CubeIDE”和“STM32CubeProgrammer”。如果没有安装，请安装 [STM32CubeIDE](https://www.st.com/zh/development-tools/stm32cubeide.html#get-software)和[STM32CubeProgrammer](https://www.st.com/zh/development-tools/stm32cubeprog.html) .
