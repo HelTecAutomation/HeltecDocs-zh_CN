@@ -14,7 +14,7 @@
 ### 解决办法
 
 - 将此GitHub仓库克隆或者下载下来：[https://github.com/HelTecAutomation/lorasdk](https://github.com/HelTecAutomation/lorasdk)；
-- 将其中的`global_conf_CN470.json`文件更名为**“default_global_conf_CN.json”**；
+- 将其中的`global_conf_CN470.json`文件更名为`default_global_conf_CN.json`；
 - 将`default_global_conf_CN.json`文件复制到`C:\Users\username\AppData\Roaming\Semtech\PicoGW_UI\Config`路径，若已存在同名文件，将其覆盖。
 
 若一切正常，就在`PicoGW_UI`正常选择"China"了。
