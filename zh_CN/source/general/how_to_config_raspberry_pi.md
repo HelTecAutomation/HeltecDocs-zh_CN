@@ -2,8 +2,8 @@
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/general/how_to_config_raspberry_pi.html)
 ## 1. 准备相关工具
 
-- [SD Formatter](http://119.23.153.38/download/SD_Formatter.zip) *(非必须，若需要对已有树莓派镜像的TF卡进行格式化，才需要用到这个工具)*
-- [Win32DiskImager](http://119.23.153.38/download/Win32DiskImager.zip) *(镜像烧写工具)*
+- [SD Formatter](http://resource.heltec.cn/download/tools/SD_Formatter.zip) *(非必须，若需要对已有树莓派镜像的TF卡进行格式化，才需要用到这个工具)*
+- [Win32DiskImager](http://resource.heltec.cn/download/tools/Win32DiskImager.zip) *(镜像烧写工具)*
 - [树莓派镜像文件](https://www.raspberrypi.org/downloads/raspbian) *(推荐使用“Raspbian Stretch Lite”版本，没有图形界面，更节省资源)*
 - [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (树莓派系统连接工具)
 - 4G以上的Micro TF卡，读卡器
