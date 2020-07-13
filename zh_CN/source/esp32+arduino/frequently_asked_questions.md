@@ -8,7 +8,7 @@
 ## 无法下载固件
 
 - 使用更好的Micro-USB数据线，或更换USB底座;
-- 检查并确保CP210x驱动器已正确安装，用户可以参考以下文档：[https://docs.heltec.cn/#/en/user_manual/establish_serial_connection](https://docs.heltec.cn/#/en/user_manual/establish_serial_connection);
+- 检查并确保CP210x驱动器已正确安装，用户可以参考以下文档：[https://heltec-automation.readthedocs.io/zh_CN/latest/general/establish_serial_connection.html);
 - 上传前按“PRG”按钮。
 
 &nbsp;
@@ -30,6 +30,16 @@
 - 暗淡—打开电源
 - 高亮—充电
 - 关闭—电池已充满
+
+&nbsp;
+
+## 其他通信总线用法示例
+
+- **[SPI0 / SPI1 / SPI2 / SPI3](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/SPI/examples/SPI_Multiple_Buses)**
+- **[I2C0 / I2C1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/I2C_Scanner/I2C_Scanner.ino)**
+- **[UART0 / UART1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/Serial2/Serial2.ino)**
+
+&nbsp;
 
 ## 系统一直复位
 
