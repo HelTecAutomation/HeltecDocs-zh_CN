@@ -20,9 +20,23 @@ CubeCell<sup>TM</sup>的bootloader是用于烧录和验证固件的预编程软�
 
 **USER引脚**
 
-**[Dev-Board](https://heltec.org/project/htcc-ab01/)** -- `GPIO 7`
+- Dev-Board
+  - **[HTCC-AB01](https://heltec.org/project/htcc-ab01/)** -- `GPIO 7`
+  - **[HTCC-AB02](https://heltec.org/project/htcc-ab02/)** -- `GPIO 11` or `GPIO 16`
+  - **[HTCC-AB02S](https://heltec.org/project/htcc-ab02s/)** -- `GPIO 11` or `GPIO 16`
+  - **[HTCC-AB02A](https://heltec.org/project/htcc-ab02a/)** -- `GPIO 11` or `GPIO 16`
+- Module
+  - **[HTCC-AM01](https://heltec.org/project/htcc-am01/)** -- `GPIO 0`
+  - **[HTCC-AM02](https://heltec.org/project/htcc-am02/)** -- `GPIO 11` or `GPIO 16`
 
-**[Capsule Sensor + Debug board](https://heltec.org/project/htcc-ac01/)** -- `GPIO 0`
+- Capsule Sensor
+  - **[Capsule Sensor(HTCC-AC01) + Debug board](https://heltec.org/project/htcc-ac01/)** -- `GPIO 0`
+
+```Tip:: HTCC-AB02，HTCC-AB0S和HTCC-AB02A的USER引脚可以使用GPIO11或GPIO16，但是在开发板上，USER引脚默认为GPIO16，在进入bootloader模式时，请注意不要将GPIO11拉低。
+
+```
+
+
 
 ``` Tip:: 如果始终保持&quot;USER&quot;引脚低电平（软件设置低或下拉到GND），可能导致自动引导系统不工作，用户可以手动访问bootloader模式。
 
