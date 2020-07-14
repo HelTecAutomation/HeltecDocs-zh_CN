@@ -26,9 +26,9 @@ LoRaWAN协议是所有LoRa应用的核心。我们认为，LoRaWAN最显著的�
 - 至少有8个通道的标准LoRaWAN网关（基于SX1301/8基带芯片即可），并确保您的网关已连接到LoRa服务器。
   - [怎样连接HT-M01到LoRa服务器](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/connect_to_server.html)
   - [怎样连接HT-M02到LoRa服务器](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02/index.html)
-- 一个 [CubeCell Dev-Board](https://heltec.org/project/htcc-ab01/) 或 [CubeCell-Cupsule](https://heltec.org/project/htcc-ac01/) ，一根高质量的Micro-USB数据线.
+- 一个 [CubeCell开发板](https://heltec.org/project/htcc-ab01/) 或 [CubeCell胶囊](https://heltec.org/project/htcc-ac01/) ，一根高质量的Micro-USB数据线.
 
-在这个例程中，我们在Windows<sup>®</sup> 10环境下使用 [HT-M01 Mini Gateway](https://heltec.org/project/ht-m01/) ， 测试频段: EU868,，其他工作频段相似。
+在这个例程中，我们在Windows<sup>®</sup> 10环境下使用 [HT-M01网关](https://heltec.org/project/ht-m01/) ， 测试频段: EU868,，其他工作频段相似。
 
 ### 在Arduino中运行一个例程
 
