@@ -86,7 +86,7 @@ sudo systemctl restart lrgateway
 
 ### ChirpStack网桥
 
-**有件事需要注意！**ChripStack需要一个名为`Gateway Bridge`的特殊服务，它将LoRa® Packet Forwarder协议转换为ChirpStack网络服务器[通用数据格式](https://github.com/brocaar/chirpstack-network-server/blob/master/api/gw/gw.proto) (JSON和Protobuf)。
+**有件事需要注意！** ChripStack需要一个名为`Gateway Bridge`的特殊服务，它将LoRa® Packet Forwarder协议转换为ChirpStack网络服务器通用数据格式(JSON和Protobuf)。
 
 `Gateway Bridge`服务可以在树莓派或ChirpStack服务器上运行。我们建议安装在树莓派。
 
