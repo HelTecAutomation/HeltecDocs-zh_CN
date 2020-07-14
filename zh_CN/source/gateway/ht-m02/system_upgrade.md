@@ -46,7 +46,7 @@
 
 ![](img/system_upgrade/03.png)
 
-- [建立串行连接](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m02/quick_start_poe.html#serial), 系统升级日志将通过UART打印。
+- [建立串行连接](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02/quick_start_poe.html#id6), 系统升级日志将通过UART打印。
 
 #### 升级
 
