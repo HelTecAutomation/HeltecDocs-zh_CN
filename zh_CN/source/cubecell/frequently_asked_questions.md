@@ -32,7 +32,7 @@ CubeCell<sup>TM</sup>的bootloader是用于烧录和验证固件的预编程软�
 - Capsule Sensor
   - **[Capsule Sensor(HTCC-AC01) + Debug board](https://heltec.org/project/htcc-ac01/)** -- `GPIO 0`
 
-```Tip:: HTCC-AB02，HTCC-AB0S和HTCC-AB02A的USER引脚可以使用GPIO11或GPIO16，但是在开发板上，USER引脚默认为GPIO16，在进入bootloader模式时，请注意不要将GPIO11拉低。
+```Tip:: HTCC-AB02，HTCC-AB02S和HTCC-AB02A的USER引脚可以使用GPIO11或GPIO16，但是在开发板上，USER引脚默认为GPIO16，在进入bootloader模式时，请注意不要将GPIO11拉低。
 
 ```
 

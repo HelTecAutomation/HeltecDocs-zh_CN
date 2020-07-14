@@ -3,9 +3,10 @@ SX1301模块
 `English <https://heltec-automation-docs.readthedocs.io/en/latest/gateway/sx1301module/index.html>`_
 
 SX1301 LoRa网关模块，可以与支持Linux操作系统的硬件（例如树莓派）配合使用，然后可以用作LoRa网关。
+
 -  SX1301基带芯片：
 -  SPI总线：
--  SX1255/57 digital I and Q RF Multi-PHY Mode Analog Front End.
+-  SX1255/57 数字I和Q射频多PHY模式模拟终端.
 
 .. note::
 
