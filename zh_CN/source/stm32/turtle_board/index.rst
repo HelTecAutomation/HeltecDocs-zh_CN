@@ -15,7 +15,7 @@ Turtle Board相关文档。
 相关官方资源
 ------------
 
-- Turtle Board的LoRaWAN例程请参考 `此文档 <https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html>`_ 来获取受限资源;
+- Turtle Board的LoRaWAN例程请参考 `此文档 <https://heltec-automation.readthedocs.io/zh_CN/latest/general/view_limited_technical_data.html>`_ 来获取受限资源;
 - 工厂测试固件
 
    - `470MHz <http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShuttle.FactoryTest_470.bin>`_
