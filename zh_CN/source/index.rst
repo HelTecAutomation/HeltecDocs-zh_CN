@@ -3,15 +3,18 @@ Heltec Automation文档页
 `English <https://heltec-automation-docs.readthedocs.io/en/latest/index.html>`_
 
 这些是 `Heltec Automation <https://heltec.org>`_ 产品的文档。
+
+节点
+____
    
 ==================  ==================  ==================
 |CubeCell|_         |ESP32+LoRa|_       |STM32+LoRa|_
 ------------------  ------------------  ------------------
 `CubeCell`_         `ESP32+LoRa`_       `STM32+LoRa`_
 ------------------  ------------------  ------------------
-|ESP32+Arduino|_    |ESP8266+Arduino|_  |General Docs|_
-------------------  ------------------  ------------------
-`ESP32+Arduino`_    `ESP8266+Arduino`_  `General Docs`_
+|ESP32+Arduino|_    |ESP8266+Arduino|_
+------------------  ------------------ 
+`ESP32+Arduino`_    `ESP8266+Arduino`_
 ==================  ==================  ==================
 
 .. |CubeCell| image:: img/01.png
@@ -29,9 +32,40 @@ Heltec Automation文档页
 .. |ESP8266+Arduino| image:: img/05.png
 .. _ESP8266+Arduino: esp8266+arduino/index.html
 
+
+网关
+____
+
+==================  ==================  ==================
+|HT-M01|_         
+------------------  ------------------  ------------------
+`HT-M01`_         
+------------------  ------------------  ------------------
+|HT-M02_4G|_        |HT-M02_POE|_      
+------------------  ------------------  ------------------
+`HT-M02_4G`_        `HT-M02_POE`_ 
+==================  ==================  ==================
+
+.. |HT-M01| image:: img/07.png
+.. _HT-M01: gateway/ht-m01/index.html
+
+.. |HT-M02_4G| image:: img/08.png
+.. _HT-M02_4G: gateway/ht-m02_4g/index.html
+
+.. |HT-M02_4G| image:: img/08.png
+.. _HT-M02_4G: gateway/ht-m02_4g/index.html
+
+通用文件
+________
+
+==================  ==================  ==================
+|General Docs|_
+------------------  
+`General Docs`_
+==================  ==================  ==================
+
 .. |General Docs| image:: img/06.png
 .. _General Docs: general/index.html
-
 
 .. toctree::
    :hidden:
