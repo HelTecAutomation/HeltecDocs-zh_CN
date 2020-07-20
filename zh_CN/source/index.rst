@@ -11,11 +11,11 @@ ____
 |CubeCell|_         |ESP32+LoRa|_       |STM32+LoRa|_
 ------------------  ------------------  ------------------
 `CubeCell`_         `ESP32+LoRa`_       `STM32+LoRa`_
-------------------  ------------------  ------------------
+==================  ==================  ==================
 |ESP32+Arduino|_    |ESP8266+Arduino|_
 ------------------  ------------------ 
 `ESP32+Arduino`_    `ESP8266+Arduino`_
-==================  ==================  ==================
+==================  ==================  
 
 .. |CubeCell| image:: img/01.png
 .. _CubeCell: cubecell/index.html
@@ -52,8 +52,8 @@ ____
 .. |HT-M02_4G| image:: img/08.png
 .. _HT-M02_4G: gateway/ht-m02_4g/index.html
 
-.. |HT-M02_4G| image:: img/08.png
-.. _HT-M02_4G: gateway/ht-m02_4g/index.html
+.. |HT-M02_POE| image:: img/08.png
+.. _HT-M02_POE: gateway/ht-m02_poe/index.html
 
 通用文件
 ________
