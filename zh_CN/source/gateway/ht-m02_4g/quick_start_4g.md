@@ -22,11 +22,11 @@ HT-M02集成了操作系统和LoRa相关程序，可以直接用于实际应用�
 
 - HT-M02 GND `<---->` UART-USB bridge GND
 
-![](img/quick_start_poe/06.png)
+![](img/quick_start_4g/04.png)
 
 推荐使用[Putty,](https://putty.org/) 配置如下图。 
 
-![](img/quick_start_poe/07.png)
+![](img/quick_start_4g/05.png)
 
 ## 首次通电
 

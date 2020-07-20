@@ -46,7 +46,8 @@ Heltec Automation文档页
    gateway/index
    gateway/sx1301module/index
    gateway/ht-m01/index
-   gateway/ht-m02/index
+   gateway/ht-m02_4g/index
+   gateway/ht-m02_poe/index
    常见问题 <gateway/frequently_asked_questions>
    
 .. toctree::

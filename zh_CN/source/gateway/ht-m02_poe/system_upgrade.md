@@ -21,7 +21,6 @@
 
 - 下载最新固件：[http://resource.heltec.cn/download/HT-M02/firmware](http://resource.heltec.cn/download/HT-M02/firmware)
   - [HT-M02 PoE最新固件](http://resource.heltec.cn/download/HT-M02/firmware/heltec-M02-POE-debian-v2.img)
-  - [HT-M02 4G最新固件]()
 - [Win32DiskImager](http://resource.heltec.cn/download/tools/Win32DiskImager.zip) -- 用于将固件下载到Micro TF卡的工具；
 - [SD Formatter](http://resource.heltec.cn/download/tools/SD_Formatter.zip) --不是必要的，如果你需要格式化已有镜像的TF卡，你需要这个工具；
 - 一个超过4GB大小的Micro TF卡和读卡器。

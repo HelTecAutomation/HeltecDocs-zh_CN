@@ -10,8 +10,6 @@ HT-M01 LoRa 网关支持USB和SPI模式。SPI模式只能在Linux系统(树莓�
 - **Windows<sup>®</sup>**
   - [适用于Windows<sup>®</sup>的USB模式](#windows-sup-sup-usb)
 
-对于Linux用户，我们强烈建议使用
-
 ## 在Linux(树莓派)中使用HT-M01
 
 在所有操作之前，请确保您有一个可以工作的树莓派，并且可以连接到WiFi。在这份文档中，我们使用[Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
