@@ -6,7 +6,7 @@
 - 这个库必须与[Heltec WiFi_Kit_series Arduino开发框架](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)一起运行，安装手册请参考[此文档](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/quick_start.html)；
 - 一个网关已经连接了一个LoRa服务器；
   - [连接HT-M01到LoRa服务器](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/connect_to_server.html);
-  - [连接HT-M02到LoRa服务器](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02/index.html).
+  - [连接HT-M02到LoRa服务器](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02_4g/quick_start_4g.html#lora).
 - 一个ESP32 + LoRa ([WiFi LoRa 32](https://heltec.org/project/wifi-lora-32/), [Wireless Stick](https://heltec.org/project/wireless-stick/), 等) 节点和一根高质量的Micro-USB数据线；
 - 在本例中，我们使用[HT-M01网关](https://heltec.org/project/HT-M01/)并通过Micro-USB数据线将它连接到Windows<sup>®</sup>，然后使用[WiFi LoRa 32(V2)](https://heltec.org/project/WiFi-LoRa-32/)开发板快速连接到TTN。
 
