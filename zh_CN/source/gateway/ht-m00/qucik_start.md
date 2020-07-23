@@ -1,9 +1,17 @@
 # HT-M00双通道LoRa网关快速入门
-[English]()
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html)
 
 ## 摘要
 
 HT-M00是一个小体积、低成本的双通道LoRa网关，使用Type-C接口。HT-M00网关基于ESP32驱动两个SX1276芯片。我们编写了软件混频器（基带仿真程序），以实现对125KHz SF7~SF12扩频因子的监听 。HT-M00的主要功能是为1500~2000平方米的大型房屋提供LoRaWAN网络，或弥补SX1301网关信号无法覆盖的区域中信号的盲点。
+
+```Tip:: 当使用HT-M00网关时，使用本公司CubeCell系列以外的节点，需要将节点的发射前导码长度更改为16（默认是8）。如果没有修改前导码长度为16，则只能收到SF7。
+
+```
+
+![](img/quick_start/08.png)
+
+如上图所示修改该函数中的前导码长度为16。
 
 &nbsp;
 

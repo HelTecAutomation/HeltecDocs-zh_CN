@@ -15,5 +15,6 @@ HT-M02边缘LoRa网关(POE)
     :maxdepth: 2 
     
     PoE版本快速入门 <quick_start_poe>
+    连接到LoRa服务器 <connect_to_server>
     内部LoRa服务器用户手册 <internal_server>
     系统升级 <system_upgrade>

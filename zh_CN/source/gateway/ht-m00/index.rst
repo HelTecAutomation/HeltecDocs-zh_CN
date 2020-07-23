@@ -1,6 +1,6 @@
 HT-M00双通道LoRa网关
 ====================
-`English <>`_
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/index.html>`_
 
 HT-M00是一个小体积、低成本的双通道LoRa网关，使用Type-C接口。HT-M00的主要功能是为1500~2000平方米的大型房屋提供LoRaWAN网络，或弥补SX1301网关信号无法覆盖的区域中信号的盲点。
 
@@ -22,5 +22,3 @@ HT-M00是一个小体积、低成本的双通道LoRa网关，使用Type-C接口�
     快速入门 <qucik_start>
     连接到LoRa服务器 <connect_to_server>
     
-相关官方资源
-------------

@@ -1,12 +1,12 @@
 # 将HT-M00连接到LoRa服务器
 
-[English]()
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/connect_to_server.html)
 
 ## 摘要
 
 本文旨在描述如何将[HT-M00 网关](https://heltec.org/project/ht-m00/)连接到LoRa服务器，如[TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/)，从而促进LoRa设备的二次开发和快速部署。
 
-在所有操作之前，请确保HT-M00运行良好。如果没有，请参考[HT-M00快速入门]()文档。
+在所有操作之前，请确保HT-M00运行良好。如果没有，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
 
 &nbsp;
 
@@ -49,7 +49,7 @@
 
 ### 连接TTN
 
-在HT-M00网关中，只需要配置服务器地址和端口，服务器地址和端口在"HT-M00 Config"界面配置，请参考[HT-M00快速入门]()文档。
+在HT-M00网关中，只需要配置服务器地址和端口，服务器地址和端口在"HT-M00 Config"界面配置，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
 
 不同区域的路由器地址：
 
