@@ -45,38 +45,6 @@ HT-M02集成了操作系统和LoRa相关程序，可以直接用于实际应用�
 
 ```
 
-## 连接到LoRa服务器
-
-为了连接到LoRa服务器，用户只需要在“global_conf.json”中配置“服务器地址”和“端口”：
-
-```shell
-sudo nano lora/packet_forwarder/lora_pkt_fwd/global_conf.json
-```
-
-在此文件末尾，进行适当的更改：
-
-```json
-  “server_address”: “router.eu.thethings.network”, /*The server IP address or domain*/
-  “serv_port_up”: 1700,
-  “serv_port_down”: 1700,
-```
-
-![](img/quick_start_4g/02.png)
-
-`ctrl + O` 保存， `ctrl + X`退出，重启服务：
-
-```shell
-sudo systemctl restart lrgateway
-```
-
-检查系统是否正常运行：
-
-```shell
-sudo systemctl status lrgateway
-```
-
-![](img/quick_start_4g/03.png)
-
 &nbsp;
 
 ## 相关资源

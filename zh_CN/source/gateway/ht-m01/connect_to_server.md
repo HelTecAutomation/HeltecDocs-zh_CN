@@ -2,7 +2,7 @@
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)
 ## 摘要
 
-本文旨在描述如何将[HT-M01 网关](https://heltec.org/project/ht-m01)连接到LoRa服务器，如[TTN](https://www.thethingsnetwork.org/), [ChripStack](https://www.chirpstack.io/)，从而促进LoRa设备的二次开发和快速部署。
+本文旨在描述如何将[HT-M01 网关](https://heltec.org/project/ht-m01)连接到LoRa服务器，如[TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/)，从而促进LoRa设备的二次开发和快速部署。
 
 在所有操作之前，请确保HT-M01在树莓派(Linux)或Windows计算机上运行良好。如果没有，请参阅[HT-M01快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/qucik_start.html)文档。
 
@@ -18,10 +18,10 @@
 
 ![](img/connect_to_server/02.png)
 
-- **Gateway EUI** -- The unique ID of HT-M01 gateway;
-- **I'm using the legacy packet forwarder** -- Must select this;
-- **Frequency Plan** -- Must matach the LoRa band configuration (`global_conf.json`) in HT-M01.
-- **Router** -- Must use the default router allocated by TTN system.
+- **Gateway EUI** -- HT-M01网关的唯一ID;
+- **I'm using the legacy packet forwarder** -- 必须选择;
+- **Frequency Plan** -- 必须匹配HT-M01中的LoRa频段配置（`global_conf.json`）；
+- **Router** -- 必须使用TTN系统分配的默认Router.
 
 ``` Tip:: 这四点是成功连接TTN的关键。
 
@@ -77,16 +77,16 @@ sudo systemctl restart lrgateway
 
 &nbsp;
 
-## 连接到ChripStack服务器
+## 连接到ChirpStack服务器
 
-[ChripStack](https://www.chirpstack.io/) 是目前最流行的LoRa服务器开源项目，广泛应用于许多领域，也是私有LoRa服务器的最佳选择。
+[ChirpStack](https://www.chirpstack.io/) 是目前最流行的LoRa服务器开源项目，广泛应用于许多领域，也是私有LoRa服务器的最佳选择。
 
-- ChripStack 安装指南: [https://www.chirpstack.io/overview/](https://www.chirpstack.io/overview/)
-- ChripStack 支持论坛: [https://forum.chirpstack.io/](https://forum.chirpstack.io/)
+- ChirpStack 安装指南: [https://www.chirpstack.io/overview/](https://www.chirpstack.io/overview/)
+- ChirpStack 支持论坛: [https://forum.chirpstack.io/](https://forum.chirpstack.io/)
 
 ### ChirpStack网桥
 
-**有件事需要注意！** ChripStack需要一个名为`Gateway Bridge`的特殊服务，它将LoRa® Packet Forwarder协议转换为ChirpStack网络服务器通用数据格式(JSON和Protobuf)。
+**有件事需要注意！** ChirpStack需要一个名为`Gateway Bridge`的特殊服务，它将LoRa® Packet Forwarder协议转换为ChirpStack网络服务器通用数据格式(JSON和Protobuf)。
 
 `Gateway Bridge`服务可以在树莓派或ChirpStack服务器上运行。我们建议安装在树莓派。
 
@@ -98,7 +98,7 @@ sudo systemctl restart lrgateway
 sudo systemctl start chirpstack-gateway-bridge
 ```
 
-### 连接ChripStack
+### 连接ChirpStack
 
 修改`global_conf.json`文件参数:
 
