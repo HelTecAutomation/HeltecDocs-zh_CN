@@ -35,7 +35,7 @@
 
 ### 连接TTN
 
-在HT-M00网关中，只需要配置服务器地址和端口，服务器地址和端口在"HT-M00 Config"界面配置，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
+在HT-M00网关中，需要配置服务器地址、端口、通道。服务器地址、端口及通道在"HT-M00 Config"界面配置，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
 
 ![](img/connect_to_server/01.png)
 
@@ -76,7 +76,7 @@
 
 ### 连接ChirpStack服务器
 
-在HT-M00网关中，只需要配置服务器地址和端口，服务器地址和端口在"HT-M00 Config"界面配置，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
+在HT-M00网关中，需要配置服务器地址、端口、通道。服务器地址、端口及通道在"HT-M00 Config"界面配置，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
 
 ![](img/connect_to_server/01.png)
 
@@ -98,7 +98,7 @@
 
 ### 连接HelTec服务器
 
-在HT-M00网关中，只需要配置服务器地址和端口，服务器地址和端口在"HT-M00 Config"界面配置，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
+在HT-M00网关中，需要配置服务器地址、端口、通道。服务器地址、端口及通道在"HT-M00 Config"界面配置，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
 
 ![](img/connect_to_server/01.png)
 

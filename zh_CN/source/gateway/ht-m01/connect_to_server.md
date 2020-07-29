@@ -32,7 +32,7 @@
 
 ### 连接TTN
 
-在HT-M01网关中，只需要配置服务器地址和端口。
+在HT-M01网关中，需要配置网关ID、服务器地址和端口。
 
 不同区域的路由器地址：
 
@@ -111,7 +111,7 @@ sudo systemctl start chirpstack-gateway-bridge
 
 ### 连接ChirpStack服务器
 
-在HT-M01网关中，仅需要配置服务器地址和端口。
+在HT-M01网关中，需要配置网关ID、服务器地址和端口。
 
 #### Linux(树莓派)中的HT-M01
 
@@ -165,7 +165,7 @@ sudo systemctl restart lrgateway
 
 ### 连接HelTec服务器
 
-在HT-M01网关中，只需要配置服务器地址和端口。
+在HT-M01网关中，需要配置网关ID、服务器地址和端口。
 
 不同区域的服务器地址：
 
