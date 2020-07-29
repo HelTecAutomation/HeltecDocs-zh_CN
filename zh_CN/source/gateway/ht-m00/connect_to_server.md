@@ -10,20 +10,6 @@
 
 &nbsp;
 
-将HT-M00网关连接到LoRa服务器，只需在将HT-M00配置完成后，在服务器上添加相应网关。
-
-- 在配置HT-M00时。应注意"SERVER ADDR"与服务器地址一致。在服务器中新建网关时，应注意”Gateway ID“与HT-M00的网关ID一致。
-
-![](img/connect_to_server/01.png)
-
-```Tip:: 每个HT-M00网关的网关ID是不同的，且不可更改。
-
-```
-
-
-
-&nbsp;
-
 ## 连接到TTN
 
 ### 在TTN中注册LoRa网关
@@ -36,7 +22,7 @@
 
 ![](img/connect_to_server/03.png)
 
-- **Gateway EUI** -- HT-M00网关的唯一ID;
+- **Gateway EUI** -- HT-M00网关的唯一ID，从HT-M00的显示屏上查看;
 - **I'm using the legacy packet forwarder** -- 必须选择;
 - **Frequency Plan** -- 必须匹配HT-M00中的LoRa频段；
 - **Router** -- 必须使用TTN系统分配的默认Router.
@@ -50,6 +36,8 @@
 ### 连接TTN
 
 在HT-M00网关中，只需要配置服务器地址和端口，服务器地址和端口在"HT-M00 Config"界面配置，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
+
+![](img/connect_to_server/01.png)
 
 不同区域的路由器地址：
 
@@ -86,6 +74,12 @@
 
 - **Gateway ID** -- HT-M00网关的唯一ID，从HT-M00的显示屏上查看。
 
+### 连接ChirpStack服务器
+
+在HT-M00网关中，只需要配置服务器地址和端口，服务器地址和端口在"HT-M00 Config"界面配置，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
+
+![](img/connect_to_server/01.png)
+
 查看网关状态，它正在运行：
 
 ![](img/connect_to_server/07.png)
@@ -94,4 +88,32 @@
 
 ## 连接到HelTec服务器
 
-即将上线。
+### 在HelTec Cloud Server中注册LoRa网关
+
+如下图所示填写HT-M00信息并完成添加。
+
+![](img/connect_to_server/09.png)
+
+- **Gateway ID** -- HT-M00网关的唯一ID，从HT-M00的显示屏上查看。
+
+### 连接HelTec服务器
+
+在HT-M00网关中，只需要配置服务器地址和端口，服务器地址和端口在"HT-M00 Config"界面配置，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
+
+![](img/connect_to_server/01.png)
+
+不同区域对应服务器地址如下:
+
+`CN470` --  `cn01.cloud.heltec.cn`
+
+`EU868` --  `eu01.cloud.heltec.org`
+
+`US915` --  `us01.cloud.heltec.org`
+
+`AU915` --  `au01.cloud.heltec.org`
+
+`AS923` --  `as01.cloud.heltec.org`
+
+查看网关状态，它正在运行：
+
+![](img/connect_to_server/11.png)

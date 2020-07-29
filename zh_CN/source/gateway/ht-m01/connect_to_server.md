@@ -1,10 +1,13 @@
 # 将HT-M01连接到LoRa服务器
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)
+
 ## 摘要
 
 本文旨在描述如何将[HT-M01 网关](https://heltec.org/project/ht-m01)连接到LoRa服务器，如[TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/)，从而促进LoRa设备的二次开发和快速部署。
 
 在所有操作之前，请确保HT-M01在树莓派(Linux)或Windows计算机上运行良好。如果没有，请参阅[HT-M01快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/qucik_start.html)文档。
+
+&nbsp;
 
 ## 连接到TTN
 
@@ -27,13 +30,15 @@
 
 ```
 
-
-
 ### 连接TTN
 
-在HT-M01网关中，只需要配置服务器地址和端口。不同区域的路由器地址：
+在HT-M01网关中，只需要配置服务器地址和端口。
+
+不同区域的路由器地址：
 
 [https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-udp.html#router-addresses](https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-udp.html#router-addresses)
+
+![](img/connect_to_server/08.png)
 
 #### Linux(树莓派)中的HT-M01
 
@@ -43,12 +48,12 @@
   nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
 ```
 
-在`global_conf.json`的末尾，进行以下更改：
+配置网关ID、服务器地址、端口。在`global_conf.json`的末尾，进行以下更改：
 
 
   ```json
   “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
-  “server_address”: “router.eu.thethings.network”, /*The router addresses need matach your region*/
+  “server_address”: “router.cn.thethings.network”, /*The router addresses need matach your region*/
   “serv_port_up”: 1700,
   “serv_port_down”: 1700,
   ```
@@ -69,9 +74,7 @@ sudo systemctl restart lrgateway
 
 ![](img/connect_to_server/05.png)
 
-&nbsp;
-
-现在回到TTN，它正在运行：
+查看网关状态，它正在运行：
 
 ![](img/connect_to_server/04.png)
 
@@ -98,36 +101,118 @@ sudo systemctl restart lrgateway
 sudo systemctl start chirpstack-gateway-bridge
 ```
 
-### 连接ChirpStack
+### 在ChirpStack中注册LoRa网关
 
-修改`global_conf.json`文件参数:
+如下图所示填写HT-M01信息并完成添加。
+
+![](img/connect_to_server/09.png)
+
+- **Gateway ID** -- HT-M01网关的唯一ID。
+
+### 连接ChirpStack服务器
+
+在HT-M01网关中，仅需要配置服务器地址和端口。
+
+#### Linux(树莓派)中的HT-M01
+
+在`global_conf.json`中确定参数:
 
 ```shell
-  sudo nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json/global_conf.json
+  nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
 ```
 
-在`global_conf.json`的末尾，进行以下更改：
+配置网关ID、服务器地址、端口。在`global_conf.json`的末尾，进行以下更改：
 
-```json
+
+  ```json
   “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
-/*
-   - If the ChirpStack Gateway Bridge runing on Raspberry Pi, server_address should be "localhost";
-   - If the ChirpStack Gateway Bridge runing on Raspberry Pi, server_address should be the ChirpStack's IP address.
-*/
-  “server_address”: “localhost”,
+  “server_address”: “router.eu.thethings.network”, /*The router addresses need matach your region*/
   “serv_port_up”: 1700,
   “serv_port_down”: 1700,
-```
+  ```
 
-`ctrl + O`保存， `ctrl + X` 退出，在树莓派中重启服务:
+`ctrl + O` 保存， `ctrl + X` 退出，在树莓派中重启服务:
 
 ```shell
 sudo systemctl restart lrgateway
 ```
 
-&nbsp;
+#### Windows中的HT-M01
 
-现在回到ChirpStack server, 它正在运行。
+填写正确的`ID`、 `server address`,保持 `Port` 默认值1700
+
+![](img/connect_to_server/07.png)
+
+点击`OK`， 然后点击 `Start Packet Forwarder`。
+
+![](img/connect_to_server/05.png)
+
+查看网关状态，它正在运行。
 
 ![](img/connect_to_server/06.png)
 
+&nbsp;
+
+## 连接到HelTec服务器
+
+### 在HelTec Cloud Server中注册LoRa网关
+
+如下图所示填写HT-M01信息并完成添加。
+
+![](img/connect_to_server/10.png)
+
+- **Gateway ID** -- HT-M01网关的唯一ID。
+
+### 连接HelTec服务器
+
+在HT-M01网关中，只需要配置服务器地址和端口。
+
+不同区域的服务器地址：
+
+`CN470` --  `cn01.cloud.heltec.cn`
+
+`EU868` --  `eu01.cloud.heltec.org`
+
+`US915` --  `us01.cloud.heltec.org`
+
+`AU915` --  `au01.cloud.heltec.org`
+
+`AS923` --  `as01.cloud.heltec.org`
+
+#### Linux(树莓派)中的HT-M01
+
+在`global_conf.json`中确定参数:  
+
+```shell
+  nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
+```
+
+设置网关ID，服务器地址，端口。在`global_conf.json`的末尾，进行以下更改：
+
+
+  ```json
+  “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
+  “server_address”: “cn01.cloud.heltec.cn”, /*The router addresses need matach your region*/
+  “serv_port_up”: 1700,
+  “serv_port_down”: 1700,
+  ```
+
+`ctrl + O` 保存， `ctrl + X` 退出，在树莓派中重启服务:
+
+```shell
+sudo systemctl restart lrgateway
+```
+
+#### Windows中的HT-M01
+
+填写正确的`ID`、 `server address`, 保持 `Port` 默认值1700
+
+![](img/connect_to_server/12.png)
+
+点击`OK`， 然后点击 `Start Packet Forwarder`。
+
+![](img/connect_to_server/05.png)
+
+查看网关状态，它正在运行：
+
+![](img/connect_to_server/11.png)
