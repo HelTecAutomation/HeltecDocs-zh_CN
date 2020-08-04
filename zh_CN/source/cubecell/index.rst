@@ -24,7 +24,7 @@
     
     快速入门 <quick_start>
     LoRaWAN <lorawan/index>
-    AT命令列表 <https://resource.heltec.cn/download/CubeCell/AT_Command_list_zh-CN/CubeCell_Series_AT_Command_User_Manual_zh_CN_V0.4.pdf>  
+    AT命令列表 <https://resource.heltec.cn/download/CubeCell/AT_Command_list_zh-CN/CubeCell_Series_AT_Command_User_Manual_zh_CN_V0.5.pdf>  
     CubeCell开发板 <dev-board/index>
     CubeCell胶囊传感器 <capsule-sensor/index>
     CubeCell模块 <module/index>
