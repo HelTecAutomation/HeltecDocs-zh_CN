@@ -89,7 +89,6 @@ AT+ChipID=?
 
 ![](img/view_limited_technical_data/07.png)
 
-或者通过这个示例代码:
+或者通过[Get ChipID](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino)示例代码:
 
-[https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino)
-
+![](img/view_limited_technical_data/08.png)

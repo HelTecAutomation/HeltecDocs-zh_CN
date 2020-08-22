@@ -58,8 +58,6 @@ LoRaWAN协议是所有LoRa应用的核心。我们认为，LoRaWAN最显著的�
 
 正确配置CubeCell的LoRaWAN参数，请参考[这篇文档](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/lorawan/config_parameter.html)。如果一切顺利，我们将能够看到设备的“DEVICE OVERVIEW”。
 
-
-
 ![](img/connect_to_server/10.png)
 
 &nbsp;
@@ -67,6 +65,32 @@ LoRaWAN协议是所有LoRa应用的核心。我们认为，LoRaWAN最显著的�
 ## 连接到ChirpStack
 
 即将上线。
+
+&nbsp;
+
+## 连接到HelTec服务器
+
+在此之前，请确保您的HelTec帐户中有一个激活的LoRa网关。
+
+### 注册设备
+
+在"Apps"中选择"AppsCreate"新建应用，填入相应的信息后点击"CREATE APPLICATION"完成应用创建。
+
+![](img/connect_to_server/11.png)
+
+在"AppsList"中选择新建的应用，在应用中新建设备。
+
+![](img/connect_to_server/12.png)
+
+配置节点设备的"Device EUI", "App Key"相关参数，用户需确保CubeCell中的参数与服务器中配置的一致。
+
+![](img/connect_to_server/13.png)
+
+![](img/connect_to_server/14.png)
+
+正确配置CubeCell的LoRaWAN参数，请参考[这篇文档](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/lorawan/config_parameter.html)。如果一切顺利，我们将能够看到设备的状态。
+
+![](img/connect_to_server/15.png)
 
 &nbsp;
 

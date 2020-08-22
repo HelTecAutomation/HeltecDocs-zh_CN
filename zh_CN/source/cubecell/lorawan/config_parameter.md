@@ -1,5 +1,6 @@
 # CubeCell配置LoRaWAN网络参数（Dev EUI、App Key等）
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/config_parameter.html)
+
 ## 摘要
 
 无论使用何种LoRa管理平台，都需要DevEui、AppKey等参数。并确保它与服务器上的相关设置一致。
@@ -7,11 +8,11 @@
 - -**以下参数对于OTAA模式至关重要：**
   - [DevEui](#deveui) -- Mote device IEEE EUI (big endian), 8 bytes;
   - [AppEui](#appeui) -- Application IEEE EUI (big endian), 8 bytes;
-  - [AppKey](appkey) -- AES encryption/decryption cipher application key, 16 bytes;
+  - [AppKey](#appkey) -- AES encryption/decryption cipher application key, 16 bytes;
 - **以下参数对于ABP模式至关重要：**
-  - [NwkSKey](nwkskey) -- AES encryption/decryption cipher network session key, 16 bytes;
-  - [AppSKey](appskey) -- AES encryption/decryption cipher application session key, 16 bytes;
-  - [DevAddr](devaddr) -- Device address on the network (big endian), uint32_t;
+  - [NwkSKey](#nwkskey) -- AES encryption/decryption cipher network session key, 16 bytes;
+  - [AppSKey](#appskey) -- AES encryption/decryption cipher application session key, 16 bytes;
+  - [DevAddr](#devaddr) -- Device address on the network (big endian), uint32_t;
 
 ``` Tip:: 这有配置LoRaWAN网络参数的三种方法，请选择其中一种。
 
@@ -21,15 +22,21 @@
 - [通过AT命令](#at)
 - [通过CubeCell Configurator](#cubecell-configurator)
 
+```Tip:: 频段等参数需在"工具"中修改
+
+```
+
+![](img/config_parameter/04.png)
+
 &nbsp;
 
-## 通过修改源代码参数
+## 通过修改代码参数
 
-LoRaWAN网络相关参数在以下头文件：
+LoRaWAN网络相关参数在相应的`.ino`文件中修改：
 
-`ASR650X-ARDUINO/libraries/LoRa/src/Commissioning.h`
+![](img/config_parameter/03.png)
 
-更改源代码并再次编译/上载。
+更改代码并再次编译/上载。
 
 &nbsp;
 
@@ -147,7 +154,7 @@ LoRaWAN网络相关参数在以下头文件：
 
 LoRa节点的默认发送数据周期为15秒，将此周期更改为60秒：
 
-`AT+DutyCycle=6000`
+`AT+DutyCycle=60000`
 
 ### 重置CubeCell
 

@@ -29,6 +29,32 @@
 
 &nbsp;
 
+## 连接到HelTec服务器
+
+在此之前，请确保您的HelTec帐户中有一个激活的LoRa网关。
+
+### 注册设备
+
+在"Apps"中选择"AppsCreate"新建应用，填入相应的信息后点击"CREATE APPLICATION"完成应用创建。
+
+![](img/connect_to_gateway/04.png)
+
+在"AppsList"中选择新建的应用，在应用中新建设备。
+
+![](img/connect_to_gateway/05.png)
+
+配置节点设备的"Device EUI", "App Key"相关参数，用户需确保STM32LoRa节点中的参数与服务器中配置的一致。
+
+![](img/connect_to_gateway/06.png)
+
+![](img/connect_to_gateway/07.png)
+
+正确配置STM32LoRa节点的LoRaWAN参数，请参考[这篇文档](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lorawan/config_parameter.html)。如果一切顺利，我们将能够看到设备的状态。
+
+![](img/connect_to_gateway/08.png)
+
+&nbsp;
+
 ## 重要提示
 
 请仔细检查以下两件事：
