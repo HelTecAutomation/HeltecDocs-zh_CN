@@ -4,3 +4,6 @@
 
 [heltec-automation.readthedocs.io](https://heltec-automation.readthedocs.io/)
 
+
+
+每次“push”或“pull”请求将花费几分钟的时间来构建。
