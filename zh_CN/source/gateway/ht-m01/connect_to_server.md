@@ -93,7 +93,20 @@ sudo systemctl restart lrgateway
 
 `Gateway Bridge`服务可以在树莓派或ChirpStack服务器上运行。我们建议安装在树莓派。
 
-安装 ChirpStack Gateway Bridge: [https://www.chirpstack.io/gateway-bridge/install/debian/](https://www.chirpstack.io/gateway-bridge/install/debian/)
+安装LoRa-gateway-bridge:
+
+```shell
+wget https://artifacts.loraserver.io/downloads/lora-gateway-bridge/lora-gatewaybridge_2.5.1_armhf.deb
+#下载支持Raspberry Pi Zero_W版本的LoRa-gateway-bridge软件包
+dpkg -i lora-gateway-bridge_2.5.1_armhf.deb
+#安装LoRa-gateway-bridge
+sudo systemctl start lora-gateway-bridge
+#启动LoRa-gateway-bridge
+sudo systemctl enable lora-gateway-bridge
+#将LoRa-gateway-bridge设置为开机启动
+```
+
+安装 ChirpStack Gateway Bridge可以参考 [https://www.chirpstack.io/gateway-bridge/install/debian](https://www.chirpstack.io/gateway-bridge/install/debian)
 
 启动 ChirpStack Gateway Bridge:
 
