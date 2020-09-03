@@ -18,13 +18,13 @@ CubeCell系列可参考"LoRaWAN",ESP32系列可参考"OTTA"。
 
 ![](img/sub-band_usage/02.png)	
 
-这是为AU915定义的所有LoRaWAN 协议通道的6个阵列。在channelsMaskTemp[0]中，0x00FF表示使用前0-7个信道，它们是915.2MHz、915.4MHz、915.6MHz…916.6MHz。当您将该值设置为0xFF00时，意味着通道更改为8-15，它们是916.8MHz、917.0MHz…918.2MHz。更多细节......见下图：
+这是为AU915定义的所有LoRaWAN 协议通道的6个阵列。在userChannelsMask[0]中，0x00FF表示使用前0-7个信道，它们是915.2MHz、915.4MHz、915.6MHz…916.6MHz。当您将该值设置为0xFF00时，意味着通道更改为8-15，它们是916.8MHz、917.0MHz…918.2MHz。更多细节......见下图：
 
 ![](img/sub-band_usage/03.png)
 
 TTN仅对AU915使用第二子带（信道8至15和65）：
 
-https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html
+[https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html](https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html)
 
 ![](img/sub-band_usage/04.png)
 
