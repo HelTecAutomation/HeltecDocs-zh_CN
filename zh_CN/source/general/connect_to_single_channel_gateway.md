@@ -5,6 +5,8 @@
 
 本文旨在描述如何将节点连接到单通道网关，为保证节点与单通道网关通信良好，需使节点使用的通道与单通道网关的通道相对应。本文档以CN470为例。
 
+更多频段可参考[LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf)。
+
 ```Tip:: 如果节点通道多于网关通道且将网关通道包含在内，那么只有当节点通道与网关通道匹配时才能入网，如果节点通道不包含网关通道，那么节点不能入网。
 
 ```
