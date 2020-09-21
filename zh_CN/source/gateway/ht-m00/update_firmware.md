@@ -1,5 +1,5 @@
 # HT-M00固件升级
-
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/update_firmware.html)
 
 ## 摘要
 
