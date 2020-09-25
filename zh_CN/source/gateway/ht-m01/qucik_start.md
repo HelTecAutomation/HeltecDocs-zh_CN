@@ -57,7 +57,7 @@ chmod +x install.sh
 ./install.sh
 #Run the script. After the script is run, it will create a service named "lrgateway". The purpose is to make the lora driver and data forwarding program run automatically at startup.
 sudo cp -f /home/pi/lora/lorasdk/global_conf_CN470.json /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
-#the "global_conf_EU868.json" may need change to your need.
+#the "global_conf_CN470.json" may need change to your need.
 ```
 
 其中"global_conf_CN470.json"可替换为"global_conf_EU433.json"，"global_conf_EU868.json"，"global_conf_US915.json"等，分别对应相应频段。
