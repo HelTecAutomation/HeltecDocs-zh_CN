@@ -18,3 +18,16 @@
 - 将`default_global_conf_CN.json`文件复制到`C:\Users\username\AppData\Roaming\Semtech\PicoGW_UI\Config`路径，若已存在同名文件，将其覆盖。
 
 若一切正常，就在`PicoGW_UI`正常选择"China"了。
+
+&nbsp;
+
+## HT-M02更改频段
+
+要更改HT-M02网关频段，只需执行以下命令。
+
+```shell
+sudo cp -f /home/debian/lora/lorasdk/lora_conf_CN470.json /home/debian/lora/packet_forwarder/lora_pkt_fwd/lora_conf.json
+```
+
+其中"lora_conf_CN470.json"可替换为"lora_conf_EU433.json"，"lora_conf_EU868.json"，"lora_conf_US915.json"，分别对应相应频段。
+
