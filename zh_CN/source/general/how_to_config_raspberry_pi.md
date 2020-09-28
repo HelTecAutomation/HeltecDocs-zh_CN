@@ -44,12 +44,14 @@
 
 在它的末尾添加WIFI的配置信息：
 
-`network={`
-  `ssid="你的WiFi名字"`
-  `psk="你的WIFI密码"`
-`}`
+```shell
+network={
+  ssid="你的WiFi名字"
+  psk="你的WIFI密码"
+}
+```
 
-`ctrl + O`保存，`ctrl + X`退出。运行指令`wpa_cli -i wlan0 reconfigure`或重启树莓派，如果一切正常，树莓派在重启之后将自动连接到相应的WiFi，并会在启动日志中打印IP地址。
+`ctrl + O`保存，`ctrl + X`退出。重启树莓派，如果一切正常，树莓派在重启之后将自动连接到相应的WiFi，并会在启动日志中打印IP地址。
 
 ![](img/how_to_config_raspberry_pi/05.png)
 
