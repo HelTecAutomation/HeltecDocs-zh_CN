@@ -7,9 +7,9 @@
 - 首次发布
 - 2017-6-1 公开销售
 
-- [V1引脚图](http://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Diagram(new).pdf)
+- [V1引脚图](https://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Pinout_Diagram(new).pdf)
 
-- [V1原理图](http://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Schematic_diagram.PDF)
+- [V1原理图](https://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Schematic_diagram.PDF)
 
 
 
