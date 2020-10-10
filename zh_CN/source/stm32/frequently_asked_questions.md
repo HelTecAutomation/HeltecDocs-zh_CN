@@ -10,13 +10,23 @@
 - 使用Micro-USB数据线。
   - 使用质量更好的Micro-USB数据线或者更换Micro-USB底座；
   - 正确进入DFU模式。
+  
 - 使用ST-LINK。
+  
   - 确保开发板正确连接到ST-LINK。
+  - 关于使用ST-LINK无法下载固件的解决方案(这个方法主要针对Node151):
+  
+  如图所示: 正常进行1的步骤 -> 在继续执行第二步之前，先按住RST键不要松开-> 进行第二步, 释放RST键.
+  
+  <img src="img/frequently_asked_questions/01.png" style="zoom:45%;" />
+  
+  造成这种情况的原因是：为了实现**极致低功耗**，我们禁用了大多数通常不使用的引脚。
 
-请参考下列文档:
 
-- [LoRa Node 151下载固件](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lora_node_151/download_firmware.html)；
--  [Turtle Board下载固件](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/turtle_board/download_firmware.html)。
+
+* 固件的下载方法:
+  * [LoRa Node 151下载固件](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lora_node_151/download_firmware.html)；
+  * [Turtle Board下载固件](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/turtle_board/download_firmware.html)。
 
 ## 串口无输出
 
