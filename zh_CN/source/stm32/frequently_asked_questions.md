@@ -18,7 +18,7 @@
   
   如图所示: 正常进行1的步骤 -> 在继续执行第二步之前，先按住RST键不要松开-> 进行第二步, 释放RST键.
   
-  <img src="img/frequently_asked_questions/01.png" style="zoom:45%;" />
+  ![](img/frequently_asked_questions/01.png)
   
   造成这种情况的原因是：为了实现**极致低功耗**，我们禁用了大多数通常不使用的引脚。
 
