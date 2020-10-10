@@ -41,6 +41,8 @@
 
 修改完成后双击运行"M00.bat"，完成网关固件烧录。
 
+M00重新刷新固件后串口打印显示没有激活的情况。请参考这篇帖子:http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676/3
+
 ```Tip:: 此固件版本为V1.2，可根据"固件升级"方法对固件进行升级。
 
 ```
