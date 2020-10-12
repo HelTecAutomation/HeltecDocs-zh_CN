@@ -11,6 +11,7 @@
    建立串行连接 <establish_serial_connection>
    LoRaWAN子频带使用示例 <sub_band_usage>
    订阅MQTT消息 <subscribe_mqtt_messages>
+   发布MQTT消息 <publish_mqtt_message>
    解码LoRaWAN有效载荷 <decode_payload>
    怎样配置树莓派 <how_to_config_raspberry_pi>
    获取受限的技术资源 <view_limited_technical_data>
