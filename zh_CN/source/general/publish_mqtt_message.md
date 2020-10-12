@@ -1,5 +1,5 @@
 # 发布MQTT消息
-[English]()
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/publish_mqtt_message.html)
 
 在操作以前，应确保已经连接网关和节点，并且网关和节点能正常工作。
 
