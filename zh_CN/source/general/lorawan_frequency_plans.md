@@ -4,7 +4,7 @@
 
 ## 摘要
 
-这是LoRaWAN频率计划的列表。 这些频率计划基于LoRaWAN区域参数文档中指定的内容。 要了解您所在国家/地区使用的频率计划，请参阅[按国家/地区列表列出的频率计划]()。
+这是LoRaWAN频率计划的列表。 这些频率计划基于LoRaWAN区域参数文档中指定的内容。 要了解您所在国家/地区使用的频率计划，请参阅[按国家/地区列表列出的频率计划](https://heltec-automation.readthedocs.io/zh_CN/latest/general/lorawan_frequency_plans_by_country.html)。
 
 &nbsp;
 
