@@ -151,6 +151,8 @@ Heltec Automation文档页
    怎样安装Git和Arduino <general/how_to_install_git_and_arduino>
    建立串行连接 <general/establish_serial_connection>
    LoRaWAN子频带使用示例 <general/sub_band_usage>
+   LORaWAN频率计划 <general/lorawan_frequency_plans>
+   各国的LoRaWAN频率计划和法规 <general/lorawan_frequency_plans_by_country>
    订阅MQTT消息 <general/subscribe_mqtt_messages>
    发布MQTT消息 <general/publish_mqtt_message>
    解码LoRaWAN有效载荷 <general/decode_payload>
