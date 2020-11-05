@@ -55,4 +55,4 @@ CN470对应于从470.3MHz到489.3MHz的总共96个通道。 每增加200kHz频�
 
 ## 相关资源
 
-- [固定前导码长度以适应HT-M00双通道网关](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/frequently_asked_questions.html#fix-preamble-length-to-fit-ht-m00-dual-channel-gateway)
+- [固定前导码长度以适应HT-M00双通道网关](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/frequently_asked_questions.html#ht-m00)
