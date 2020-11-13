@@ -66,7 +66,7 @@ Heltec ASR650x 系列 (ASR6501&ASR6502)的框架源码:
 - **LORAWAN_CLASS** -- 现在支持Class A 和 Class C；
 - **LORAWAN_DEVEUI** -- LoRaWAN参数`DevEUI`的来源
   - `CUSTOM -- 使用.ino文件中devEui数组中定义的值，可以是任何值，但可能与其他序列号冲突.`
-  - `Generate by ChipID -- 根据ASR650x的唯一芯片ID生成`
+  - `Generate by ChipID -- 根据ASR650x的唯一芯片ID生成.
 - **LORAWAN_NETMODE** -- OTAA or ABP；
 - **LORAWAN_ADR** -- ON or OFF     ADR (自适应数据速率);
 - **LORAWAN_Net_Reservation** -- 这是LoRaWAN协议之外的功能，仅在OTAA模式下有效。如果启用此选项，则系统复位时不需要再次加入。智能路灯等项目可能有用；
