@@ -28,7 +28,7 @@ CubeCell系列可参考"LoRaWAN",ESP32系列可参考"OTTA"。
 
 ![](img/connect_to_gateway/02.png)
 
-这是为CN470定义的所有LoRaWAN 协议通道的6个阵列。在userChannelsMask[0]中，0x00FF表示使用前0-7个通道，它们是470.3MHz、470..5MHz、470.7MHz…471.7MHz。将十六进制FF转换为二进制是11111111，8个1从低位到高位分别对应前0-7个通道，即最后一个1对应通道0，第一个1对应通道7。当您修改"userChannelsMask[0]=0x0001"时，意味着通道更改为0，它是470.3MHz；修改"userChannelsMask[0]=0x8000"时，意味着通道更改为7，它是471.7MHz。当修改"userChannelsMask[0]=0xFF00"时，意味着通道更改为8-15，它们是471.9MHz、472.1MHz、472.3MHz...473.3MHz。
+这是为CN470定义的所有LoRaWAN 协议通道的6个阵列。在userChannelsMask[0]中，0x00FF表示使用前0-7个通道，它们是470.3MHz、470..5MHz、470.7MHz…471.7MHz。将十六进制FF转换为二进制是11111111，8个1从低位到高位分别对应前0-7个通道，即最后一个1对应通道0，第一个1对应通道7。当您修改"userChannelsMask[0]=0x0001"时，意味着通道更改为0，它是470.3MHz；修改"userChannelsMask[0]=0x0080"时，意味着通道更改为7，它是471.7MHz。当修改"userChannelsMask[0]=0xFF00"时，意味着通道更改为8-15，它们是471.9MHz、472.1MHz、472.3MHz...473.3MHz。
 
 &nbsp;
 
