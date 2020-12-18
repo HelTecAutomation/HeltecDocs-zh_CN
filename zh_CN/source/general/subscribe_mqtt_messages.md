@@ -24,7 +24,7 @@
 
 在简单的python示例中，需要根据您的实际情况修改三个红色框中的内容：
 
-![](img\subscribe_mqtt_messages\01.png)
+![](img/subscribe_mqtt_messages/01.png)
 
 - `username_pw_set` -- MQTT订阅的用户名和密码。
   - 对于HT-M02 PoE Edge LoRa网关，默认用户名为“ loraroot”，密码为“ 62374838”。
@@ -36,7 +36,7 @@
 
 `python3 mqtt-receiver.py` 	
 
-![](img\subscribe_mqtt_messages\02.png)
+![](img/subscribe_mqtt_messages/02.png)
 
 如果该示例无法正确运行，则可能缺少相关组件，请通过以下命令进行安装。
 
@@ -46,20 +46,20 @@
 
 网上有许多有用的MQTT订阅和推送软件。 本文以[MQTT.fx](https://mqttfx.jensd.de/index.php)为例。
 
-![](img\subscribe_mqtt_messages\03.png)
+![](img/subscribe_mqtt_messages/03.png)
 
 - 使用以上设置可以进行基本通信。 然后点击`Connect`。
 
 - 依次点击 `Subscribe` -> `Scan` ,等待接入的节点传输数据。
 
-![](img\subscribe_mqtt_messages\04.png)
+![](img/subscribe_mqtt_messages/04.png)
 
 ---------------------
 
 - 当有节点上传数据后，将会在 `Scan`栏扫描到信息。
 
-![](img\subscribe_mqtt_messages\05.png)
+![](img/subscribe_mqtt_messages/05.png)
 
 - 选中一个作为订阅信息，当有匹配的订阅信息上传时，将会显示在数据栏。示例订阅为`application/4/device/22........09/rx`。
 
-![](img\subscribe_mqtt_messages\06.png)
+![](img/subscribe_mqtt_messages/06.png)
