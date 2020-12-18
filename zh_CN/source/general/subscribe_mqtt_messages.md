@@ -1,112 +1,65 @@
 # 如何从LoRa服务器订阅MQTT消息
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/general/subscribe_mqtt_messages.html)
+
 ## 概述
 
-本文的目的是使用TTN提供的数据流应用Node-Red中的MQTT插件订阅来自TTN节点的数据消息。
+在LoRaWAN应用框架中，[MQTT](https://mqtt.org)被广泛使用。 例如，您的LoRa节点设备将传感器数据发送到网关，并且网关将这些数据转发到云服务器，我们如何从云服务器获取这些传感器数据？
 
-这个实验中使用的是 [HT-M02](https://heltec.org/project/ht-m02/)网关和 [CubeCell-board](https://heltec.org/project/htcc-ab01/)节点.
+本文的目的是提供一些如何从云服务器获取MQTT消息的示例。 希望这些示例可以为您的应用程序提供参考或有意义。
 
-也许您没有真正的设备。您仍然可以通过TTN提供的模拟上行链路来测试这个解决方案。如何使用请看下面。
+```Tip:: MQTT成功订阅的四个关键：1.主机地址，2.主机端口，3.用户名/密码，4. MQTT主题。
+
+```
+
+- [通过Python](#python)
+- [通过第三方应用(MQTT.fx)](#MQTT.fx)
 
 ----------
-## 准备
 
-- 首先我们需要将LoRa网关和节点连接到TTN（ESP32系列和Cubecell系列都可用）
+## 通过Python
 
-  如何将网关和节点连接到TTN请参阅：
+这是一个简单的python3示例，可用于从服务器订阅MQTT消息。
 
-  - **[怎样连接HT-M01到TTN (The-Things-Network)](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/connect_to_server.html)**
-  
-  - **[怎样通过LoRaWAN协议(TTN)把CubeCell连接到LoRa网关](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/lorawan/connect_to_gateway.html)**
-  
-- 本文中安装的Node-Red和MQTT-Broker软件的Linux版本是Ubuntu 16.04。（这里使用的MQTT代理是Mosquitto）。
+[mqtt-receiver.py](https://resource.heltec.cn/download/tools/mqtt-reciver.py)
 
-- MQTT.fx软件用于测试它是否可以订阅节点消息
+在简单的python示例中，需要根据您的实际情况修改三个红色框中的内容：
 
-  - 关于MQTT.fx : http://mqttfx.jensd.de 
+![](img\subscribe_mqtt_messages\01.png)
 
-### 下载并安装Node-red（需要等待很长时间）
+- `username_pw_set` -- MQTT订阅的用户名和密码。
+  - 对于HT-M02 PoE Edge LoRa网关，默认用户名为“ loraroot”，密码为“ 62374838”。
+  - 对于[Heltec LoRa Cloud Server](http://cloud.heltec.org)，登录信息就是MQTT订阅的用户名和密码。
+- `subscribe ` -- MQTT主题名称，在示例代码中，“ 2”是服务器分配的应用程序ID。
+- `HOST` and `PORT` -- MQTT服务器地址和通信端口。
 
-如果您使用的是Raspberry-Pi或任何基于Debian的操作系统，包括Ubuntu和Diet-Pi，那么您可以使用这里提供的Pi安装脚本。
+使用Python3中运行它，红线标注的内容是节点发送的数据。 它以BASE64格式加密
 
-```Shell
-bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
-```
+`python3 mqtt-receiver.py` 	
 
-如果要安装到其他操作系统，如Windows、RedHat、CentOS，请参阅Node-Red的官方安装指南：
+![](img\subscribe_mqtt_messages\02.png)
 
-  - **[https://nodered.org/docs/getting-started/local](https://nodered.org/docs/getting-started/local)**
+如果该示例无法正确运行，则可能缺少相关组件，请通过以下命令进行安装。
 
-------------------
-## 配置Node-Red
+`sudo pip3 install paho-mqtt python-etcd`
 
-我访问ubuntu中Node-Red提供的web界面，因此通过浏览器访问的端口是：`localhost:1880`
+## 通过第三方应用(MQTT.fx)
 
-然后我们需要下载Node-Red的TTN插件。
+网上有许多有用的MQTT订阅和推送软件。 本文以[MQTT.fx](https://mqttfx.jensd.de/index.php)为例。
 
-### 将TTN选项板添加到Node-red
+![](img\subscribe_mqtt_messages\03.png)
 
-  - **通过Node-Red面板中的用户设置安装**
+- 使用以上设置可以进行基本通信。 然后点击`Connect`。
 
-    ![](img/subscribe_mqtt_messages/01.png)
+- 依次点击 `Subscribe` -> `Scan` ,等待接入的节点传输数据。
 
-  - **从命令行安装**
-```Shell
-    npm install node-red-contrib-ttn@2.0.1
-```
-我们需要从TTN配置数据源，如APP EUI、APP KEY、DevEUI等参数“……
-我们从面板左侧的ttn插件中选择 INPUT-> ttn_message面板，将其拖到右侧的Flow面板中。
-
-![](img/subscribe_mqtt_messages/13.png)
-
-接下来，双击它，填充关键参数，如我们在TTN中注册的application EUI、key和Device ID。
-
-![](img/subscribe_mqtt_messages/03.png)
-
-![](img/subscribe_mqtt_messages/04.png)
-
-配置后单击`Update`。
-
-### 配置MQTT插件
-
-我们需要配置MQTT插件转发的主题。
-
-例如，现在我想通过MQTT插件将一个节点的上行消息包装成一个名为“node_uplink”的主题，并将其转发给我的私有MQTT代理。
-
-首先，选择左面板中的OUTPUT->mqtt选项板。将其拖到右侧的面板中。
-
-![](img/subscribe_mqtt_messages/05.png)
-
-接下来，双击它来填写我们的转载主题。
-
-![](img/subscribe_mqtt_messages/06.png)
-
-![](img/subscribe_mqtt_messages/07.png)
-
-
-
-在填满所有的选项板之后，我们必须将它们连接起来。
-
-![](img/subscribe_mqtt_messages/08.png)
-
-请不要忘记在完成所有配置后，单击右上角的“Deploy”按钮以使其生效。
-
-![](img/subscribe_mqtt_messages/09.png)
-
-------------------
-## 查看订阅
-
-使用MQTT.fx软件订阅此主题。如果进展顺利，我们将在MQTT.fx软件中看到CubeCell开发板的默认上行数据“1、2、3、4.”（ASCII:31 32 33 34）。
-
-![](img/subscribe_mqtt_messages/10.png)
-
-我们通过MQTT成功地订阅了TTN中节点的上行链路数据的有效负载。
-如果您没有真正的设备，可以使用TTN为您准备的SIMULATE UPLINK，可以如下使用：
-
-![](img/subscribe_mqtt_messages/11.png)
-
-它在您创建的Application-> Device页面中。
-
-单击发送以模拟节点的上行链路数据。
+![](img\subscribe_mqtt_messages\04.png)
 
 ---------------------
+
+- 当有节点上传数据后，将会在 `Scan`栏扫描到信息。
+
+![](img\subscribe_mqtt_messages\05.png)
+
+- 选中一个作为订阅信息，当有匹配的订阅信息上传时，将会显示在数据栏。示例订阅为`application/4/device/22........09/rx`。
+
+![](img\subscribe_mqtt_messages\06.png)
