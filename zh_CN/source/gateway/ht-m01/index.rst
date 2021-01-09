@@ -16,7 +16,7 @@ HT-M01是一个小型网关。我们在设计它时，我们希望为用户提�
 .. toctree::
     :maxdepth: 2
     
-    快速入门 <qucik_start>
+    快速入门 <quick_start>
     连接到LoRa服务器 <connect_to_server>
     在PicoGW UI上添加更多区域支持 <add_region_on_picogw_ui>
     

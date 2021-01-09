@@ -22,7 +22,7 @@
 
 ![](img/connect_to_server/03.png)
 
-- **Gateway EUI** -- HT-M00网关的唯一ID，从HT-M00的显示屏上查看;
+- **Gateway EUI** -- HT-M00网关的唯一ID，从HT-M00的显示屏上查看，或通过串口查看(HT-M00启动时会通过串口打印网关ID);
 - **I'm using the legacy packet forwarder** -- 必须选择;
 - **Frequency Plan** -- 必须匹配HT-M00中的LoRa频段；
 - **Router** -- 必须使用TTN系统分配的默认Router.

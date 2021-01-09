@@ -36,9 +36,9 @@ Heltec Automation文档页
 ----
 
 ==================  ==================  ==================
-|HT-M00|_           |HT-M01|_   
+|HT-M00|_           |HT-M01|_           |HT-M01S|_
 ------------------  ------------------  ------------------
-`HT-M00`_           `HT-M01`_    
+`HT-M00`_           `HT-M01`_           `HT-M01S`_    
 ------------------  ------------------  ------------------ 
 |HT-M02_4G/LTE|_    |HT-M02_POE|_
 ------------------  ------------------  ------------------ 
@@ -50,6 +50,9 @@ Heltec Automation文档页
 
 .. |HT-M01| image:: img/07.png
 .. _HT-M01: gateway/ht-m01/index.html
+
+.. |HT-M01S| image:: img/011.png
+.. _HT-M01S: gateway/ht-m01s/index.html
 
 .. |HT-M02_4G/LTE| image:: img/08.png
 .. _HT-M02_4G/LTE: gateway/ht-m02_4g/index.html
@@ -83,6 +86,7 @@ Heltec Automation文档页
    gateway/sx1301module/index
    gateway/ht-m00/index
    gateway/ht-m01/index
+   gateway/ht-m01s/index
    gateway/ht-m02_4g/index
    gateway/ht-m02_poe/index
    常见问题 <gateway/frequently_asked_questions>

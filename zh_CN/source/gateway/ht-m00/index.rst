@@ -19,7 +19,7 @@ HT-M00是一个小体积、低成本的双通道LoRa网关，使用Type-C接口�
 .. toctree::
     :maxdepth: 2
     
-    快速入门 <qucik_start>
+    快速入门 <quick_start>
     连接到网关 <connect_to_gateway>
     连接到LoRa服务器 <connect_to_server>
     固件升级 <update_firmware>
