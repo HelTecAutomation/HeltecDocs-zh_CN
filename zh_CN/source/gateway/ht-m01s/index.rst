@@ -14,5 +14,5 @@ HT-M01S具有基本的机械保护和防尘结构，但不具有防水性能。�
 .. toctree::
     :maxdepth: 2
     
-    快速入门 <qucik_start>
+    快速入门 <quick_start>
     连接到LoRa服务器 <connect_to_server>
