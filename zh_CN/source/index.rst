@@ -51,7 +51,7 @@ Heltec Automation文档页
 .. |HT-M01| image:: img/07.png
 .. _HT-M01: gateway/ht-m01/index.html
 
-.. |HT-M01S| image:: img/011.png
+.. |HT-M01S| image:: img/11.png
 .. _HT-M01S: gateway/ht-m01s/index.html
 
 .. |HT-M02_4G/LTE| image:: img/08.png
