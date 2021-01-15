@@ -1,11 +1,11 @@
 # 将HT-M01S连接到LoRa服务器
-[English]()
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/connect_to_server.html)
 
 ## 摘要
 
 本文旨在描述如何将[HT-M01S网关](https://heltec.org/project/ht-m01s/)连接到LoRa服务器，如[TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/)，[Heltec Cloud Server](http://cloud.heltec.org/)，从而促进LoRa设备的二次开发和快速部署。
 
-在所有操作之前，请确保HT-M01S运行良好。如果没有，请参阅[HT-M01S快速入门]()文档。
+在所有操作之前，请确保HT-M01S运行良好。如果没有，请参阅[HT-M01S快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01s/quick_start.html)文档。
 
 &nbsp;
 
@@ -32,7 +32,7 @@
 
 ### 连接TTN
 
-在HT-M01S网关中，需要配置服务器地址、端口、频段、通道。服务器地址、端口、频段及通道在”HT-M01S Config”界面配置，请参考[HT-M01S快速入门]()文档。
+在HT-M01S网关中，需要配置服务器地址、端口、频段、通道。服务器地址、端口、频段及通道在”HT-M01S Config”界面配置，请参考[HT-M01S快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01s/quick_start.html)文档。
 
 ![](img/connect_to_server/03.png)
 
@@ -73,7 +73,7 @@
 
 ### 连接ChirpStack服务器
 
-在HT-M01S网关中，需要配置服务器地址、端口、频段、通道。服务器地址、端口、频段及通道在”HT-M01S Config”界面配置，请参考[HT-M01S快速入门]()文档。
+在HT-M01S网关中，需要配置服务器地址、端口、频段、通道。服务器地址、端口、频段及通道在”HT-M01S Config”界面配置，请参考[HT-M01S快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01s/quick_start.html)文档。
 
 ![](img/connect_to_server/03.png)
 
@@ -95,7 +95,7 @@
 
 ### 连接HelTec服务器
 
-在HT-M01S网关中，需要配置服务器地址、端口、频段、通道。服务器地址、端口、频段及通道在”HT-M01S Config”界面配置，请参考[HT-M01S快速入门]()文档。
+在HT-M01S网关中，需要配置服务器地址、端口、频段、通道。服务器地址、端口、频段及通道在”HT-M01S Config”界面配置，请参考[HT-M01S快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01s/quick_start.html)文档。
 
 ![](img/connect_to_server/03.png)
 

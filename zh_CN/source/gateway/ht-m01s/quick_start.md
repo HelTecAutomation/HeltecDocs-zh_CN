@@ -1,6 +1,6 @@
 # HT-M01S室内LoRa网关快速入门
 
-[English]()
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/quick_start.html)
 
 ## 摘要
 
@@ -22,9 +22,9 @@ HT-M01S网关在出厂时已经烧录好了相关程序，只需进行一些简�
 
 ![](img/quick_start/03.png)
 
-- 在上图所示页面配置HT-M01S网关信息，如网络模式，服务器地址及端口，区域频段，网关通道，时区，配置完成后点击”Submit”。如果"NET MODE"选择`WiFi`，则需要配置相应的`WiFi`信息，如果"NET MODE"选择`Ethernet`，则将通过以太网直接获取网络信息。同时我们会将HT-M01S的相关固件放到该网页，点击”Firmware Update”可进行相应更新。
+- 在上图所示页面配置HT-M01S网关信息，如网络模式，服务器地址及端口，区域频段，网关通道，时区，配置完成后点击”Submit”。如果"NET MODE"选择"WiFi"，则需要配置相应的WiFi信息，如果"NET MODE"选择"Ethernet"，则将通过以太网直接获取网络信息。同时我们会将HT-M01S的相关固件放到该网页，点击”Firmware Update”可进行相应更新。
 - 配置完成并提交后网关将重启。网关开机时将会自动连接配置好的WiFi或连接以太网，如果连接失败，将再次重启，直至连接成功。
-- 网络连接成功后，网关将进入下图所示界面。可以查看网关ID，网关配置服务器地址，频段，最近收发时间。
+- 网络连接成功后，网关将进入下图所示界面。可以查看网关ID，网关配置的服务器地址，频段，最近收发时间。
 
 ![](img/quick_start/04.png)
 
