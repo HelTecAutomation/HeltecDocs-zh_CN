@@ -44,39 +44,69 @@ LoRa节点的LoRaWAN例程代码是一个STM32CubeIDE项目，下面是基本的
 
 &nbsp;
 
-根据您的需要在“Commissioning.h”文件中修改 `DEVICE_EUI`, `APPLICATION_KEY`, `APPLICATION_EUI`；
+- 修改宏定义：设置工作频段，工作模式，调试打印。
 
 ![](img/config_parameter/03.png)
 
-注意这个宏定义：
+  - `ACTIVE_CLASS`
 
-- OVER_THE_AIR_ACTIVATION -- 1：OTAA 模式
+    `CLASS_A`
 
-- OVER_THE_AIR_ACTIVATION -- 0：ABP 模式
+    `CLASS_B`--目前不支持
 
-![](img/config_parameter/07.png)
+    `CLASS_C`
 
-&nbsp;
+   - `ACTIVE_REGION`
 
-在宏定义中设置工作频段；（将鼠标悬停在工程上单击右键以打开“Properties”）
+     `LORAMAC_REGION_AS923`
+
+     `LORAMAC_REGION_AU915`
+
+     `LORAMAC_REGION_CN470`
+
+     `LORAMAC_REGION_CN779`
+
+     `LORAMAC_REGION_EU433`
+
+     `LORAMAC_REGION_EU868`
+
+     `LORAMAC_REGION_KR920`
+
+     `LORAMAC_REGION_IN865`
+
+     `LORAMAC_REGION_US915`
+
+     `LORAMAC_REGION_US915_HYBRID`
+
+     `LORAMAC_REGION_AU915_SB2`
+
+     `LORAMAC_REGION_AS923_AS1`
+
+     `LORAMAC_REGION_AS923_AS2`
+
+   - `USE_DEBUGGER` 
+
+     如果定义 `USE_DEBUGGER` , 默认串口(PA9-TX, PA10-RX)将打印调试信息。
+
+     如果删除 `USE_DEBUGGER` , 则不会打印调试信息。
+
+- 在`main.c`文件中将`DEVICE_EUI`, `APPLICATION_KEY`, `APPLICATION_EUI` 修改为你需要的值。
 
 ![](img/config_parameter/04.png)
 
-红色框中的内容只能是以下频段之一：
+- 在`main.c`文件中将`userChannelMask`、`overTheAirActivation`和其他参数设置为你需要的值。
 
-`USE_BAND_433`
-`USE_BAND_470`
-`USE_BAND_470PREQUEL`
-`USE_BAND_780`
-`USE_BAND_868`
-`USE_BAND_915`
-`USE_BAND_915_HYBRID`
+  ![](img/config_parameter/05.png)
 
-确保网关的监听频率与节点的发射频率相同
+  - `overTheAirActivation`
 
-节点发送频率的代码在“LoRaMac.c”文件中。
+`true`--OTAA
 
-![](img/config_parameter/05.png)
+`false`--ABP
+
+- 在`prepareTxFrame`中填入你要发送的数据.
+
+![](img/config_parameter/06.png)
 
 现在，把程序下载到你的开发板上，如果一切正常，它应该可以正常运行。
 

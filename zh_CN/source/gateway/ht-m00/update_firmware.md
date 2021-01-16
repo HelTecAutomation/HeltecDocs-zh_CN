@@ -29,7 +29,7 @@
 
 ## HT-M00固件覆盖处理方法
 
-下载[HT-M00固件](https://resource.heltec.cn/download/HT-M00/firmware/M00_firmware.zip)。
+下载[HT-M00固件](https://resource.heltec.cn/download/HT-M00/firmware/M00_firmware_V1.4.zip)。
 
 打开下载好的文件，编辑"M00.bat"文件。
 
@@ -43,9 +43,9 @@
 
 M00重新刷新固件后串口打印显示没有激活的情况。请参考这篇帖子:
 
-http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676/3
+[http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676](http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676)
 
-```Tip:: 此固件版本为V1.2，可根据"固件升级"方法对固件进行升级。
+```Tip:: 此固件版本为V1.4，可根据"固件升级"方法对固件进行升级。
 
 ```
 
