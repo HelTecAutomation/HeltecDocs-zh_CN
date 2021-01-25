@@ -9,6 +9,22 @@
 
 &nbsp;
 
+## 获取网关EUI
+
+通常，网关的EUI将粘贴在网关的表面上。
+
+![](img/connect_to_server/11.png)
+
+也可以通过以下命令读取网关EUI：
+
+`cat lora/packet_forwarder/lora_pkt_fwd/local_conf.json`
+
+```Tip:: 如果由于某些原因需要更改网关EUI，可以直接修改文件，修改后的EUI将在网关重启后生效。
+
+```
+
+&nbsp;
+
 ## 连接到TTN
 
 ### 在TTN中注册LoRa网关
