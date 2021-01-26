@@ -16,3 +16,4 @@ HT-M01S具有基本的机械保护和防尘结构，但不具有防水性能。�
     
     快速入门 <quick_start>
     连接到LoRa服务器 <connect_to_server>
+    固件升级 <update_firmware>
