@@ -25,7 +25,7 @@ HT-M00网关在出厂时已经烧录好了相关程序，只需进行一些简�
 
 ![](img/quick_start/02.png)
 
-- 此时找到名字为"M00_XXXX"的WiFi，并通过密码"heltec.org"连接上WiFi，然后进入"192.168.4.1"。
+- 此时找到名字为"M00_XXXX"的WiFi，并通过密码"heltec.org"连接上WiFi，然后通过浏览器进入”192.168.4.1”，进入网关配置页面。
 
 ![](img/quick_start/03.png)
 
