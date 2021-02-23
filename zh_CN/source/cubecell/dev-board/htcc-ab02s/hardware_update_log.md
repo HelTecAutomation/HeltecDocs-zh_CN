@@ -11,3 +11,9 @@
 - [V1引脚图](https://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_PinoutDiagram.pdf)
 - [V1原理图](https://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_SchematicDiagram.pdf)
 
+## V1.1
+
+- 2020-10-08公开销售
+- 将GPS指示灯引脚从IO8改为IO12
+- [V1.1引脚图](https://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_PinoutDiagram.pdf)
+- [V1.1原理图](https://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_SchematicDiagram_V1.1.pdf)
