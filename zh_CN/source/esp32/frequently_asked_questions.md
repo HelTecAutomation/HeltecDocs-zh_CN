@@ -49,13 +49,15 @@
 
 ## 点对点通信
 
-在不存在硬件问题的前提下，LoRa节点可以进行点对点通信。点对点通信成功的关键在于确保以下5点相同：
+在不存在硬件问题的前提下，LoRa节点可以进行点对点通信。点对点通信成功的关键在于确保以下7点相同：
 
 1.  相同的发送和接收频率: `LoRa.setFrequency(frequency);`
 2.  相同的带宽: `LoRa.setSignalBandwidth(signalBandwidth);`
 3.  相同的编码率: `LoRa.setCodingRate4(codingRateDenominator);`
 4.  相同的前导码长度: `LoRa.setPreambleLength(preambleLength);`
 5.  相同的同步字: `LoRa.setSyncWord(syncWord);`
+6.  相同的`LORA_IQ_INVERSION`状态：
+7.  相同的`SPREADING FACTOR`;
 
 了解更多关于LoRa节点间通信的信息，请参考LoRa基本库APIs: `https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md`
 
