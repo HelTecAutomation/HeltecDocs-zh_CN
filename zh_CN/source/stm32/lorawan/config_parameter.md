@@ -84,6 +84,8 @@ LoRa节点的LoRaWAN例程代码是一个STM32CubeIDE项目，下面是基本的
 
      `LORAMAC_REGION_AS923_AS2`
 
+   - `REGION_EU868`
+     设置为与`ACTIVE_REGION`对应的频段
    - `USE_DEBUGGER` 
 
      如果定义 `USE_DEBUGGER` , 默认串口(PA9-TX, PA10-RX)将打印调试信息。
