@@ -96,9 +96,9 @@ sudo systemctl restart lrgateway
 安装LoRa-gateway-bridge:
 
 ```shell
-wget https://artifacts.loraserver.io/downloads/lora-gateway-bridge/lora-gatewaybridge_2.5.1_armhf.deb
+wget https://artifacts.loraserver.io/downloads/lora-gateway-bridge/lora-gateway-bridge_2.5.1_armhf.deb
 #下载支持Raspberry Pi Zero_W版本的LoRa-gateway-bridge软件包
-dpkg -i lora-gateway-bridge_2.5.1_armhf.deb
+sudo dpkg -i lora-gateway-bridge_2.5.1_armhf.deb
 #安装LoRa-gateway-bridge
 sudo systemctl start lora-gateway-bridge
 #启动LoRa-gateway-bridge
