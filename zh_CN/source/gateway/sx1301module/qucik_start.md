@@ -1,8 +1,8 @@
-# SX1301 LoRa网关模块快速入门
+# SX130x LoRa网关模块快速入门
 [English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/sx1301module/qucik_start.html)
 ## 摘要
 
-SX1301 LoRa网关模块，可以与支持Linux操作系统的硬件（例如树莓派）配合使用，然后可以用作LoRa网关。
+SX130x LoRa网关模块包含SX1301和SX1308两种基带型号，其性能、驱动程序、接口封装、功能完全一致，区别在于工作温度区间，SX1301定位为室外型，SX1308定位为室内型。可以与支持Linux操作系统的硬件（例如树莓派）配合使用，然后作为LoRa网关。
 
 ## 技术特征
 
@@ -14,7 +14,7 @@ SX1301 LoRa网关模块，可以与支持Linux操作系统的硬件（例如树�
 
 ![](img/quick_start/00.png)
 
-## 在SPI模式下运行SX1301模块（树莓派）
+## 在SPI模式下运行SX130x模块（树莓派）
 
 默认情况下，树莓派的SPI总线是禁用的。 在putty中输入以下命令以打开树莓派配置界面并启用SPI总线。
 
@@ -67,6 +67,6 @@ sudo cp -f /home/pi/lora/lorasdk/global_conf_EU868.json /home/pi/lora/packet_for
 
 ## 连接到LoRa服务器
 
-与树莓派配合使用的SX1301模块和与树莓派配合使用的 [HT-M01](https://heltec.org/project/ht-m01/) 网关的SPI模式最相似。 连接到LoRa服务器的步骤请参考此文档：
+与树莓派配合使用的SX130x模块和与树莓派配合使用的 [HT-M01](https://heltec.org/project/ht-m01/) 网关的SPI模式最相似。 连接到LoRa服务器的步骤请参考此文档：
 
 [https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)

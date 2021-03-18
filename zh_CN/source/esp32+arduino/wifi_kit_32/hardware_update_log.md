@@ -35,6 +35,8 @@
 
 ## V2.1
 
+![](img/hardware_update_log/03.png)
+
 - 2019-10 公开销售
 - 修复电池电压读数无法与Wi-Fi一起工作，将电池电压读数引脚更改为GPI37（使用ADC1_1），请参阅以下示例：[ADC_Read_Voltage/Battery_power](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/ADC_Read_Voltage/Battery_power/Battery_power.ino)。
 - [V2.1引脚图](https://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_pinoutDiagram_V2.1.pdf);
