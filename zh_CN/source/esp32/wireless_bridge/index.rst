@@ -1,6 +1,6 @@
 Wireless Bridge
 ===============
-`English <>`_
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wireless_bridge/index.html>`_
 
 Wireless Bridge相关文档。
 
