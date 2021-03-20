@@ -28,6 +28,7 @@ ESP32带有240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM。
     Wireless Stick <wireless_stick/index.rst>
     Wireless Stick Lite<wireless_stick_lite/index.rst>
     Wireless Shell <wireless_shell/index.rst>
+    Wireless Bridge <wireless_bridge/index.rst>
     常见问题 <frequently_asked_questions>
     
 相关官方资源
