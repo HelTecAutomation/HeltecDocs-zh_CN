@@ -5,7 +5,7 @@
 ![](img/hardware_update_log/01.png)
 
 - 首次发布
-- 2017-6-1 公开销售
+- 2017-06-01 公开销售
 
 - [V1引脚图](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI%20Kit%2032_pinoutDiagram_V1.pdf)
 - [V1原理图](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V1.PDF)
@@ -16,7 +16,7 @@
 
 ![](img/hardware_update_log/02.png)
 
-- 2018-06-23 公开销售
+- 2019-05 公开销售
 - 修复充电状态（橙色LED）闪烁问题；;
 - 4MB（32M位）FLASH 升级到8MB（64M位）FLASH ；
 - 更好的2.4GHz天线设计和阻抗匹配；;
