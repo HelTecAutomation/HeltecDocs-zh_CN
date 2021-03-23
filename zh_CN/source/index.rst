@@ -84,6 +84,7 @@ Heltec Automation文档页
    
    gateway/index
    gateway/sx1301module/index
+   gateway/ht-m00l/index
    gateway/ht-m00/index
    gateway/ht-m01/index
    gateway/ht-m01s/index

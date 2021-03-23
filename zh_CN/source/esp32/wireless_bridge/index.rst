@@ -12,4 +12,4 @@ Wireless Bridge相关文档。
 相关官方资源
 ------------
 
-- `AutoCAD图 <>`_;
+- `AutoCAD图 <https://resource.heltec.cn/download/Wireless_Bridge/Wireless_Bridge.dwg>`_;
