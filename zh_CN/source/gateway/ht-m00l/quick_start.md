@@ -37,11 +37,11 @@ HT-M00L是[Heltec Automation](https://heltec.org/)与腾讯连连联名推出的
 
 1. 登录 [物联网开发平台控制台](https://console.cloud.tencent.com/iotexplorer)，新建一个项目。
 
-![](img/05.png)
+![](img/quick_start/05.png)
 
 2. 在左侧工具列表中，选择【网络管理】>【LoRa 网关管理】,进入 LoRa 网关管理页面，在【用户网关】标签下选择【添加网关】。
 
-![](img/06.png)
+![](img/quick_start/06.png)
 
 3. 在新建网关页面，填写网关基本信息。
 
@@ -51,33 +51,33 @@ HT-M00L是[Heltec Automation](https://heltec.org/)与腾讯连连联名推出的
 - 频点信息：根据具体需求选择。
 - 位置信息：在地图上选择网关位置。
 
-![](img/07.png)
+![](img/quick_start/07.png)
 
 ### 注册节点
 
 1. 在左侧工具栏列表中，选择【产品开发】>【新建产品】。
 
-![](img/08.png)
+![](img/quick_start/08.png)
 
 2. 根据实际情况填写“产品名称”。通信方式选择“LoRaWAN”，其他保持默认即可。
 
-![](img/09.png)
+![](img/quick_start/09.png)
 
 3. 在新建的产品中新建功能，根据实际情况添加需要使用到的数据，本文中需要监测"温度"，"湿度"，"电池电压"，所以新建三个功能。功能中的"数据类型"应与解析出的数据类型相匹配。
 
-![](img/10.png)
+![](img/quick_start/10.png)
 
 4. "新建功能"完成后，可在"设备开发"配置相应数据解析脚本。
 
-![](img/11.png)
+![](img/quick_start/11.png)
 
 5. 在"设备调试"中点击"新建设备"新建节点。
 
-![](img/12.png)
+![](img/quick_start/12.png)
 
 6. 新建节点的"DevEUI"，"AppKey"必须与LoRaWAN节点相对应。
 
-![](img/13.png)
+![](img/quick_start/13.png)
 
 
 
@@ -91,11 +91,11 @@ HT-M00L是[Heltec Automation](https://heltec.org/)与腾讯连连联名推出的
 
 - 一直按住"USR"键，再按下"RST"键，然后松开"RST"键， 待RGB灯全部亮起后松开"USR"键。此时网关将创建一个名为"M00L_XXXX"的WiFi。
 
-![](img/24.png)
+![](img/quick_start/24.png)
 
 - 找到名为"M00L_XXXX"的WiFi，并通过密码”heltec.org”连接上WiFi，通过浏览器进入"192.168.4.1"，进入网关配置界面。
 
-![](img/14.png)
+![](img/quick_start/14.png)
 
 ```Tip:: HT-M00L的服务器地址不可修改。
 
@@ -111,21 +111,21 @@ CubeCell支持Arduino开发环境，首先安装[CubeCell Arduino开发环境](h
 
 将传感器与主板连接好后，使用[HDC1080传感器 + LoRaWAN](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/LoRa/examples/LoRaWAN/LoRaWAN_Sensors/LoRaWan_HDC1080/LoRaWan_HDC1080.ino)这一例程。在Arduino IDE的菜单中，按下图进行配置：
 
-![](img/01.png)
+![](img/quick_start/01.png)
 
 以下三个地方需要根据实际情况进行修改：
 
 - **Arduino菜单中，工作频段设置为CN470；**
 
-![](img/02.png)
+![](img/quick_start/02.png)
 
 - **DevEUI和AppKey，必须与腾讯云上节点的信息一致；**
 
-![](img/03.png)
+![](img/quick_start/03.png)
 
 - **因为HT-M00是单通道网关，信道掩码必须配置为网关对应的通道。**
 
-![](img/04.png)
+![](img/quick_start/04.png)
 
 &nbsp;
 
@@ -133,11 +133,11 @@ CubeCell支持Arduino开发环境，首先安装[CubeCell Arduino开发环境](h
 
 - 网关正确配置完成后，可在【网络管理】>【LoRa网关管理】>【用户网关】中看到网关处于"在线"状态。
 
-![](img/15.png)
+![](img/quick_start/15.png)
 
 - 节点正确配置完成后，可在"在线调试"中看到节点的上行数据，可在"属性调试"中看到解析完成的数据。
 
-![](img/16.png)
+![](img/quick_start/16.png)
 
 &nbsp;
 
@@ -147,17 +147,17 @@ CubeCell支持Arduino开发环境，首先安装[CubeCell Arduino开发环境](h
 
 - 在"交互开发"中配置"腾讯连连"小程序中设备信息显示面板。
 
-![](img/19.png)
+![](img/quick_start/19.png)
 
 ### 关联设备
 
 - 节点和网关正确配置完成后，打开对应设备的"二维码"，打开"腾讯连连"小程序，通过小程序扫描设备二维码可快速添加设备。
 
-![](img/17.png)
+![](img/quick_start/17.png)
 
 - 设备添加完成后，可在"腾讯连连"小程序点击对应设备查看设备数据。
 
-![](img/18.png)
+![](img/quick_start/18.png)
 
 &nbsp;
 
@@ -171,17 +171,17 @@ CubeCell支持Arduino开发环境，首先安装[CubeCell Arduino开发环境](h
 
 2. 进入项目列表页，选择左侧菜单【网络管理】>【LoRa 网关管理】，在页面上方选择【用户自定义频点】后，单击【添加频点】，进入“添加用户自定义频点”页面。
 
-   ![](img/20.png)
+   ![](img/quick_start/20.png)
 
 3. 根据具体需求填写图中信道配置。
 
-   ![](img/21.png)
+   ![](img/quick_start/21.png)
 
 ### 网关关联频点计划
 
 1. 选择左侧菜单【网络管理】>【LoRa 网关管理】，在页面上方选择【用户网关】后，单击【添加网关】，进入新建网关界面。如果已有网关，可直接编辑修改频点计划。
 
-   ![](img/06.png)
+   ![](img/quick_start/06.png)
 
 2. 在新建网关页面，填写网关基本信息。
 
@@ -191,15 +191,15 @@ CubeCell支持Arduino开发环境，首先安装[CubeCell Arduino开发环境](h
 - 频点信息：根据具体需求选择，本例程选择前文新增的"test"频点计划。
 - 位置信息：在地图上选择网关位置。
 
-![](img/22.png)
+![](img/quick_start/22.png)
 
 ### 设备关联频点计划
 
 1. 选择左侧菜单【产品开发】，选择需要打开的产品，进入”设备开发“页面。在 "LoRaWAN 参数配置“界面中，选择用户自定义频点，关联与设备对应的频点计划。本例程选择前文新增的"test"频点计划。
 
-   ![](img/23.png)
+   ![](img/quick_start/23.png)
 
 2. 节点信道掩码必须与网关的频点相对应。
 
-![](img/04.png)
+![](img/quick_start/04.png)
 
