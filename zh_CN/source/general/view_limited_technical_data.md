@@ -43,11 +43,9 @@
 
 确保你已经正确安装[Heltec ESP32开发环境框架](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/quick_start.html).
 
-从菜单中按以下路径: `File -- Examples -- ESP32 -- ChipID -- GetChipID`选择 [Get Chip ID example](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/esp32/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino)。
+使用这个示例代码: [Get Chip ID example](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/esp32/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino)。
 
-![](img/view_limited_technical_data/01.png)
-
-上传这个例程，芯片ID将在串口打印出来。
+上传这个示例代码后，芯片ID将在串口打印出来。
 
 ![](img/view_limited_technical_data/02.png)
 
