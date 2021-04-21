@@ -6,7 +6,7 @@
 
 本文旨在描述如何将节点连接到[HT-M00 网关](https://heltec.org/project/ht-m00/)，从而促进LoRa设备的二次开发和快速部署。HT-M00为双通道网关，为保证节点与网关通信良好，需使节点使用的通道与HT-M00网关的通道相对应。本文档以CN470为例。
 
-在所有操作之前，请确保节点和HT-M00运行良好。如果没有，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)文档。
+在所有操作之前，请确保节点和HT-M00运行良好。如果没有，请参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/quick_start.html)文档。
 
 ```Tip:: 如果节点通道多于网关通道且将网关通道包含在内，那么只有当节点通道与网关通道匹配时才能入网，如果节点通道不包含网关通道，那么节点不能入网。
 

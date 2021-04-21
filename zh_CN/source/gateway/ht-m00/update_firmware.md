@@ -17,7 +17,7 @@
 
 ![](img/update_firmware/01.png)
 
-通过连接HT-M00的WiFi进入HT-M00网关配置界面(可参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html))，再点击"Firmwaer Update"。
+通过连接HT-M00的WiFi进入HT-M00网关配置界面(可参考[HT-M00快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/quick_start.html))，再点击"Firmwaer Update"。
 
 ![](img/update_firmware/02.png)
 
