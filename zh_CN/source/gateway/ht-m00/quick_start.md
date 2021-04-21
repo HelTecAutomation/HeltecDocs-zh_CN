@@ -1,5 +1,5 @@
 # HT-M00双通道LoRa网关快速入门
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html)
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/quick_start.html)
 
 ## 摘要
 

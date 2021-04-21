@@ -1,6 +1,6 @@
 # HT-M01 Mini LoRa网关快速入门
 
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/qucik_start.html)
+[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/quick_start.html)
 ## 摘要
 
 HT-M01 LoRa 网关支持USB和SPI模式。SPI模式只能在Linux系统(树莓派)上运行，USB模式可以在Linux和Windows<sup>®</sup>上使用。一般来说，要使HT-M01运行，只需选择以下三种方法之一：

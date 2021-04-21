@@ -5,7 +5,7 @@
 
 本文旨在描述如何将[HT-M01 网关](https://heltec.org/project/ht-m01)连接到LoRa服务器，如[TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/)，从而促进LoRa设备的二次开发和快速部署。
 
-在所有操作之前，请确保HT-M01在树莓派(Linux)或Windows计算机上运行良好。如果没有，请参阅[HT-M01快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/qucik_start.html)文档。
+在所有操作之前，请确保HT-M01在树莓派(Linux)或Windows计算机上运行良好。如果没有，请参阅[HT-M01快速入门](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/quick_start.html)文档。
 
 &nbsp;
 
