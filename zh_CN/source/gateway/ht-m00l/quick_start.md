@@ -37,11 +37,11 @@ HT-M00L是[Heltec Automation](https://heltec.org/)与腾讯连连联名推出的
 
 1. 登录 [物联网开发平台控制台](https://console.cloud.tencent.com/iotexplorer)，新建一个项目。
 
-![](img/quick_start/05.png)
+   ![](img/quick_start/05.png)
 
 2. 在左侧工具列表中，选择【网络管理】>【LoRa 网关管理】,进入 LoRa 网关管理页面，在【用户网关】标签下选择【添加网关】。
 
-![](img/quick_start/06.png)
+   ![](img/quick_start/06.png)
 
 3. 在新建网关页面，填写网关基本信息。
 
@@ -57,27 +57,27 @@ HT-M00L是[Heltec Automation](https://heltec.org/)与腾讯连连联名推出的
 
 1. 在左侧工具栏列表中，选择【产品开发】>【新建产品】。
 
-![](img/quick_start/08.png)
+   ![](img/quick_start/08.png)
 
 2. 根据实际情况填写“产品名称”。通信方式选择“LoRaWAN”，其他保持默认即可。
 
-![](img/quick_start/09.png)
+   ![](img/quick_start/09.png)
 
-3. 在新建的产品中新建功能，根据实际情况添加需要使用到的数据，本文中需要监测"温度"，"湿度"，"电池电压"，所以新建三个功能。功能中的"数据类型"应与解析出的数据类型相匹配。
+3. 在新建的产品中新建功能，根据实际情况添加需要使用到的数据，本文中需要监测"温度"，"湿度"，"电池电压"，所以新建三个功能。功能中的"数据类型"应与解析出的数据类型相匹配。。
 
-![](img/quick_start/10.png)
+   ![](img/quick_start/10.png)
 
 4. "新建功能"完成后，可在"设备开发"配置相应数据解析脚本。
 
-![](img/quick_start/11.png)
+   ![](img/quick_start/11.png)
 
 5. 在"设备调试"中点击"新建设备"新建节点。
 
-![](img/quick_start/12.png)
+   ![](img/quick_start/12.png)
 
 6. 新建节点的"DevEUI"，"AppKey"必须与LoRaWAN节点相对应。
 
-![](img/quick_start/13.png)
+   ![](img/quick_start/13.png)
 
 
 

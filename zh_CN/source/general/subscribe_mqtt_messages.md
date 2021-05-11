@@ -12,7 +12,7 @@
 ```
 
 - [通过Python](#python)
-- [通过第三方应用(MQTT.fx)](#MQTT.fx)
+- [通过第三方应用(MQTT.fx)](#mqtt-fx)
 
 ----------
 
