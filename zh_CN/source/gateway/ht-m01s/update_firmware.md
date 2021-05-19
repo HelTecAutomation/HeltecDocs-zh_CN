@@ -11,6 +11,22 @@
 
 &nbsp;
 
+## 固件升级内容
+
+- V1.2
+
+  ​	增加EU433频段支持。
+
+- V1.3
+
+  ​	增加网关在WiFi连接状态下和以太网连接状态下也可进行网关配置功能。
+
+  ​	增加上下行端口可分别设置功能。
+
+  ​	增加修改与服务器保持连接的心跳周期功能。
+
+&nbsp;
+
 ## 固件升级
 
 下载[HT-M01S相应升级固件](https://resource.heltec.cn/download/HT-M01S/firmware)。
@@ -33,9 +49,9 @@
 
 ### 下载及烧录固件
 
-下载[HT-M01S固件](https://resource.heltec.cn/download/HT-M01S/firmware/M01S_firmware_V1.2.zip)。
+下载[HT-M01S完整固件](https://resource.heltec.cn/download/HT-M01S/firmware/complete_firmware)。
 
-打开下载好的文件，编辑"M1S_HelTec.bat"文件。
+打开下载好的文件，编辑"M01S_HelTec.bat"文件。
 
 ![](img/update_firmware/05.png)
 
@@ -65,5 +81,5 @@
 
 ![](img/update_firmware/11.png)
 
-待串口打印"ETH Started, Connecting..."及显示屏正常显示后，表示网关激活成功。
+待显示屏正常显示后，表示网关激活成功。
 
