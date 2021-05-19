@@ -19,7 +19,7 @@
 
 ![](img/quick_start/02.png)
 
-**输入最新的 ESP8266 package URL:** [http://resource.heltec.cn/download/package_heltec_esp8266_index.json](http://resource.heltec.cn/download/package_heltec_esp8266_index.json)
+**输入最新的 ESP8266 package URL:** [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.4/package_heltec_esp8266_index.json](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.4/package_heltec_esp8266_index.json)
 
 ![](img/quick_start/03.png)
 

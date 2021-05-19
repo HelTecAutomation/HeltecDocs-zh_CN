@@ -21,7 +21,7 @@
 
 ![](img/quick_start/02.png)
 
-**输入最新的 ESP32 package URL:** [https://resource.heltec.cn/download/package_heltec_esp32_index.json](https://resource.heltec.cn/download/package_heltec_esp32_index.json)
+**输入最新的 ESP32 package URL:** [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.5/package_heltec_esp32_index.json](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.5/package_heltec_esp32_index.json)
 
 ![](img/quick_start/03.png)
 
