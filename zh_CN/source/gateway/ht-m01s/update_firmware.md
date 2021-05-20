@@ -19,11 +19,11 @@
 
 - V1.3
 
-  ​	增加网关在WiFi连接状态下和以太网连接状态下也可进行网关配置功能。
+  ​	网关在WiFi连接状态下和以太网连接状态下可进行网关配置。
 
-  ​	增加上下行端口可分别设置功能。
+  ​	上下行端口可分别设置。
 
-  ​	增加修改与服务器保持连接的心跳周期功能。
+  ​	可自行修改心跳周期。
 
 &nbsp;
 
@@ -51,7 +51,7 @@
 
 下载[HT-M01S完整固件](https://resource.heltec.cn/download/HT-M01S/firmware/complete_firmware)。
 
-打开下载好的文件，编辑"M01S_HelTec.bat"文件。
+打开下载好的文件，编辑"M01S_Vx_x.bat"文件。
 
 ![](img/update_firmware/05.png)
 
@@ -63,7 +63,7 @@
 
 ![](img/update_firmware/07.png)
 
-双击运行"M1S_HelTec.bat"，待运行到如下图所示界面时进行以下操作，按下"-"键->按下"RST"键->松开"RST"键->松开"-"键。待窗口自动关闭，固件烧录完成。
+双击运行"M01S_Vx_x.bat"，待运行到如下图所示界面时进行以下操作，按下"-"键->按下"RST"键->松开"RST"键->松开"-"键。待窗口自动关闭，固件烧录完成。
 
 ![](img/update_firmware/08.png)
 
