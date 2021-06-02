@@ -27,6 +27,10 @@ HT-M01 LoRa 网关支持USB和SPI模式。SPI模式只能在Linux系统(树莓�
 
 ![](img/quick_start/01.png)
 
+树莓派与转接板接线图如下图所示。
+
+![](img/quick_start/09.png)
+
 默认情况下，树莓派的SPI总线被禁用。在putty中输入以下命令以打开树莓派配置界面并启用SPI总线。
 
 `sudo raspi-config`
