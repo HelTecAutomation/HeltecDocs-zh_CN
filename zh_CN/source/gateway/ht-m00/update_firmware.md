@@ -43,9 +43,11 @@
 
 ## HT-M00固件覆盖处理方法
 
-下载[HT-M00固件](https://resource.heltec.cn/download/HT-M00/firmware/M00_firmware_V1.4.zip)。
+### 下载及烧录固件
 
-打开下载好的文件，编辑"M00.bat"文件。
+下载[HT-M00完整固件](https://resource.heltec.cn/download/HT-M00/firmware/complete_firmware)。
+
+打开下载好的文件，编辑"M00_Vx_x.bat"文件。
 
 ![](img/update_firmware/05.png)
 
@@ -53,13 +55,25 @@
 
 ![](img/update_firmware/06.png)
 
-修改完成后双击运行"M00.bat"，完成网关固件烧录。
+修改完成后双击运行"M00_Vx_x.bat"，完成网关固件烧录。
 
-M00重新刷新固件后串口打印显示没有激活的情况。请参考这篇帖子:
+### 激活网关
 
-[http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676](http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676)
+固件烧录完成后，打开HT-M00对应的串口，读取网关相应ESP32芯片ID。
 
-```Tip:: 此固件版本为V1.4，可根据"固件升级"方法对固件进行升级。
+![](img/update_firmware/07.png)
+
+进入[https://resource.heltec.cn/search](https://resource.heltec.cn/search)，输入ESP32芯片ID查询网关对应序列号。
+
+![](img/update_firmware/08.png)
+
+打开HT-M00对应的串口，通过串口发送命令"AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"激活网关。其中"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"为查询到的32位license。
+
+![](img/update_firmware/09.png)
+
+待显示屏正常显示后，表示网关激活成功。
+
+```Tip:: 对于较低版本的固件，可根据"固件升级"方法对固件进行升级。
 
 ```
 
