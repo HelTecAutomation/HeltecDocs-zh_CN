@@ -14,7 +14,6 @@
 
 3. 在“Password change”区域更改您的密码：
 
-![](img/tts_v3_login_issue/02.png)
+   ![](img/tts_v3_login_issue/02.png)
 
 4. 再次登录[Heltec LoRaWAN 测试服务器](https://lora.heltec.org/)。
-
