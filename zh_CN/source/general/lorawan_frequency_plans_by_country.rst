@@ -557,7 +557,7 @@ _
 | Zimbabwe       | EU863-870 EU433 | CRASA follows CEPT Rec. 70-03 |
 +----------------+-----------------+-------------------------------+
 
-相关官方资源
-============
+相关资源
+========
 
 - `各国家/地区的频率计划 <https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country.html>`_ 。
