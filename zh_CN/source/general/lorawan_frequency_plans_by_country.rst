@@ -2,7 +2,7 @@
 各国/地区的LoRaWAN频率计划和法规
 ********************************
 
-`English <https://heltec-automation-docs.readthedocs.io/en/latest/general/index.html>`_
+`English <https://heltec-automation-docs.readthedocs.io/en/latest/general/lorawan_frequency_plans_by_country.html>`_
 
 摘要
 ====
