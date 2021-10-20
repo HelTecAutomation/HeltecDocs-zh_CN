@@ -80,7 +80,7 @@
 
 ![](img/update_firmware/10.png)
 
-打开HT-M01S对应的串口，通过串口发送命令"AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"激活网关。其中"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"为查询到的32位license。
+打开HT-M01S对应的串口，通过串口发送命令"AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"激活网关。其中"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"为查询到的32位license。例如，如果license为0x12345678, 0x12345678, 0x12345678, 0x12345678，则激活命令为AT+CDKEY=12345678123456781234567812345678。
 
 ![](img/update_firmware/11.png)
 
